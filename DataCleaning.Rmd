@@ -1,0 +1,354 @@
+---
+title: "DataCleaning"
+author: "Amanda Pennino"
+date: "4/2/2021"
+output: html_document
+---
+
+
+New columns to be added:
+#`Measurement` (Analyte, Conductivity, Salinity, Hardness, etc.)
+#`MeasurementNotes`: Any descriptor that was in orginal `Focal Salts/Ions` column.
+#`TempMin`, `TempMax`, `TempSingle`: Altered temperatures
+
+```{r}
+library(tidyverse)
+
+```
+
+```{r echo = FALSE}
+
+#Most recent download of Raw Salt Data Sheet (as of 03/27/21)
+DATAraw <- read_csv("data/raw_salt_data_032721.csv") 
+
+#Give each line of data a reference id
+DATAraw$DataID <- 1:nrow(DATAraw)
+
+#Select columns of interest, keep `DataID` for table joining later.
+
+DATA <- DATAraw %>%
+  select(DataID, RefID, Reviewer, `Focal: Salt/Ion type (if known) OR Conductivity`, `Units for salt concentration_original`, `Minimum concentration_original`, `Maximum concentration_original`, `Rate of change in salt (if applicaple)`, `Temperature (C)`)
+
+```
+
+
+New column for measurements, cleaning the `Focal: Salt/Ion type (if known) OR Conductivity` column for spelling and capatalization errors.
+```{r}
+
+DATA$Measurement = DATA$`Focal: Salt/Ion type (if known) OR Conductivity`
+
+
+#### Calcium ion, calcium chloride, calcium carbonates
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('calcium chloride', 'CaCl', "CaCL2", 'calcium chloride (CaCl2.2H2O)'), "CaCl2", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('Calcium', 'Ca', 'Ca++', 'calcium'), "Ca2+", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('calcium carbonate', 'Calcium carbonate'), "CaCO3", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaCL2-NaHCO3' ), "CaCl2-NaHCO3", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaCL2-Na2SO4' ), "CaCl2-Na2SO4", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaCL2-NaCl' ), "CaCl2-NaCl", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaCL2-KCl' ), "CaCl2-KCl", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaCL2-K2SO4' ), "CaCl2-K2SO4", DATA$Measurement)
+
+
+#### Chloride ion and other chlorides
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('chloride', 'Cl', 'Chloride' ), "Cl-", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('sodium chloride', 'nacl', "NaCL", 'Sodium chloride'), "NaCl", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('magnesium chloride', 'MgCl', 'MgCL', 'MgCL2', 'Magnesium Chloride', 'Magnesium chloride'), "MgCl2", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCl2-CaCL2','MgCL2-CaCl2') , "MgCl2-CaCl2", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-CaSO4') , "MgCl2-CaSO4", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-K2SO4') , "MgCl2-K2SO4", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-NaCl') , "MgCl2-NaCl", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-KCl') , "MgCl2-KCl", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-NaHCO3') , "MgCl2-NaHCO3", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-KHCO3') , "MgCl2-KHCO3", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-Na2SO4') , "MgCl2-Na2SO4", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaCl2-NA2SO4 ') , "CaCl2-Na2SO4 ", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('KCL'), "KCl", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('ammonium chloride'), "NH4Cl", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('ammonium sulfate'), "(NH4)2SO4", DATA$Measurement)
+
+#### Sodium ion
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('sodium', 'Sodium', 'Na'), "Na+", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('sodium bicarbonate'), "NaHCO3", DATA$Measurement)
+
+
+#### Potassium
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('potassium', 'K', 'Potassium'), "K+", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('potassium bicarbonate'), "KHCO3", DATA$Measurement)
+
+
+### Sulfates
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('sulfate', 'SO4', 'SO42'), "SO4 2-", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('NA2SO4', 'Na2SO4 (sodium sulfate)','sodium sulfate' ), "Na2SO4", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgCL2-NaHCO3') , "MgCl2-NaHCO3", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgSO4-CaCL2') , "MgSO4-CaCl2", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgSO4-NA2SO4') , "MgSO4-Na2SO4", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('K2SO4-NA2SO4') , "K2SO4-Na2SO4", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaSO4-NA2SO4') , "CaSO4-Na2SO4", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('MgSO4-MgCL2') , "MgSO4-MgCl2", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('CaSO4-CaCL2') , "CaSO4-CaCl2", DATA$Measurement)
+
+#### Nitrogen
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('nitrate', "Nitrate" ), "NO3-", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('ammonium', "Ammonium" ), "NH4+", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('ammonia'), "NH3+", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('sodium nitrate'), "NaNO3", DATA$Measurement)
+
+
+#### Magnesium
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('magnesium', "Magnesium", "Mg" ), "Mg3+", DATA$Measurement)
+
+#### Conductance, salinity, Hardness, Dissolved Solids
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('conductivity', 'electrical conductivity', 'Electrical Conductivity', 'Conducitivity', 'conductivity (EC)', 'Electrical Conductance', 'Electric Conductance'), "Conductivity", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('salinity', 'salinty' ), "Salinity", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('hardness'), "Hardness", DATA$Measurement)
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('total dissolved solids', 'TDS'), "Total Dissolved Solids", DATA$Measurement)
+
+
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('Specific conductance'), "Specific Conductance", DATA$Measurement)
+
+
+#### Water types
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('artificial seawater', 'synthetic sea water', 'Artificial seawater'), "Artifical Seawater", DATA$Measurement)
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('seawater', 'Seawater', 'natural sea water', 'natural seawater'), "Natural Seawater", DATA$Measurement)
+
+
+```
+
+
+
+Take out additional notes in `Measurement` and populate new column `MeasurementNotes`
+```{r}
+DATA$MeasurementNotes <- NA
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Ca (applied as CaCO3)")] <- "Applied as CaCO3"
+DATA$Measurement[DATA$Measurement == "Ca (applied as CaCO3)"] <- "Ca2+"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Ca (applied as sulfates; and in combination with Mg)")] <- "Applied as sulfates; and in combination with Mg"
+DATA$Measurement[DATA$Measurement == "Ca (applied as sulfates; and in combination with Mg)"] <- "Ca2+"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Ca (as component of seawater solution)")] <- "Ca as component of seawater solution)"
+DATA$Measurement[DATA$Measurement == "Ca (as component of seawater solution)"] <- "Ca2+"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "chloride; but study also focused on nitrate, potassium, magnesium, sulfate")] <- "chloride; but study also focused on nitrate, potassium, magnesium, sulfate"
+DATA$Measurement[DATA$Measurement == "chloride; but study also focused on nitrate, potassium, magnesium, sulfate"] <- "Cl-"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Cl (as NaCl)")] <- "As NaCl"
+DATA$Measurement[DATA$Measurement == "Cl (as NaCl)"] <- "Cl-"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "conductivity (NaCl added)")] <- "NaCl added"
+DATA$Measurement[DATA$Measurement == "conductivity (NaCl added)"] <- "Conductivity"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "conductivity (potassium)")] <- "Potassium"
+DATA$Measurement[DATA$Measurement == "conductivity (potassium)"] <- "Conductivity"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "conductivity (SO4:HCO3 ratio)")] <- "conductivity (SO4:HCO3 ratio)"
+DATA$Measurement[DATA$Measurement == "conductivity (SO4:HCO3 ratio)"] <- "Conductivity"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "conductivity (sodium)")] <- "conductivity (sodium)"
+DATA$Measurement[DATA$Measurement == "conductivity (sodium)"] <- "Conductivity"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "conductivity: Ca Mg HCO3 SO4 dominant")] <- "conductivity: Ca Mg HCO3 SO4 dominant"
+DATA$Measurement[DATA$Measurement == "conductivity: Ca Mg HCO3 SO4 dominant"] <- "Conductivity"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "KCl (in water with 109 mg/L as CaCO3 hardness)")] <- "In water with 109 mg/L as CaCO3 hardness"
+DATA$Measurement[DATA$Measurement == "KCl (in water with 109 mg/L as CaCO3 hardness)"] <- "KCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 103 mg/L as CaCO3 hardness) (\"100 hard\")")] <- "In water with 103 mg/L as CaCO3 hardness) (\"100 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 103 mg/L as CaCO3 hardness) (\"100 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 109 mg/L as CaCO3 hardness) (\"100 hard\")")] <- "In water with 109 mg/L as CaCO3 hardness) (\"100 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 109 mg/L as CaCO3 hardness) (\"100 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 193 mg/L as CaCO3 hardness) (\"200 hard\")")] <- "In water with 193 mg/L as CaCO3 hardness) (\"200 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 193 mg/L as CaCO3 hardness) (\"200 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 204 mg/L as CaCO3 hardness) (\"200 hard\")")] <- "NaCl (in water with 204 mg/L as CaCO3 hardness) (\"200 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 204 mg/L as CaCO3 hardness) (\"200 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 265 mg/L as CaCO3 hardness) (\"300 hard\")")] <- "NaCl (in water with 265 mg/L as CaCO3 hardness) (\"300 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 265 mg/L as CaCO3 hardness) (\"300 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 299 mg/L as CaCO3 hardness) (\"300 hard\")")] <- "NaCl (in water with 299 mg/L as CaCO3 hardness) (\"300 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 299 mg/L as CaCO3 hardness) (\"300 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 43 mg/L as CaCO3 hardness) (\"50 hard\")")] <- "NaCl (in water with 43 mg/L as CaCO3 hardness) (\"50 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 43 mg/L as CaCO3 hardness) (\"50 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 61 mg/L as CaCO3 hardness) (\"50 hard\")")] <- "NaCl (in water with 61 mg/L as CaCO3 hardness) (\"50 hard\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 61 mg/L as CaCO3 hardness) (\"50 hard\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (in water with 87 mg/L as CaCO3 hardness) (\"MHRW\")")] <- "NaCl (in water with 87 mg/L as CaCO3 hardness) (\"MHRW\")"
+DATA$Measurement[DATA$Measurement == "NaCl (in water with 87 mg/L as CaCO3 hardness) (\"MHRW\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl (with treatment concentrations measured as conductivity)")] <- "NaCl (with treatment concentrations measured as conductivity)"
+DATA$Measurement[DATA$Measurement == "NaCl (with treatment concentrations measured as conductivity)"] <- "NaCl"
+
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl spiked with Ca (in water with 130 mg/L as CaCO3 hardness) (\"50 hard + Ca\")")] <- "NaCl spiked with Ca (in water with 130 mg/L as CaCO3 hardness) (\"50 hard + Ca\")"
+DATA$Measurement[DATA$Measurement == "NaCl spiked with Ca (in water with 130 mg/L as CaCO3 hardness) (\"50 hard + Ca\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl spiked with HCO3 (in water with 40 mg/L as CaCO3 hardness) (\"50 hard _ HCO3\")")] <- "NaCl spiked with HCO3 (in water with 40 mg/L as CaCO3 hardness) (\"50 hard _ HCO3\")"
+DATA$Measurement[DATA$Measurement == "NaCl spiked with HCO3 (in water with 40 mg/L as CaCO3 hardness) (\"50 hard _ HCO3\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl spiked with K (in water with 41 mg/L as CaCO3 hardness) (\"50 hard + K\")")] <- "NaCl spiked with K (in water with 41 mg/L as CaCO3 hardness) (\"50 hard + K\")"
+DATA$Measurement[DATA$Measurement == "NaCl spiked with K (in water with 41 mg/L as CaCO3 hardness) (\"50 hard + K\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "NaCl spiked with SO4 (in water with 41 mg/L as CaCO3 hardness) (\"50 hard + SO4\")")] <- "NaCl spiked with SO4 (in water with 41 mg/L as CaCO3 hardness) (\"50 hard + SO4\")"
+DATA$Measurement[DATA$Measurement == "NaCl spiked with SO4 (in water with 41 mg/L as CaCO3 hardness) (\"50 hard + SO4\")"] <- "NaCl"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Salinity (commercial salt)")] <- "Salinity (commercial salt)"
+DATA$Measurement[DATA$Measurement == "Salinity (commercial salt)"] <- "Salinity"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "salinity (dominated by Ca and Na)")] <- "Dominated by Ca and Na"
+DATA$Measurement[DATA$Measurement == "salinity (dominated by Ca and Na)"] <- "Salinity"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "salinity (Road Runner Ice Melt)")] <- "Road Runner Ice Melt"
+DATA$Measurement[DATA$Measurement == "salinity (Road Runner Ice Melt)"] <- "Salinity"
+
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific conductance (Dominant ions are Ca Mg SO4 HCO3)")] <- "Dominant ions are Ca Mg SO4 HCO3"
+DATA$Measurement[DATA$Measurement == "Specific conductance (Dominant ions are Ca Mg SO4 HCO3)"] <- "Specific Conductance"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Na (as component of seawater solution)")] <- "As a component of seawater solution"
+DATA$Measurement[DATA$Measurement == "Na (as component of seawater solution)"] <- "Na+"
+
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "conductivity (synthetic sea salt,\nOcean Nature)")] <- "Synthetic sea salt. Ocean Nature"
+DATA$Measurement[DATA$Measurement == "conductivity (synthetic sea salt,\nOcean Nature)"] <- "Conductivity"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "conductivity: Ca Na SO4 dominant (simulated river water)")] <- "Ca Na SO4 dominant (simulated river water)"
+DATA$Measurement[DATA$Measurement == "conductivity: Ca Na SO4 dominant (simulated river water)"] <- "Conductivity"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Mg (as component of seawater solution)")] <- "As a component of seawater solution"
+DATA$Measurement[DATA$Measurement == "Mg (as component of seawater solution)"] <- "Mg3+"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "K (as component of seawater solution)")] <- "As a component of seawater solution"
+DATA$Measurement[DATA$Measurement == "K (as component of seawater solution)"] <- "K+"
+
+
+DATA$MeasurementNotes[which(DATA$Measurement == "salinity (natural seawater)")] <- "Natural Seawater"
+DATA$Measurement[DATA$Measurement == "salinity (natural seawater)"] <- "Salinity"
+
+
+
+```
+
+Take a look.
+```{r echo = FALSE}
+#unique(sort(DATA$Measurement))
+
+```
+
+Cleaning temperature data and creating new columns. 
+```{r}
+
+DATA$TempNotes = NA
+
+DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("na", "not given", "Not given", "not mentioned","not provided", "not reported","Not specified", "not stated", "Not stated", "? (ASTM standard for mussel tox)"), NA, DATA$`Temperature (C)`)
+
+DATA$TempNotes[which(DATA$`Temperature (C)` == "Not stated, but mussels were stored at 22 +/1 2 deg C")] <- "Mussels were stored at 22 +/1 2 deg C"
+DATA$`Temperature (C)`[DATA$`Temperature (C)` == "Not stated, but mussels were stored at 22 +/1 2 deg C"] <- NA
+
+DATA$TempNotes[which(DATA$`Temperature (C)` == "7.5, 10, 12.5, 15, 20, 20.5 C")] <- "7.5, 10, 12.5, 15, 20, 20.5 C"
+DATA$TempNotes[which(DATA$`Temperature (C)` == "5, 7.5, 10, 12.5, 15, 20, 20.5 C")] <- "5, 7.5, 10, 12.5, 15, 20, 20.5 C"
+DATA$TempNotes[which(DATA$`Temperature (C)` == "5, 10, 12.5, 15, 20, 20.5 C")] <- "5, 10, 12.5, 15, 20, 20.5 C"
+DATA$TempNotes[which(DATA$`Temperature (C)` == "20, 24, 28, 32C")] <- "20, 24, 28, 32C"
+DATA$TempNotes[which(DATA$`Temperature (C)` == "15.1, 14.9, 11.1")] <- "15.1, 14.9, 11.1" 
+DATA$TempNotes[which(DATA$`Temperature (C)` == "10, 12.5, 15, 20, 20.5 C" )] <- "10, 12.5, 15, 20, 20.5 C"  
+
+DATA$TempNotes[which(DATA$`Temperature (C)` == "varied among streams" )] <- "varied among streams" 
+
+DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("7.5, 10, 12.5, 15, 20, 20.5 C", "5, 7.5, 10, 12.5, 15, 20, 20.5 C", "5, 10, 12.5, 15, 20, 20.5 C", "20, 24, 28, 32C", "10, 12.5, 15, 20, 20.5 C", "15.1, 14.9, 11.1", "varied among streams"), "Multiple, See TempNotes", DATA$`Temperature (C)`)
+
+DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("2 degrees- 10 degrees"), "2-10", DATA$`Temperature (C)`)
+
+DATA$TempNotes[which(DATA$`Temperature (C)` == "16 - 32 (ambient range)" )] <- "ambient range" 
+DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("16 - 32 (ambient range)" ), "16-32", DATA$`Temperature (C)`)
+
+DATA$TempNotes[which(DATA$`Temperature (C)` == "2 - 30 (temp was also an experimental variable)" )] <- "temp was also an experimental variable"
+DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("2 - 30 (temp was also an experimental variable)"), "2-30", DATA$`Temperature (C)`)
+
+
+
+#### Create SingleValue/Min & Max columns
+DATA <- DATA %>%
+  separate(`Temperature (C)`, c("TempSingleValue/Min", "TempMax"), sep = "-", remove = FALSE)
+
+
+#### Create a Plus/Minus temperature column
+DATA <- DATA %>%
+   mutate(TempPlusMinus = sapply(strsplit(`TempSingleValue/Min`, "±"), "[", 2))
+
+
+#### Clean up TempSingleValue/Min
+DATA <- DATA %>%
+  mutate(`TempSingleValue/Min` = sapply(strsplit(`TempSingleValue/Min`, "±"), "[", 1))
+
+DATA$`TempSingleValue/Min` <- str_remove(DATA$`TempSingleValue/Min`, "[(+]")
+DATA$`TempSingleValue/Min` <- str_remove(DATA$`TempSingleValue/Min`, "[+/]")
+DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("16 C"), "16", DATA$`TempSingleValue/Min`)
+DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("14°C"), "14", DATA$`TempSingleValue/Min`)
+DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("23 C"), "23", DATA$`TempSingleValue/Min`)
+DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("ambiant", "ambient"), "Ambient", DATA$`TempSingleValue/Min`)
+DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("25 ", "25 conductivity corrected for 25)"), "25", DATA$`TempSingleValue/Min`)
+
+#### Clean up TempMax
+DATA$TempMax <- str_remove(DATA$TempMax, "[C]")
+
+unique(sort(DATA$TempMax))
+```
+
+SORT OUT UNITS.
+Output the most recent version of Corrections, add date
+```{r}
+
+write_csv(DATA, "data/RawSalts_Corrected.csv")
+
+
+```
