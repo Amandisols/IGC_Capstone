@@ -32,7 +32,7 @@ DATA <- DATAraw %>%
 ```
 
 
-New column for measurements, cleaning the `Focal: Salt/Ion type (if known) OR Conductivity` column for spelling and capatalization errors.
+New column for measurements, cleaning the `Focal: Salt/Ion type (if known) OR Conductivity` column for spelling and capitalization errors.
 ```{r}
 
 DATA$Measurement = DATA$`Focal: Salt/Ion type (if known) OR Conductivity`
@@ -279,12 +279,6 @@ DATA$Measurement[DATA$Measurement == "salinity (natural seawater)"] <- "Salinity
 
 ```
 
-Take a look.
-```{r echo = FALSE}
-#unique(sort(DATA$Measurement))
-
-```
-
 Cleaning temperature data and creating new columns. 
 ```{r}
 
@@ -348,7 +342,6 @@ DATA$TempMax <- str_remove(DATA$TempMax, "[C]")
 Cleaning units
 ```{r}
 
-
 DATA$SaltUnits = DATA$`Units for salt concentration_original`
 
 
@@ -395,19 +388,13 @@ DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("psu (practical salinity units)")
 
 unique(sort(DATA$SaltUnits))
 
-
-
-#Convert g/L to mg/L
-#Convert mS/m to us/cm
-# milliSiemens per cm to uS?
-#Convert ppb to ppm to g/L
-
 ```
 
 Output the most recent version of Corrections, add date
 ```{r}
+#reorder columns
+DATA<- DATA[,c(1,2,3,4,12,5,16,6,7,8,9,10,11,15,13,14)]
 
 write_csv(DATA, "data/RawSalts_Corrected.csv")
-
 
 ```
