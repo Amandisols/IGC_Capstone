@@ -10,7 +10,7 @@ Files in this repository:
     
 3. Data
     - raw_salt_data_032721.csv (raw salt data, with last download date attached)
-    - RawSalts_Corrected.csv (output from DataCleaning.Rmd)
+    - RawSalts_Clean.csv (output from DataCleaning.Rmd)
     
 
 
