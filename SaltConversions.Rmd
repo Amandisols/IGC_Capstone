@@ -1,0 +1,19 @@
+---
+title: "Salt Conversions"
+authors: "Amanda Pennino, Stephen Plont"
+date: "4/5/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+
+```
+
+```{r}
+
+DATA <- read_csv("data/RawSalts_Corrected.csv") 
+
+unique(sort(DATA$SaltUnits))
+
+```
