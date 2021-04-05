@@ -404,9 +404,6 @@ unique(sort(DATA$SaltUnits))
 
 ```
 
-
-
-SORT OUT UNITS.
 Output the most recent version of Corrections, add date
 ```{r}
 
