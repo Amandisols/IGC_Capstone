@@ -9,9 +9,9 @@ output: html_document
 New columns to be added:
 #`Measurement` (Analyte, Conductivity, Salinity, Hardness, etc.)
 #`MeasurementNotes`: Any descriptor that was in orginal `Focal Salts/Ions` column.
-#`TempMin`, `TempMax`, `TempSingle`: Altered temperatures
+#`TempSingleValue/Min`, `TempMax`, `TempPlusMinus`: Altered temperatures
 
-```{r}
+```{r echo = FALSE}
 library(tidyverse)
 
 ```
@@ -341,8 +341,70 @@ DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("25 ", "2
 #### Clean up TempMax
 DATA$TempMax <- str_remove(DATA$TempMax, "[C]")
 
-unique(sort(DATA$TempMax))
+
 ```
+
+
+Cleaning units
+```{r}
+
+
+DATA$SaltUnits = DATA$`Units for salt concentration_original`
+
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("Percent NaCl", "percent", "percent SW", "%sw", "% seawater"), "%", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("g L-1", "g/l", "g NaCl/L", "g L-", "gm/litre", "g/L salinity"), "g/L", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mg Ca /L", "mg Ca/L", "mg CaCO3/L", "mg Cl / L", "mg Cl- / L", "mg Cl/L", "mg K / L", "mg l", "mg Mg/L", "mg SO4/L", "mg/ L", "mg/l", "mg/L CaCO3"), "mg/L", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("us/cm", "uS/cm", "uScm-1", "μS/cm", "µS/cm", "μScm–1" ), "µS/cm", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mmol Ca/L", "mmol Mg/L", "mmol l-1", "mmol K/L", "mmol Na/L", "mMol/L", "mmole/L", "mM/L"), "mmol/L", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mS cm ^-1", "mS cm−1", "mS / cm", "ms/cm"), "mS/cm", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("parts per thousand (ppt)", "per mil", "ppt NaCl (LC50)"), "ppt", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("ugl-1", "ug/L"), "µg/L", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("umho/cm", "umohs/cm", "umhos/cm", "umohs", "umhos", "μMho", "micro-mhos"), "µmho/cm", DATA$SaltUnits)
+
+
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("not given", "not provided"), "Not provided", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mOsM"), "mOsm", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mOsm*kg/l"), "mOsm/kg", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("millimole"), "mmol", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("uM Ca2+", "uM", "mM"), "µM", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mM/l", "mM/L"), "µM/L", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("um/cm"), "µm/cm", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("uS/m"), "µS/m", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("umol/L"), "µmol/L", DATA$SaltUnits)
+
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("psu (practical salinity units)"), "psu", DATA$SaltUnits)
+
+
+unique(sort(DATA$SaltUnits))
+
+
+
+#Convert g/L to mg/L
+#Convert mS/m to us/cm
+# milliSiemens per cm to uS?
+#Convert ppb to ppm to g/L
+
+```
+
+
 
 SORT OUT UNITS.
 Output the most recent version of Corrections, add date
