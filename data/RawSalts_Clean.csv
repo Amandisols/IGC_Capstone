@@ -1,8 +1,8 @@
 DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measurement,Units for salt concentration_original,SaltUnits,Minimum concentration_original,Maximum concentration_original,Rate of change in salt (if applicaple),Temperature (C),TempSingleValue/Min,TempMax,TempPlusMinus,MeasurementNotes,TempNotes
-1,259,Rich,sodium chloride,NaCl,ppt,ppt,0.2,0.2,2 ppt every 2-3 days,18.7 - 25.3,18.7,25.3,NA,NA,NA
-2,258,Rich,sodium chloride,NaCl,ppt,ppt,0.4,0.2,2 ppt every 2-3 days,18.5 - 27.0,18.5,27.0,NA,NA,NA
-3,258,Rich,sodium chloride,NaCl,ppt,ppt,0.3,0.2,sudden,17.3 - 22.6,17.3,22.6,NA,NA,NA
-4,259,Rich,sodium chloride,NaCl,ppt,ppt,0.2,0.2,sudden,20.9 - 23.0,20.9,23.0,NA,NA,NA
+1,259,Rich,sodium chloride,NaCl,ppt,ppt,0.2,0.2,2 ppt every 2-3 days,18.7 - 25.3,18.7 , 25.3,NA,NA,NA
+2,258,Rich,sodium chloride,NaCl,ppt,ppt,0.4,0.2,2 ppt every 2-3 days,18.5 - 27.0,18.5 , 27.0,NA,NA,NA
+3,258,Rich,sodium chloride,NaCl,ppt,ppt,0.3,0.2,sudden,17.3 - 22.6,17.3 , 22.6,NA,NA,NA
+4,259,Rich,sodium chloride,NaCl,ppt,ppt,0.2,0.2,sudden,20.9 - 23.0,20.9 , 23.0,NA,NA,NA
 5,37,Joshua,NaCl,NaCl,%,%,0.1,0.8,NA,NA,NA,NA,NA,NA,NA
 6,37,Joshua,NaCl,NaCl,%,%,0.1,0.8,NA,NA,NA,NA,NA,NA,NA
 7,92,Joshua,NaCl,NaCl,%,%,0,1,NA,22,22,NA,NA,NA,NA
@@ -52,8 +52,8 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 51,389,Sally,salinity,Salinity,% seawater,%,0,100,NA,NA,NA,NA,NA,NA,NA
 52,389,Sally,salinity,Salinity,% seawater,%,0,83,NA,NA,NA,NA,NA,NA,NA
 53,389,Sally,salinity,Salinity,% seawater,%,0,83,NA,NA,NA,NA,NA,NA,NA
-54,210,Carl,salinity,Salinity,% seawater,%,5,30,Increase 5% seawater at 7 day intervals,15 - 20,15,20,NA,NA,NA
-55,210,Carl,salinity,Salinity,% seawater,%,5,50,"Increase 5% seawater at 2 day intervals (5% - 40%), and then to 50% at a 2-day interval",15 - 20,15,20,NA,NA,NA
+54,210,Carl,salinity,Salinity,% seawater,%,5,30,Increase 5% seawater at 7 day intervals,15 - 20,15 , 20,NA,NA,NA
+55,210,Carl,salinity,Salinity,% seawater,%,5,50,"Increase 5% seawater at 2 day intervals (5% - 40%), and then to 50% at a 2-day interval",15 - 20,15 , 20,NA,NA,NA
 56,210,Carl,salinity,Salinity,% seawater,%,5,30,"Increase 5% seawater at 1 day intervals (5% - 40%), and then to 50% at a 2-day interval",17.5,17.5,NA,NA,NA,NA
 57,439,Rich,sodium chloride,NaCl,%sw,%,0.2,35,sudden for <10%sw; 3 day acclimation period for >10%sw,21,21,NA,NA,NA,NA
 58,439,Rich,sodium chloride,NaCl,%sw,%,0.2,35,sudden for <10%sw; 3 day acclimation period for >10%sw,21,21,NA,NA,NA,NA
@@ -87,11 +87,11 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 86,106,Joshua,Salinity,Salinity,ppt,ppt,0,25,NA,12,12,NA,NA,NA,NA
 87,106,Joshua,Salinity,Salinity,ppt,ppt,0,25,NA,12,12,NA,NA,NA,NA
 88,106,Joshua,Salinity,Salinity,ppt,ppt,0,25,NA,12,12,NA,NA,NA,NA
-89,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23,NA,1,NA,NA
-90,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23,NA,1,NA,NA
-91,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23,NA,1,NA,NA
-92,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23,NA,1,NA,NA
-93,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23,NA,1,NA,NA
+89,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23 ,NA, 1,NA,NA
+90,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23 ,NA, 1,NA,NA
+91,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23 ,NA, 1,NA,NA
+92,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23 ,NA, 1,NA,NA
+93,196,Joshua,salinity,Salinity,ppt,ppt,0,16,NA,23 ± 1,23 ,NA, 1,NA,NA
 94,206,Joshua,Salinity,Salinity,ppt,ppt,0.3,13,NA,NA,NA,NA,NA,NA,NA
 95,206,Joshua,Salinity,Salinity,ppt,ppt,0.3,13,NA,NA,NA,NA,NA,NA,NA
 96,206,Joshua,Salinity,Salinity,ppt,ppt,0.3,13,NA,NA,NA,NA,NA,NA,NA
@@ -121,44 +121,44 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 120,215,Carl,hardness,Hardness,g,g,10,20,NA,ambient,Ambient,NA,NA,NA,NA
 121,215,Carl,hardness,Hardness,g,g,10,20,NA,ambient,Ambient,NA,NA,NA,NA
 122,215,Carl,Hardness,Hardness,g,g,10,20,NA,ambient,Ambient,NA,NA,NA,NA
-123,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-124,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-125,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-126,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-127,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-128,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-129,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-130,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-131,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-132,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-133,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-134,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-135,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-136,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-137,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-138,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-139,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-140,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-141,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-142,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-143,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-144,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-145,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-146,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-147,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-148,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-149,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-150,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-151,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-152,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-153,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-154,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-155,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-156,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-157,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-158,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-159,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
-160,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25,NA,NA,NA
+123,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+124,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+125,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+126,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+127,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+128,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+129,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+130,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+131,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+132,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+133,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+134,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+135,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+136,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+137,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+138,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+139,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+140,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+141,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+142,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+143,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+144,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+145,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+146,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+147,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+148,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+149,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+150,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+151,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+152,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+153,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+154,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+155,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+156,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+157,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+158,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+159,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
+160,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
 161,120,Amber,NA,NA,g L-1,g/L,1,12,NA,NA,NA,NA,NA,NA,NA
 162,120,Amber,NA,NA,g L-1,g/L,1,12,NA,NA,NA,NA,NA,NA,NA
 163,120,Amber,NA,NA,g L-1,g/L,1,12,NA,NA,NA,NA,NA,NA,NA
@@ -187,25 +187,25 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 186,443,Rich,sodium chloride,NaCl,g/L,g/L,0.14,5.25,5% sw per day,21,21,NA,NA,NA,NA
 187,443,Rich,sodium chloride,NaCl,g/L,g/L,0.14,5.25,5% sw per day,21,21,NA,NA,NA,NA
 188,443,Rich,sodium chloride,NaCl,g/L,g/L,0.14,5.25,5% sw per day,21,21,NA,NA,NA,NA
-189,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20,24,NA,NA,NA
-190,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20,24,NA,NA,NA
-191,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20,24,NA,NA,NA
-192,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20,24,NA,NA,NA
-193,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-194,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-195,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-196,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-197,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-198,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20,24,NA,NA,NA
-199,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-200,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-201,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-202,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-203,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-204,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-205,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-206,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
-207,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20,24,NA,NA,NA
+189,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20 , 24,NA,NA,NA
+190,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20 , 24,NA,NA,NA
+191,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20 , 24,NA,NA,NA
+192,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20 , 24,NA,NA,NA
+193,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+194,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+195,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+196,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+197,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+198,467,Rich,salinity,Salinity,g/L,g/L,0,12,NA,20 - 24,20 , 24,NA,NA,NA
+199,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+200,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+201,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+202,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+203,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+204,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+205,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+206,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
+207,467,Rich,salinity,Salinity,g/L,g/L,0,8,NA,20 - 24,20 , 24,NA,NA,NA
 208,558,Rich,NaCl,NaCl,g/L,g/L,0.7,2,NA,NA,NA,NA,NA,NA,NA
 209,558,Rich,NaCl,NaCl,g/L,g/L,0.7,2,NA,NA,NA,NA,NA,NA,NA
 210,558,Rich,NaCl,NaCl,g/L,g/L,0.7,2,NA,NA,NA,NA,NA,NA,NA
@@ -244,10 +244,10 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 243,554,Rich,magnesium chloride,MgCl2,g/L,g/L,0,12,sudden,19.4–21.88,19.4–21.88,NA,NA,NA,NA
 244,554,Rich,potassium acetate,potassium acetate,g/L,g/L,0,12,sudden,19.4–21.88,19.4–21.88,NA,NA,NA,NA
 245,554,Rich,calcium magnesium acetate,calcium magnesium acetate,g/L,g/L,0,12,sudden,19.4–21.88,19.4–21.88,NA,NA,NA,NA
-246,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-247,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-248,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-249,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
+246,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+247,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+248,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+249,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
 250,140,Rich,salinity,Salinity,g/L,g/L,2.5,20,NA,27,27,NA,NA,NA,NA
 251,140,Rich,salinity,Salinity,g/L,g/L,2.5,20,NA,27,27,NA,NA,NA,NA
 252,140,Rich,salinity,Salinity,g/L,g/L,2.5,20,NA,27,27,NA,NA,NA,NA
@@ -370,22 +370,22 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 369,426,Rich,salinity,Salinity,g/L,g/L,100,250,sudden,20,20,NA,NA,NA,NA
 370,426,Rich,salinity,Salinity,g/L,g/L,100,250,sudden,20,20,NA,NA,NA,NA
 371,508,Joshua,NaCl,NaCl,g/l,g/L,0,20,NA,22,22,NA,NA,NA,NA
-372,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-373,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-374,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-375,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-376,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-377,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-378,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-379,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-380,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-381,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-382,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-383,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-384,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-385,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-386,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-387,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
+372,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+373,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+374,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+375,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+376,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+377,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+378,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+379,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+380,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+381,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+382,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+383,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+384,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+385,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+386,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+387,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
 388,550,Rich,salinity (dominated by Ca and Na),Salinity,g/L,g/L,0.21,2.6,NA,14.1-15.9,14.1,15.9,NA,Dominated by Ca and Na,NA
 389,550,Rich,salinity (dominated by Ca and Na),Salinity,g/L,g/L,0.21,2.6,NA,14.1-15.9,14.1,15.9,NA,Dominated by Ca and Na,NA
 390,550,Rich,salinity (dominated by Ca and Na),Salinity,g/L,g/L,0.21,2.6,NA,14.1-15.9,14.1,15.9,NA,Dominated by Ca and Na,NA
@@ -402,16 +402,16 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 401,375,Rich,MgSO4,MgSO4,g/L,g/L,0,32,water change every 4 days,20,20,NA,NA,NA,NA
 402,375,Rich,NaSO4,NaSO4,g/L,g/L,0,32,water change every 4 days,20,20,NA,NA,NA,NA
 403,375,Rich,CaSO4,CaSO4,g/L,g/L,0,32,water change every 4 days,20,20,NA,NA,NA,NA
-404,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-405,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-406,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-407,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
+404,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+405,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+406,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+407,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
 408,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
 409,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-410,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-411,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-412,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-413,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
+410,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+411,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+412,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+413,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
 414,6,Jo,salinity,Salinity,g/l,g/L,0.8,6.4,NA,NA,NA,NA,NA,NA,NA
 415,6,Jo,salinity,Salinity,g/l,g/L,0.8,6.4,NA,NA,NA,NA,NA,NA,NA
 416,6,Jo,salinity,Salinity,g/l,g/L,0.8,6.4,NA,NA,NA,NA,NA,NA,NA
@@ -457,27 +457,27 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 456,449,Abigail,Salinity,Salinity,g/L,g/L,0,2.5,NA,20,20,NA,NA,NA,NA
 457,449,Abigail,Salinity,Salinity,g/L,g/L,0,2.5,NA,20,20,NA,NA,NA,NA
 458,449,Abigail,Salinity,Salinity,g/L,g/L,0,2.5,NA,20,20,NA,NA,NA,NA
-459,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-460,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-461,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
-462,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20,NA,1,NA,NA
+459,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+460,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+461,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
+462,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
 463,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,<1.62,>1.62,NA,ambient,Ambient,NA,NA,NA,NA
 464,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,<0.5,4,Instantaneous,room temperature,room temperature,NA,NA,NA,NA
 465,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,<0.5,4,Instantaneous,room temperature,room temperature,NA,NA,NA,NA
 466,529,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,≤ 0.33,3,ambient,ambient,Ambient,NA,NA,NA,NA
 467,101,Joshua,sodium chloride,NaCl,gm/litre,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-468,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20,NA,NA,NA
-469,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35,NA,NA,NA
-470,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22,NA,NA,NA
-471,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22,NA,NA,NA
-472,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35,NA,NA,NA
-473,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20,NA,NA,NA
-474,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22,NA,NA,NA
-475,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35,NA,NA,NA
-476,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20,NA,NA,NA
-477,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35,NA,NA,NA
-478,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20,NA,NA,NA
-479,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22,NA,NA,NA
+468,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+469,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+470,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
+471,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
+472,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+473,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+474,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
+475,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+476,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+477,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+478,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+479,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
 480,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Ca /L,mg/L,0.5,5,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 481,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
 482,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
@@ -618,10 +618,10 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 617,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
 618,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,34,326,NA,28,28,NA,NA,NA,NA
 619,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-620,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24,NA,NA,NA
-621,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24,NA,NA,NA
-622,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24,NA,NA,NA
-623,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24,NA,NA,NA
+620,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24 ,NA,NA,NA
+621,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24 ,NA,NA,NA
+622,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24 ,NA,NA,NA
+623,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4500,NA,22-24 C,22,24 ,NA,NA,NA
 624,307,Rich,sodium chloride,NaCl,mg/L,mg/L,4.3,586,NA,NA,NA,NA,NA,NA,NA
 625,307,Rich,sodium chloride,NaCl,mg/L,mg/L,4.3,586,NA,NA,NA,NA,NA,NA,NA
 626,307,Rich,sodium chloride,NaCl,mg/L,mg/L,4.3,586,NA,NA,NA,NA,NA,NA,NA
@@ -647,16 +647,16 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 646,455,Rich,sodium chloride,NaCl,mg/L,mg/L,0.39,1030,NA,19,19,NA,NA,NA,NA
 647,455,Rich,sodium chloride,NaCl,mg/L,mg/L,0.39,9750,NA,19,19,NA,NA,NA,NA
 648,455,Rich,sodium chloride,NaCl,mg/L,mg/L,0.39,9750,NA,19,19,NA,NA,NA,NA
-649,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-650,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-651,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-652,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-653,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-654,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-655,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-656,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-657,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
-658,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17,32,NA,NA,NA
+649,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+650,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+651,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+652,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+653,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+654,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+655,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+656,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+657,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
+658,457,Jo,salinity,Salinity,mg/L,mg/L,0,6600,NA,17 - 32,17 , 32,NA,NA,NA
 659,460,Rich,chloride,Cl-,mg/L,mg/L,<0.001,9230,NA,14,14,NA,NA,NA,NA
 660,460,Rich,chloride,Cl-,mg/L,mg/L,<0.001,9230,NA,14,14,NA,NA,NA,NA
 661,466,Rich,sodium chloride,NaCl,mg/L,mg/L,0,5.6,sudden,19,19,NA,NA,NA,NA
@@ -712,15 +712,15 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 711,315,Rich,chloride,Cl-,mg/l,mg/L,10,6000,NA,7,7,NA,NA,NA,NA
 712,315,Rich,chloride,Cl-,mg/l,mg/L,10,6000,NA,7,7,NA,NA,NA,NA
 713,315,Rich,chloride,Cl-,mg/l,mg/L,10,2000,NA,7,7,NA,NA,NA,NA
-714,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-715,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-716,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-717,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-718,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-719,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-720,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-721,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-722,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
+714,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+715,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+716,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+717,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+718,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+719,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+720,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+721,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+722,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
 723,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
 724,399,Joshua,NaCl,NaCl,mg/L,mg/L,100,25600,NA,22,22,NA,NA,NA,NA
 725,399,Joshua,NaCl,NaCl,mg/L,mg/L,100,25600,NA,22,22,NA,NA,NA,NA
@@ -740,24 +740,24 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 739,510,Joshua,road salt,road salt,mg/l,mg/L,0,10000,NA,10.5-10.7,10.5,10.7,NA,NA,NA
 740,511,Joshua,NaCl,NaCl,mg/l,mg/L,0,10000,NA,NA,NA,NA,NA,NA,NA
 741,511,Joshua,NaCl,NaCl,mg/l,mg/L,0,10000,NA,NA,NA,NA,NA,NA,NA
-742,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,40,3000,NA,25 ± 1,25,NA,1,NA,NA
+742,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,40,3000,NA,25 ± 1,25,NA, 1,NA,NA
 743,552,Rich,NaCl,NaCl,mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
 744,552,Rich,MgCl,MgCl2,mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
 745,552,Rich,ClearLane (NaCl dominant),ClearLane (NaCl dominant),mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
 746,552,Rich,NaCl + Geomelt,NaCl + Geomelt,mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
 747,552,Rich,Magic salt (MgCl dominant),Magic salt (MgCl dominant),mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
 748,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,6666,NA,16-17,16,17,NA,NA,NA
-749,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,3000,NA,23-26 C,23,26,NA,NA,NA
+749,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,3000,NA,23-26 C,23,26 ,NA,NA,NA
 750,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,4000,NA,19,19,NA,NA,NA,NA
 751,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,4000,NA,19,19,NA,NA,NA,NA
 752,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,10000,NA,15-17,15,17,NA,NA,NA
-753,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,12000,NA,10-11 C,10,11,NA,NA,NA
-754,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,5000,NA,14-15 C,14,15,NA,NA,NA
-755,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,4000,NA,24-26 C,24,26,NA,NA,NA
+753,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,12000,NA,10-11 C,10,11 ,NA,NA,NA
+754,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,5000,NA,14-15 C,14,15 ,NA,NA,NA
+755,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,4000,NA,24-26 C,24,26 ,NA,NA,NA
 756,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,323,6666,NA,16-17,16,17,NA,NA,NA
 757,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,267,6666,NA,16-17,16,17,NA,NA,NA
-758,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,8000,NA,10-11 C,10,11,NA,NA,NA
-759,10,Rich,NaHCO3,NaHCO3,mg/L,mg/L,856,3649,NA,16-22 C,16,22,NA,NA,NA
+758,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,8000,NA,10-11 C,10,11 ,NA,NA,NA
+759,10,Rich,NaHCO3,NaHCO3,mg/L,mg/L,856,3649,NA,16-22 C,16,22 ,NA,NA,NA
 760,10,Rich,NaHCO3,NaHCO3,mg/L,mg/L,856,3649,NA,21.6-27.6,21.6,27.6,NA,NA,NA
 761,10,Rich,NaHCO3,NaHCO3,mg/L,mg/L,856,3649,NA,22.2-24.9,22.2,24.9,NA,NA,NA
 762,23,Rich,total dissolved solids,Total Dissolved Solids,mg/L,mg/L,73,302,NA,26.7-29,26.7,29,NA,NA,NA
@@ -765,22 +765,22 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 764,23,Rich,total dissolved solids,Total Dissolved Solids,mg/L,mg/L,73,302,NA,26.7-29,26.7,29,NA,NA,NA
 765,23,Rich,total dissolved solids,Total Dissolved Solids,mg/L,mg/L,73,302,NA,26.7-29,26.7,29,NA,NA,NA
 766,23,Rich,total dissolved solids,Total Dissolved Solids,mg/L,mg/L,73,302,NA,26.7-29,26.7,29,NA,NA,NA
-767,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-768,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-769,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-770,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-771,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-772,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-773,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-774,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-775,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-776,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-777,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-778,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-779,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-780,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-781,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
-782,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28,NA,2,NA,NA
+767,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+768,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+769,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+770,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+771,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+772,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+773,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+774,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+775,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+776,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+777,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+778,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+779,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+780,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+781,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
+782,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,mg/L,mg/L,0,0.03851,NA,28 ± 2,28 ,NA, 2,NA,NA
 783,65,Jo/Rich,potassium,K+,mg/L,mg/L,0.35,35,NA,12,12,NA,NA,NA,NA
 784,65,Jo/Rich,potassium,K+,mg/L,mg/L,0.35,35,NA,12,12,NA,NA,NA,NA
 785,82,Joshua,Chloride,Cl-,mg/L,mg/L,34,3140,NA,NA,NA,NA,NA,NA,NA
@@ -879,18 +879,18 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 878,169,Joshua,NaCl,NaCl,mg/l,mg/L,0,3000,NA,25,25,NA,NA,NA,NA
 879,169,Joshua,NaCl,NaCl,mg/l,mg/L,0,3000,NA,25,25,NA,NA,NA,NA
 880,169,Joshua,NaCl,NaCl,mg/l,mg/L,0,3000,NA,25,25,NA,NA,NA,NA
-881,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-882,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-883,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-884,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-885,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-886,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-887,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-888,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-889,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-890,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-891,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
-892,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66,34.3,NA,NA,NA
+881,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+882,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+883,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+884,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+885,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+886,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+887,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+888,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+889,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+890,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+891,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
+892,183,Rich,Nitrate,NO3-,mg/L,mg/L,0.55,1.26,NA,13.66 - 34.3,13.66 , 34.3,NA,NA,NA
 893,247,Jo,calcium carbonate,CaCO3,mg/L,mg/L,6,309,NA,22,22,NA,NA,NA,NA
 894,247,Jo,calcium carbonate,CaCO3,mg/L,mg/L,6,309,NA,22,22,NA,NA,NA,NA
 895,263,Jo,TDS,Total Dissolved Solids,mg/l,mg/L,189,1961,NA,12,12,NA,NA,NA,NA
@@ -1022,18 +1022,18 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1021,515,Joshua,Chloride,Cl-,mg/L,mg/L,0,6500,NA,NA,NA,NA,NA,NA,NA
 1022,515,Joshua,Chloride,Cl-,mg/L,mg/L,0,6500,NA,NA,NA,NA,NA,NA,NA
 1023,515,Joshua,Chloride,Cl-,mg/L,mg/L,0,7500,NA,NA,NA,NA,NA,NA,NA
-1024,516,Joshua,NaCl,NaCl,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1025,516,Joshua,NaCl,NaCl,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1026,516,Joshua,CaCl2,CaCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1027,516,Joshua,CaCl2,CaCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1028,516,Joshua,MgCl2,MgCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1029,516,Joshua,MgCl2,MgCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1030,516,Joshua,NaCl,NaCl,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1031,516,Joshua,CaCl2,CaCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1032,516,Joshua,MgCl2,MgCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13,NA,2,NA,NA
-1033,517,Rich,NaCl,NaCl,mg/L,mg/L,25,4000,NA,13 ± 2,13,NA,2,NA,NA
-1034,517,Rich,NaCl,NaCl,mg/L,mg/L,25,4000,NA,13 ± 2,13,NA,2,NA,NA
-1035,517,Rich,NaCl,NaCl,mg/L,mg/L,25,4000,NA,13 ± 2,13,NA,2,NA,NA
+1024,516,Joshua,NaCl,NaCl,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1025,516,Joshua,NaCl,NaCl,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1026,516,Joshua,CaCl2,CaCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1027,516,Joshua,CaCl2,CaCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1028,516,Joshua,MgCl2,MgCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1029,516,Joshua,MgCl2,MgCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1030,516,Joshua,NaCl,NaCl,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1031,516,Joshua,CaCl2,CaCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1032,516,Joshua,MgCl2,MgCl2,mg/L,mg/L,25,3000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1033,517,Rich,NaCl,NaCl,mg/L,mg/L,25,4000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1034,517,Rich,NaCl,NaCl,mg/L,mg/L,25,4000,NA,13 ± 2,13 ,NA, 2,NA,NA
+1035,517,Rich,NaCl,NaCl,mg/L,mg/L,25,4000,NA,13 ± 2,13 ,NA, 2,NA,NA
 1036,572,Rich,Mg,Mg3+,mg/L,mg/L,2.6,205,NA,27,27,NA,NA,NA,NA
 1037,572,Rich,MgSO4,MgSO4,mg/L,mg/L,2.6,205,NA,27,27,NA,NA,NA,NA
 1038,572,Rich,Mg,Mg3+,mg/L,mg/L,2.6,205,NA,27,27,NA,NA,NA,NA
@@ -1150,15 +1150,15 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1149,315,Rich,chloride,Cl-,mg/l,mg/L,10,6000,NA,7,7,NA,NA,NA,NA
 1150,315,Rich,chloride,Cl-,mg/l,mg/L,10,6000,NA,7,7,NA,NA,NA,NA
 1151,315,Rich,chloride,Cl-,mg/l,mg/L,10,6000,NA,7,7,NA,NA,NA,NA
-1152,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1153,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1154,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1155,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1156,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1157,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1158,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1159,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-1160,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
+1152,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1153,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1154,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1155,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1156,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1157,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1158,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1159,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+1160,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
 1161,370,Abigail,calcium carbonate,CaCO3,mg/L,mg/L,20,135,NA,NA,NA,NA,NA,NA,NA
 1162,370,Abigail,calcium carbonate,CaCO3,mg/L,mg/L,20,135,NA,NA,NA,NA,NA,NA,NA
 1163,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
@@ -1316,9 +1316,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1315,549,Joshua,"Cl-, SO4","Cl-, SO4",mg/L,mg/L,98.2; 99,"213,000; 1246",NA,14,14,NA,NA,NA,NA
 1316,549,Joshua,"Cl-, SO4","Cl-, SO4",mg/L,mg/L,98.2; 99,"213,000; 1246",NA,14,14,NA,NA,NA,NA
 1317,567,Rich,Chloride,Cl-,mg/L,mg/L,8.1,1148.6,NA,7.6-22.6,7.6,22.6,NA,NA,NA
-1318,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,16000,NA,21-23 C,21,23,NA,NA,NA
-1319,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,16000,NA,21-23 C,21,23,NA,NA,NA
-1320,336,Rich,Nitrate,NO3-,mg/L,mg/L,1.79,7.93,NA,3.5 - 16,3.5,16,NA,NA,NA
+1318,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,16000,NA,21-23 C,21,23 ,NA,NA,NA
+1319,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,16000,NA,21-23 C,21,23 ,NA,NA,NA
+1320,336,Rich,Nitrate,NO3-,mg/L,mg/L,1.79,7.93,NA,3.5 - 16,3.5 , 16,NA,NA,NA
 1321,499,Rich,chloride,Cl-,mg/L,mg/L,1,3880,NA,ambient,Ambient,NA,NA,NA,NA
 1322,499,Rich,chloride,Cl-,mg/L,mg/L,1,3880,NA,ambient,Ambient,NA,NA,NA,NA
 1323,499,Rich,chloride,Cl-,mg/L,mg/L,1,3880,NA,ambient,Ambient,NA,NA,NA,NA
@@ -1344,9 +1344,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1343,514,Rich,NaCl,NaCl,mg/L,mg/L,15,1000,NA,17-29,17,29,NA,NA,NA
 1344,2,Rich,CaCO3,CaCO3,mg/L,mg/L,2,120,NA,"25,2","25,2",NA,NA,NA,NA
 1345,2,Rich,CaCO3,CaCO3,mg/L,mg/L,2,120,NA,25.2,25.2,NA,NA,NA,NA
-1346,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,2500,NA,19-22 C,19,22,NA,NA,NA
-1347,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,2000,NA,19-22 C,19,22,NA,NA,NA
-1348,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,2000,NA,19-22 C,19,22,NA,NA,NA
+1346,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,2500,NA,19-22 C,19,22 ,NA,NA,NA
+1347,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,2000,NA,19-22 C,19,22 ,NA,NA,NA
+1348,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,2000,NA,19-22 C,19,22 ,NA,NA,NA
 1349,100,Rich,sodium bicarbonate,NaHCO3,mg/L,mg/L,175,1500,NA,20,20,NA,NA,NA,NA
 1350,267,Rich,total dissolved solids,Total Dissolved Solids,mg/L,mg/L,10,400,NA,ambient,Ambient,NA,NA,NA,NA
 1351,267,Rich,total dissolved solids,Total Dissolved Solids,mg/L,mg/L,10,400,NA,ambient,Ambient,NA,NA,NA,NA
@@ -1355,37 +1355,37 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1354,267,Rich,total dissolved solids,Total Dissolved Solids,mg/L,mg/L,10,400,NA,ambient,Ambient,NA,NA,NA,NA
 1355,315,Rich,chloride,Cl-,mg/l,mg/L,10,6000,NA,7,7,NA,NA,NA,NA
 1356,315,Rich,chloride,Cl-,mg/l,mg/L,10,2000,NA,7,7,NA,NA,NA,NA
-1357,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1358,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1359,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1360,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1361,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1362,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1363,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1364,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1365,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1366,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1367,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1368,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1369,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3,31.4,NA,NA,NA
-1370,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1371,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1372,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1373,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1374,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1375,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1376,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1377,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1378,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1379,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1380,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1381,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1382,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1383,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1384,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1385,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1386,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
-1387,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7,28.5,NA,NA,NA
+1357,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1358,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1359,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1360,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1361,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1362,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1363,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1364,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1365,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1366,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1367,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1368,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1369,342,Rich,Calcium,Ca2+,mg/L,mg/L,39.2,56.1,NA,6.3 - 31.4,6.3 , 31.4,NA,NA,NA
+1370,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1371,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1372,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1373,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1374,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1375,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1376,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1377,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1378,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1379,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1380,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1381,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1382,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1383,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1384,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1385,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1386,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
+1387,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 -  28.5,21.7 ,  28.5,NA,NA,NA
 1388,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
 1389,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
 1390,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
@@ -1462,10 +1462,10 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1461,572,Rich,Mg,Mg3+,mg/L,mg/L,3.2,99,NA,30,30,NA,NA,NA,NA
 1462,572,Rich,MgSO4,MgSO4,mg/L,mg/L,4.5,513,NA,30,30,NA,NA,NA,NA
 1463,572,Rich,Mg,Mg3+,mg/L,mg/L,4.5,513,NA,30,30,NA,NA,NA,NA
-1464,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,5000,NA,17-19 C,17,19,NA,NA,NA
-1465,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,5000,NA,17-19 C,17,19,NA,NA,NA
+1464,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,5000,NA,17-19 C,17,19 ,NA,NA,NA
+1465,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,5000,NA,17-19 C,17,19 ,NA,NA,NA
 1466,235,Abigail,salinity,Salinity,mg/L,mg/L,1500,3500,NA,NA,NA,NA,NA,NA,NA
-1467,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
+1467,328,Rich,calcium,Ca2+,mg/L,mg/L,55,191,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
 1468,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
 1469,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
 1470,380,Rich,salinity,Salinity,mg/L,mg/L,20,8100,sudden,NA,NA,NA,NA,NA,NA
@@ -1526,22 +1526,22 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1525,244,Rich,total suspended solids,total suspended solids,mg/L,mg/L,322.4,466,NA,12.72,12.72,NA,NA,NA,NA
 1526,244,Rich,total suspended solids,total suspended solids,mg/L,mg/L,322.4,466,NA,12.72,12.72,NA,NA,NA,NA
 1527,244,Rich,total suspended solids,total suspended solids,mg/L,mg/L,322.4,466,NA,12.72,12.72,NA,NA,NA,NA
-1528,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,3000,NA,24-27 C,24,27,NA,NA,NA
-1529,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,3000,NA,24-27 C,24,27,NA,NA,NA
-1530,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,3000,NA,24-27 C,24,27,NA,NA,NA
+1528,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,3000,NA,24-27 C,24,27 ,NA,NA,NA
+1529,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,175,3000,NA,24-27 C,24,27 ,NA,NA,NA
+1530,5,Jo/Rich,NaHCO3,NaHCO3,mg/l,mg/L,194,3000,NA,24-27 C,24,27 ,NA,NA,NA
 1531,100,Rich,sodium bicarbonate,NaHCO3,mg/L,mg/L,175,1500,NA,25,25,NA,NA,NA,NA
 1532,100,Rich,sodium bicarbonate,NaHCO3,mg/L,mg/L,175,1500,NA,25,25,NA,NA,NA,NA
-1533,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1534,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1535,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1536,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1537,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1538,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1539,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1540,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1541,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1542,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
-1543,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4,17.55,NA,NA,NA
+1533,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1534,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1535,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1536,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1537,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1538,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1539,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1540,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1541,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1542,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
+1543,224,Rich,chloride,Cl-,mg/L,mg/L,8.12,8.85,NA,17.4 - 17.55,17.4 , 17.55,NA,NA,NA
 1544,330,Paul,total ions,total ions,mg/l,mg/L,35,451,NA,NA,NA,NA,NA,NA,NA
 1545,330,Paul,total ions,total ions,mg/l,mg/L,35,451,NA,NA,NA,NA,NA,NA,NA
 1546,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
@@ -1748,15 +1748,15 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1747,344,Rich,chloride,Cl-,mg/L,mg/L,20,1000,sudden,20,20,NA,NA,NA,NA
 1748,344,Rich,chloride,Cl-,mg/L,mg/L,20,1000,sudden,20,20,NA,NA,NA,NA
 1749,344,Rich,chloride,Cl-,mg/L,mg/L,20,1000,sudden,20,20,NA,NA,NA,NA
-1750,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1751,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1752,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1753,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1754,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1755,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1756,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1757,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
-1758,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7,28.5,NA,NA,NA
+1750,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1751,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1752,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1753,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1754,374,Rich,NaCl,NaCl,mg/L,mg/L,250,4367,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1755,374,Rich,MgCl,MgCl2,mg/L,mg/L,250,2188,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1756,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1757,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
+1758,374,Rich,CaCl,CaCl2,mg/L,mg/L,250,3559,sudden,21.7 - 28.5,21.7 , 28.5,NA,NA,NA
 1759,392,Rich,nitrate,NO3-,mg/L,mg/L,0,16.4,NA,NA,NA,NA,NA,NA,NA
 1760,392,Rich,nitrate,NO3-,mg/L,mg/L,0,16.4,NA,NA,NA,NA,NA,NA,NA
 1761,392,Rich,nitrate,NO3-,mg/L,mg/L,0,16.4,NA,NA,NA,NA,NA,NA,NA
@@ -1826,7 +1826,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1825,477,Rich,potassium,K+,mg/L,mg/L,0,11,NA,25,25,NA,NA,NA,NA
 1826,477,Rich,potassium,K+,mg/L,mg/L,0,11,NA,25,25,NA,NA,NA,NA
 1827,477,Rich,potassium,K+,mg/L,mg/L,0,11,NA,25,25,NA,NA,NA,NA
-1828,481,Joshua,NaCl,NaCl,mg/L,mg/L,30,1900,NA,20.5 ± 0.2,20.5,NA,0.2,NA,NA
+1828,481,Joshua,NaCl,NaCl,mg/L,mg/L,30,1900,NA,20.5 ± 0.2,20.5 ,NA, 0.2,NA,NA
 1829,506,Rich,conductivity,Conductivity,mg/L,mg/L,0,900,NA,ambient,Ambient,NA,NA,NA,NA
 1830,507,Joshua,chloride,Cl-,mg/L,mg/L,27,777,NA,NA,NA,NA,NA,NA,NA
 1831,507,Joshua,chloride,Cl-,mg/L,mg/L,27,777,NA,NA,NA,NA,NA,NA,NA
@@ -1838,9 +1838,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1837,514,Rich,NaCl,NaCl,mg/L,mg/L,15,1000,NA,17-29,17,29,NA,NA,NA
 1838,514,Rich,NaCl,NaCl,mg/L,mg/L,15,1000,NA,17-29,17,29,NA,NA,NA
 1839,514,Rich,NaCl,NaCl,mg/L,mg/L,15,1000,NA,17-29,17,29,NA,NA,NA
-1840,517,Rich,NaCl,NaCl,mg/L,mg/L,30,1300,NA,13 ± 2,13,NA,2,NA,NA
-1841,517,Rich,NaCl,NaCl,mg/L,mg/L,30,1300,NA,13 ± 2,13,NA,2,NA,NA
-1842,517,Rich,NaCl,NaCl,mg/L,mg/L,30,1300,NA,13 ± 2,13,NA,2,NA,NA
+1840,517,Rich,NaCl,NaCl,mg/L,mg/L,30,1300,NA,13 ± 2,13 ,NA, 2,NA,NA
+1841,517,Rich,NaCl,NaCl,mg/L,mg/L,30,1300,NA,13 ± 2,13 ,NA, 2,NA,NA
+1842,517,Rich,NaCl,NaCl,mg/L,mg/L,30,1300,NA,13 ± 2,13 ,NA, 2,NA,NA
 1843,501,Rich,NaCl,NaCl,mg/L,mg/L,6.5,250,NA,ambient,Ambient,NA,NA,NA,NA
 1844,501,Rich,NaCl,NaCl,mg/L,mg/L,6.5,250,NA,ambient,Ambient,NA,NA,NA,NA
 1845,501,Rich,NaCl,NaCl,mg/L,mg/L,6.5,250,NA,ambient,Ambient,NA,NA,NA,NA
@@ -1913,11 +1913,11 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1912,518,Rich,Chloride,Cl-,mg/L,mg/L,2.8,3.8,NA,ambient,Ambient,NA,NA,NA,NA
 1913,519,Rich,NaCl,NaCl,mg/L,mg/L,20,780,NA,ambient,Ambient,NA,NA,NA,NA
 1914,519,Rich,mixture,mixture,mg/L,mg/L,20,780,NA,ambient,Ambient,NA,NA,NA,NA
-1915,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,84,3000,NA,25 ± 1,25,NA,1,NA,NA
-1916,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,84,3000,NA,25 ± 1,25,NA,1,NA,NA
-1917,544,Joshua,NaCl,NaCl,mg/L,mg/L,84,3000,NA,25 ± 1,25,NA,1,NA,NA
-1918,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,115,3000,NA,25 ± 1,25,NA,1,NA,NA
-1919,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,115,3000,NA,25 ± 1,25,NA,1,NA,NA
+1915,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,84,3000,NA,25 ± 1,25,NA, 1,NA,NA
+1916,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,84,3000,NA,25 ± 1,25,NA, 1,NA,NA
+1917,544,Joshua,NaCl,NaCl,mg/L,mg/L,84,3000,NA,25 ± 1,25,NA, 1,NA,NA
+1918,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,115,3000,NA,25 ± 1,25,NA, 1,NA,NA
+1919,544,Joshua,NaHCO3,NaHCO3,mg/L,mg/L,115,3000,NA,25 ± 1,25,NA, 1,NA,NA
 1920,552,Rich,NaCl,NaCl,mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
 1921,552,Rich,MgCl,MgCl2,mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
 1922,552,Rich,ClearLane (NaCl dominant),ClearLane (NaCl dominant),mg/L,mg/L,25,200,NA,NA,NA,NA,NA,NA,NA
@@ -2039,9 +2039,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2038,155,Jo,ammonium chloride,NH4Cl,millimole,mmol,0,75,NA,20,20,NA,NA,NA,NA
 2039,155,Jo,ammonium chloride,NH4Cl,millimole,mmol,0,75,NA,20,20,NA,NA,NA,NA
 2040,155,Jo,ammonium chloride,NH4Cl,millimole,mmol,0,200,NA,20,20,NA,NA,NA,NA
-2041,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5,30.3,NA,NA,NA
-2042,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5,30.3,NA,NA,NA
-2043,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5,30.3,NA,NA,NA
+2041,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
+2042,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
+2043,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
 2044,70,Abigail,Magnesium,Mg3+,mM,µM,0,20,NA,20-25,20,25,NA,NA,NA
 2045,70,Abigail,potassium,K+,mM,µM,0,50,NA,20-25,20,25,NA,NA,NA
 2046,165,Sally,chloride,Cl-,mM,µM,0.5,10,NA,12,12,NA,NA,NA,NA
@@ -2066,21 +2066,21 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2065,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
 2066,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
 2067,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2068,93,Joshua,CaCl2,CaCl2,mM,µM,0,13.4,NA,25.8 ± 1.8,25.8,NA,1.8,NA,NA
-2069,93,Joshua,CaCl2,CaCl2,mM,µM,0,13.4,NA,25.8 ± 1.8,25.8,NA,1.8,NA,NA
+2068,93,Joshua,CaCl2,CaCl2,mM,µM,0,13.4,NA,25.8 ± 1.8,25.8 ,NA, 1.8,NA,NA
+2069,93,Joshua,CaCl2,CaCl2,mM,µM,0,13.4,NA,25.8 ± 1.8,25.8 ,NA, 1.8,NA,NA
 2070,426,Rich,salinity,Salinity,mM,µM,100,3400,sudden,20,20,NA,NA,NA,NA
 2071,102,Carl,KCl,KCl,mM,µM,10,50,NA,NA,NA,NA,NA,NA,NA
 2072,102,Carl,NaCl,NaCl,mM,µM,10,50,NA,NA,NA,NA,NA,NA,NA
 2073,102,Carl,KCl,KCl,mM,µM,0,50,NA,NA,NA,NA,NA,NA,NA
 2074,102,Carl,NaCl,NaCl,mM,µM,0,50,NA,NA,NA,NA,NA,NA,NA
-2075,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
-2076,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
-2077,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
-2078,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
-2079,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
-2080,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
-2081,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
-2082,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20,0.5,NA,NA,NA
+2075,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2076,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2077,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2078,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2079,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2080,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2081,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2082,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
 2083,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
 2084,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
 2085,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
@@ -2128,7 +2128,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2127,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
 2128,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
 2129,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
-2130,368,Lucy,NaCl,NaCl,mM/L,mmol/L,0,475,5 days,14- 17,14,17,NA,NA,NA
+2130,368,Lucy,NaCl,NaCl,mM/L,mmol/L,0,475,5 days,14- 17,14, 17,NA,NA,NA
 2131,368,Lucy,Sodium,Na+,mM/l,µM/L,0,420,not given,14-17,14,17,NA,NA,NA
 2132,385,Sally,NaCl,NaCl,mM/L,mmol/L,120,170,NA,NA,NA,NA,NA,NA,NA
 2133,385,Sally,NaCl,NaCl,mM/L,mmol/L,120,330,NA,NA,NA,NA,NA,NA,NA
@@ -2272,30 +2272,30 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2271,84,Joshua,MgCO3,MgCO3,mN,mN,0,2,NA,22,22,NA,NA,NA,NA
 2272,84,Joshua,NaCl,NaCl,mN,mN,0,2,NA,22,22,NA,NA,NA,NA
 2273,84,Joshua,NaHCO3,NaHCO3,mN,mN,0,2,NA,22,22,NA,NA,NA,NA
-2274,127,Jo,sodium,Na+,moles,moles,5.38,7.13,NA,19 ± 4,19,NA,4,NA,NA
-2275,127,Jo,calcium,Ca2+,moles,moles,5.38,7.13,NA,18 ± 4,18,NA,4,NA,NA
-2276,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2277,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2278,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2279,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2280,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2281,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2282,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2283,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2284,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2285,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2286,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2287,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2288,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2289,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2290,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2291,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2292,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2293,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2294,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2295,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2296,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
-2297,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5,24.5,NA,NA,NA
+2274,127,Jo,sodium,Na+,moles,moles,5.38,7.13,NA,19 ± 4,19 ,NA, 4,NA,NA
+2275,127,Jo,calcium,Ca2+,moles,moles,5.38,7.13,NA,18 ± 4,18 ,NA, 4,NA,NA
+2276,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2277,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2278,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2279,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2280,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2281,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2282,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2283,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2284,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2285,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2286,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2287,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2288,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2289,468,Rich,salinity,Salinity,mOsm,mOsm,4,200,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2290,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2291,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2292,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2293,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2294,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2295,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2296,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
+2297,468,Rich,salinity,Salinity,mOsm,mOsm,4,140,NA,21.5 - 24.5,21.5 , 24.5,NA,NA,NA
 2298,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
 2299,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
 2300,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
@@ -2451,11 +2451,11 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2450,376,Rich,conductivity,Conductivity,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
 2451,376,Rich,conductivity,Conductivity,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
 2452,376,Rich,conductivity,Conductivity,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-2453,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99,22.83,NA,NA,NA
-2454,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99,22.83,NA,NA,NA
-2455,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99,22.83,NA,NA,NA
-2456,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99,22.83,NA,NA,NA
-2457,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99,22.83,NA,NA,NA
+2453,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99 , 22.83,NA,NA,NA
+2454,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99 , 22.83,NA,NA,NA
+2455,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99 , 22.83,NA,NA,NA
+2456,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99 , 22.83,NA,NA,NA
+2457,463,Rich,conductivity,Conductivity,mS/cm,mS/cm,0.468,1.71,NA,14.99 - 22.83,14.99 , 22.83,NA,NA,NA
 2458,230,Abigail,Conductivity,Conductivity,mS/cm,mS/cm,0.05,30,NA,25,25,NA,NA,NA,NA
 2459,257,Sally,conductivity,Conductivity,mS/cm,mS/cm,<1,>3.4,NA,NA,NA,NA,NA,NA,NA
 2460,271,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
@@ -2564,45 +2564,45 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2563,220,Abigail,Conductivity,Conductivity,mS/cm,mS/cm,0.03,36,NA,20,20,NA,NA,NA,NA
 2564,220,Abigail,Conductivity,Conductivity,mS/cm,mS/cm,0.03,36,NA,20,20,NA,NA,NA,NA
 2565,221,Abigail,Conductivity,Conductivity,mS/cm,mS/cm,0.05,30,NA,25,25,NA,NA,NA,NA
-2566,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2567,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2568,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2569,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2570,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2571,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2572,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2573,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2574,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2575,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2576,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2577,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2578,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2579,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2580,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2581,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2582,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2583,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2584,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2585,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2586,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2587,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2588,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2589,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2590,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2591,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2592,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2593,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2594,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2595,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2596,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2597,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2598,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2599,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2600,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2601,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2602,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2603,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2604,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
+2566,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2567,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2568,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2569,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2570,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2571,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2572,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2573,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2574,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2575,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2576,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2577,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2578,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2579,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2580,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2581,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2582,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2583,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2584,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2585,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2586,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2587,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2588,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2589,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2590,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2591,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2592,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2593,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2594,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2595,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2596,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2597,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2598,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2599,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2600,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2601,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2602,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2603,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2604,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
 2605,229,Abigail,Conductivity,Conductivity,mS/cm,mS/cm,0.1,20,NA,NA,NA,NA,NA,NA,NA
 2606,229,Abigail,Conductivity,Conductivity,mS/cm,mS/cm,0.1,20,NA,NA,NA,NA,NA,NA,NA
 2607,229,Abigail,Conductivity,Conductivity,mS/cm,mS/cm,0.1,20,NA,NA,NA,NA,NA,NA,NA
@@ -2796,8 +2796,8 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2795,562,Rich,NaCl,NaCl,mS/cm,mS/cm,0,20,NA,20,20,NA,NA,NA,NA
 2796,562,Rich,NaCl,NaCl,mS/cm,mS/cm,0,20,NA,20,20,NA,NA,NA,NA
 2797,69,Abigail,Salinity,Salinity,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-2798,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
-2799,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20,2),NA,NA,NA
+2798,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
+2799,222,Lucy,Conductivity,Conductivity,mS/cm,mS/cm,1.7,46,not specified,20 (+-2),20 ,2),NA,NA,NA
 2800,543,Rich,NaCl,NaCl,mS/cm,mS/cm,0.47,7,NA,13.8-16.2,13.8,16.2,NA,NA,NA
 2801,543,Rich,NaCl,NaCl,mS/cm,mS/cm,0.47,7,NA,13.8-16.2,13.8,16.2,NA,NA,NA
 2802,543,Rich,NaCl,NaCl,mS/cm,mS/cm,0.47,7,NA,13.8-16.2,13.8,16.2,NA,NA,NA
@@ -2949,9 +2949,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2948,347,Rich,conductivity,Conductivity,not provided,Not provided,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
 2949,347,Rich,conductivity,Conductivity,not provided,Not provided,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
 2950,347,Rich,chloride,Cl-,not provided,Not provided,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
-2951,192,Carl,artificial seawater,Artifical Seawater,parts per thousand (ppt),ppt,0,24,sharp increase then no further change,20.8 - 24.9,20.8,24.9,NA,NA,NA
-2952,192,Carl,artificial seawater,Artifical Seawater,parts per thousand (ppt),ppt,0,24,sharp increase then no further change,20.8 - 24.9,20.8,24.9,NA,NA,NA
-2953,192,Carl,artificial seawater,Artifical Seawater,parts per thousand (ppt),ppt,0,24,sharp increase then no further change,20.8 - 24.9,20.8,24.9,NA,NA,NA
+2951,192,Carl,artificial seawater,Artifical Seawater,parts per thousand (ppt),ppt,0,24,sharp increase then no further change,20.8 - 24.9,20.8 , 24.9,NA,NA,NA
+2952,192,Carl,artificial seawater,Artifical Seawater,parts per thousand (ppt),ppt,0,24,sharp increase then no further change,20.8 - 24.9,20.8 , 24.9,NA,NA,NA
+2953,192,Carl,artificial seawater,Artifical Seawater,parts per thousand (ppt),ppt,0,24,sharp increase then no further change,20.8 - 24.9,20.8 , 24.9,NA,NA,NA
 2954,365,Sally,salinity,Salinity,per mil,ppt,0.1,115,NA,NA,NA,NA,NA,NA,NA
 2955,365,Sally,salinity,Salinity,per mil,ppt,0.1,115,NA,NA,NA,NA,NA,NA,NA
 2956,365,Sally,salinity,Salinity,per mil,ppt,0.1,115,NA,NA,NA,NA,NA,NA,NA
@@ -3138,26 +3138,26 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3137,425,Sally,salinity,Salinity,ppm,ppm,20,2000,NA,10,10,NA,NA,NA,NA
 3138,425,Sally,salinity,Salinity,ppm,ppm,20,1500,NA,10,10,NA,NA,NA,NA
 3139,425,Sally,salinity,Salinity,ppm,ppm,20,1500,NA,10,10,NA,NA,NA,NA
-3140,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3141,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3142,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3143,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3144,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3145,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3146,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3147,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22,23,NA,NA,NA
-3148,27,Rich,mixture,mixture,ppt,ppt,0,12,NA,22 - 23,22,23,NA,NA,NA
-3149,27,Rich,mixture,mixture,ppt,ppt,0,12,NA,22 - 23,22,23,NA,NA,NA
-3150,27,Rich,mixture,mixture,ppt,ppt,0.2,20.5,NA,26 - 30.1,26,30.1,NA,NA,NA
-3151,27,Rich,mixture,mixture,ppt,ppt,0.2,20.5,NA,26 - 30.1,26,30.1,NA,NA,NA
+3140,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3141,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3142,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3143,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3144,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3145,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3146,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3147,27,Rich,mixture,mixture,ppt,ppt,0,8,NA,22 - 23,22 , 23,NA,NA,NA
+3148,27,Rich,mixture,mixture,ppt,ppt,0,12,NA,22 - 23,22 , 23,NA,NA,NA
+3149,27,Rich,mixture,mixture,ppt,ppt,0,12,NA,22 - 23,22 , 23,NA,NA,NA
+3150,27,Rich,mixture,mixture,ppt,ppt,0.2,20.5,NA,26 - 30.1,26 , 30.1,NA,NA,NA
+3151,27,Rich,mixture,mixture,ppt,ppt,0.2,20.5,NA,26 - 30.1,26 , 30.1,NA,NA,NA
 3152,334,Rich,sodium chloride,NaCl,ppt,ppt,0,6,NA,22,22,NA,NA,NA,NA
 3153,334,Rich,sodium chloride,NaCl,ppt,ppt,0,6,NA,22,22,NA,NA,NA,NA
 3154,334,Rich,sodium chloride,NaCl,ppt,ppt,0,6,NA,22,22,NA,NA,NA,NA
 3155,334,Rich,sodium chloride,NaCl,ppt,ppt,0,6,NA,22,22,NA,NA,NA,NA
 3156,334,Rich,sodium chloride,NaCl,ppt,ppt,0,10,NA,22,22,NA,NA,NA,NA
-3157,440,Rich,salinity,Salinity,ppt,ppt,0,4,NA,19.7 - 33,19.7,33,NA,NA,NA
-3158,441,Rich,salinity,Salinity,ppt,ppt,0,5,sudden,27.2 - 28.7,27.2,28.7,NA,NA,NA
-3159,442,Rich,salinity,Salinity,ppt,ppt,0,30,sudden,19.5 - 30.8 (air),19.5,30.8 (air),NA,NA,NA
+3157,440,Rich,salinity,Salinity,ppt,ppt,0,4,NA,19.7 - 33,19.7 , 33,NA,NA,NA
+3158,441,Rich,salinity,Salinity,ppt,ppt,0,5,sudden,27.2 - 28.7,27.2 , 28.7,NA,NA,NA
+3159,442,Rich,salinity,Salinity,ppt,ppt,0,30,sudden,19.5 - 30.8 (air),19.5 , 30.8 (air),NA,NA,NA
 3160,454,Rich,sodium chloride,NaCl,ppt,ppt,0,9,NA,23.5,23.5,NA,NA,NA,NA
 3161,454,Rich,sodium chloride,NaCl,ppt,ppt,0,9,NA,23.5,23.5,NA,NA,NA,NA
 3162,454,Rich,sodium chloride,NaCl,ppt,ppt,0,11,NA,23.5,23.5,NA,NA,NA,NA
@@ -3321,20 +3321,20 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3320,445,Jo,Salinity,Salinity,ppt,ppt,0,20,NA,27-29.5,27,29.5,NA,NA,NA
 3321,451,Rich,salinity,Salinity,ppt,ppt,0,12,3ppt every 2 days,24,24,NA,NA,NA,NA
 3322,451,Rich,salinity,Salinity,ppt,ppt,0,12,3ppt every 2 days,24,24,NA,NA,NA,NA
-3323,458,Rich,salinity,Salinity,ppt,ppt,0,15,NA,27 - 34,27,34,NA,NA,NA
-3324,458,Rich,salinity,Salinity,ppt,ppt,0,15,NA,27 - 34,27,34,NA,NA,NA
+3323,458,Rich,salinity,Salinity,ppt,ppt,0,15,NA,27 - 34,27 , 34,NA,NA,NA
+3324,458,Rich,salinity,Salinity,ppt,ppt,0,15,NA,27 - 34,27 , 34,NA,NA,NA
 3325,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,24,24,NA,NA,Natural Seawater,NA
 3326,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17,17,NA,NA,Natural Seawater,NA
 3327,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,31,31,NA,NA,Natural Seawater,NA
 3328,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17,17,NA,NA,Natural Seawater,NA
 3329,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,24,24,NA,NA,Natural Seawater,NA
 3330,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,31,31,NA,NA,Natural Seawater,NA
-3331,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17,31,NA,Natural Seawater,NA
-3332,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17,31,NA,Natural Seawater,NA
-3333,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,24 - 31,24,31,NA,Natural Seawater,NA
+3331,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17 , 31,NA,Natural Seawater,NA
+3332,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17 , 31,NA,Natural Seawater,NA
+3333,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,24 - 31,24 , 31,NA,Natural Seawater,NA
 3334,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17,17,NA,NA,Natural Seawater,NA
-3335,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17,31,NA,Natural Seawater,NA
-3336,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17,31,NA,Natural Seawater,NA
+3335,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17 , 31,NA,Natural Seawater,NA
+3336,471,Rich,salinity (natural seawater),Salinity,ppt,ppt,0,25,NA,17 - 31,17 , 31,NA,Natural Seawater,NA
 3337,486,Rich,salinity,Salinity,ppt,ppt,0.6,22.8,NA,16-20,16,20,NA,NA,NA
 3338,490,Rich,salinity,Salinity,ppt,ppt,0.4,20.8,NA,19,19,NA,NA,NA,NA
 3339,490,Rich,salinity,Salinity,ppt,ppt,0.4,20.8,NA,19,19,NA,NA,NA,NA
@@ -3364,12 +3364,12 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3363,492,Rich,salinity,Salinity,ppt,ppt,3,7,NA,16.5-24.5,16.5,24.5,NA,NA,NA
 3364,492,Rich,salinity,Salinity,ppt,ppt,3,7,NA,16.5-24.5,16.5,24.5,NA,NA,NA
 3365,492,Rich,salinity,Salinity,ppt,ppt,3,7,NA,16.5-24.5,16.5,24.5,NA,NA,NA
-3366,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27,NA,NA,NA,NA
-3367,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27,NA,NA,NA,NA
-3368,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27,NA,NA,NA,NA
-3369,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27,NA,NA,NA,NA
-3370,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27,NA,NA,NA,NA
-3371,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27,NA,NA,NA,NA
+3366,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27 ,NA, 1.2 C,NA,NA
+3367,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27 ,NA, 1.2 C,NA,NA
+3368,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27 ,NA, 1.2 C,NA,NA
+3369,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27 ,NA, 1.2 C,NA,NA
+3370,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27 ,NA, 1.2 C,NA,NA
+3371,4,Joshua,salinity,Salinity,ppt,ppt,0.5,32,NA,27 ± 1.2 C,27 ,NA, 1.2 C,NA,NA
 3372,39,Joshua,Marine water,Marine water,ppt,ppt,0,12,NA,28.66-30.66,28.66,30.66,NA,NA,NA
 3373,39,Joshua,Marine water,Marine water,ppt,ppt,0,12,NA,28.66-30.66,28.66,30.66,NA,NA,NA
 3374,39,Joshua,Marine water,Marine water,ppt,ppt,0,12,NA,28.66-30.66,28.66,30.66,NA,NA,NA
@@ -3410,13 +3410,13 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3409,146,Rich,salinity,Salinity,ppt,ppt,0,12,NA,22,22,NA,NA,NA,NA
 3410,146,Rich,salinity,Salinity,ppt,ppt,0,12,NA,22,22,NA,NA,NA,NA
 3411,146,Rich,salinity,Salinity,ppt,ppt,0,12,NA,22,22,NA,NA,NA,NA
-3412,149,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,28 ± 1,28,NA,NA,NA,NA
-3413,149,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,28 ± 1,28,NA,NA,NA,NA
-3414,149,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,28 ± 1,28,NA,NA,NA,NA
-3415,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA,3,NA,NA
-3416,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA,3,NA,NA
-3417,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA,3,NA,NA
-3418,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA,3,NA,NA
+3412,149,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,28 ± 1,28 ,NA, 1,NA,NA
+3413,149,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,28 ± 1,28 ,NA, 1,NA,NA
+3414,149,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,28 ± 1,28 ,NA, 1,NA,NA
+3415,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA, 3,NA,NA
+3416,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA, 3,NA,NA
+3417,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA, 3,NA,NA
+3418,151,Joshua,salinity,Salinity,ppt,ppt,0,20,NA,25 ± 3,25,NA, 3,NA,NA
 3419,152,Jo,salinity,Salinity,ppt,ppt,0,10,NA,29.2-29.14,29.2,29.14,NA,NA,NA
 3420,152,Jo,salinity,Salinity,ppt,ppt,0,10,NA,29.2-29.14,29.2,29.14,NA,NA,NA
 3421,152,Jo,salinity,Salinity,ppt,ppt,0,10,NA,29.2-29.11,29.2,29.11,NA,NA,NA
@@ -3434,38 +3434,38 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3433,161,Joshua,Salinity,Salinity,ppt,ppt,0,15,NA,NA,NA,NA,NA,NA,NA
 3434,161,Joshua,Salinity,Salinity,ppt,ppt,0,15,NA,NA,NA,NA,NA,NA,NA
 3435,161,Joshua,Salinity,Salinity,ppt,ppt,0,15,NA,NA,NA,NA,NA,NA,NA
-3436,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3437,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3438,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3439,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3440,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3441,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3442,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3443,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3444,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3445,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3446,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3447,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3448,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3449,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3450,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3451,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3452,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3453,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3454,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3455,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3456,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3457,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3458,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3459,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3460,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3461,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3462,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,32,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3463,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,32,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3464,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3465,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3466,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
-3467,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28,NA,1,Salinity (commercial salt),NA
+3436,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3437,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3438,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3439,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3440,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3441,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3442,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3443,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3444,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3445,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3446,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3447,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3448,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3449,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3450,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3451,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3452,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3453,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3454,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3455,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3456,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3457,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3458,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3459,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3460,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3461,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3462,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,32,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3463,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,32,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3464,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3465,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3466,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
+3467,167,Joshua,Salinity (commercial salt),Salinity,ppt,ppt,0,25,NA,28 ± 1,28 ,NA, 1,Salinity (commercial salt),NA
 3468,170,Jo,Salinity,Salinity,ppt,ppt,0,15,NA,27-28,27,28,NA,NA,NA
 3469,170,Jo,Salinity,Salinity,ppt,ppt,0,15,NA,27-29,27,29,NA,NA,NA
 3470,170,Jo,Salinity,Salinity,ppt,ppt,0,15,NA,27-29,27,29,NA,NA,NA
@@ -3474,29 +3474,29 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3473,181,Rich,salinity,Salinity,ppt,ppt,0.3,11,NA,26,26,NA,NA,NA,NA
 3474,181,Rich,salinity,Salinity,ppt,ppt,0.3,11,NA,26,26,NA,NA,NA,NA
 3475,181,Rich,salinity,Salinity,ppt,ppt,0.3,11,NA,26,26,NA,NA,NA,NA
-3476,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3477,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3478,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3479,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3480,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3481,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3482,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3483,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3484,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3485,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3486,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3487,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3488,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3489,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3490,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3491,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3492,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3493,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3494,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3495,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3496,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3497,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
-3498,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0,NA,0.1,NA,NA
+3476,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3477,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3478,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3479,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3480,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3481,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3482,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3483,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3484,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3485,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3486,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3487,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3488,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3489,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3490,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3491,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3492,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3493,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3494,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3495,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3496,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3497,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
+3498,197,Jo,Salinity,Salinity,ppt,ppt,0,5,NA,10.0 ± 0.1,10.0 ,NA, 0.1,NA,NA
 3499,225,Joshua,Salinity,Salinity,ppt,ppt,0,12,NA,NA,NA,NA,NA,NA,NA
 3500,225,Joshua,Salinity,Salinity,ppt,ppt,0,10,NA,NA,NA,NA,NA,NA,NA
 3501,225,Joshua,Salinity,Salinity,ppt,ppt,0,10,NA,NA,NA,NA,NA,NA,NA
@@ -3519,18 +3519,18 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3518,225,Joshua,Salinity,Salinity,ppt,ppt,0,12,NA,NA,NA,NA,NA,NA,NA
 3519,225,Joshua,Salinity,Salinity,ppt,ppt,0,12,NA,NA,NA,NA,NA,NA,NA
 3520,225,Joshua,Salinity,Salinity,ppt,ppt,0,12,NA,NA,NA,NA,NA,NA,NA
-3521,251,Rich,sodium chloride,NaCl,ppt,ppt,0.2,80,2.5 ppt every 2-3 days,20.6 - 24.9,20.6,24.9,NA,NA,NA
-3522,251,Rich,sodium chloride,NaCl,ppt,ppt,0.2,35,sudden,23.1 - 25.4,23.1,25.4,NA,NA,NA
-3523,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,22 - 26,22,26,NA,NA,NA
-3524,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,22 - 26,22,26,NA,NA,NA
+3521,251,Rich,sodium chloride,NaCl,ppt,ppt,0.2,80,2.5 ppt every 2-3 days,20.6 - 24.9,20.6 , 24.9,NA,NA,NA
+3522,251,Rich,sodium chloride,NaCl,ppt,ppt,0.2,35,sudden,23.1 - 25.4,23.1 , 25.4,NA,NA,NA
+3523,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,22 - 26,22 , 26,NA,NA,NA
+3524,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,22 - 26,22 , 26,NA,NA,NA
 3525,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,2 ppt per day,28,28,NA,NA,NA,NA
 3526,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,2 ppt per day,28,28,NA,NA,NA,NA
 3527,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,2 ppt per day,18,18,NA,NA,NA,NA
 3528,252,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,2 ppt per day,18,18,NA,NA,NA,NA
-3529,253,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,24 - 25,24,25,NA,NA,NA
-3530,253,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,24 - 25,24,25,NA,NA,NA
-3531,254,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,2.5 ppt every 2-3 days,21 - 25,21,25,NA,NA,NA
-3532,254,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,21 - 25,21,25,NA,NA,NA
+3529,253,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,24 - 25,24 , 25,NA,NA,NA
+3530,253,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,24 - 25,24 , 25,NA,NA,NA
+3531,254,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,2.5 ppt every 2-3 days,21 - 25,21 , 25,NA,NA,NA
+3532,254,Rich,sodium chloride,NaCl,ppt,ppt,0.2,20,sudden,21 - 25,21 , 25,NA,NA,NA
 3533,256,Joshua,salinity,Salinity,ppt,ppt,0,15,NA,25.78-25.88,25.78,25.88,NA,NA,NA
 3534,256,Joshua,salinity,Salinity,ppt,ppt,0,15,NA,25.78-25.88,25.78,25.88,NA,NA,NA
 3535,256,Joshua,salinity,Salinity,ppt,ppt,0,15,NA,25.78-25.88,25.78,25.88,NA,NA,NA
@@ -3548,7 +3548,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3547,325,Rich,salinity,Salinity,ppt,ppt,0.2,70,5 ppt every 7 days,14,14,NA,NA,NA,NA
 3548,325,Rich,salinity,Salinity,ppt,ppt,0.2,70,5 ppt every 7 days,14,14,NA,NA,NA,NA
 3549,325,Rich,salinity,Salinity,ppt,ppt,0.2,70,5 ppt every 7 days,14,14,NA,NA,NA,NA
-3550,325,Rich,salinity,Salinity,ppt,ppt,0.2,35,abrupt,21.1 - 22.6,21.1,22.6,NA,NA,NA
+3550,325,Rich,salinity,Salinity,ppt,ppt,0.2,35,abrupt,21.1 - 22.6,21.1 , 22.6,NA,NA,NA
 3551,325,Rich,salinity,Salinity,ppt,ppt,0.2,70,5 ppt every 7 days,30,30,NA,NA,NA,NA
 3552,325,Rich,salinity,Salinity,ppt,ppt,0.2,70,5 ppt every 7 days,14,14,NA,NA,NA,NA
 3553,367,Amber,salinity,Salinity,ppt,ppt,0.2,13.7,NA,15,15,NA,NA,NA,NA
@@ -3773,17 +3773,17 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3772,428,Jo,salinity,Salinity,ppt,ppt,0,32,NA,NA,NA,NA,NA,NA,NA
 3773,428,Jo,salinity,Salinity,ppt,ppt,0,32,NA,NA,NA,NA,NA,NA,NA
 3774,428,Jo,salinity,Salinity,ppt,ppt,0,32,NA,NA,NA,NA,NA,NA,NA
-3775,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3776,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3777,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3778,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3779,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3780,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3781,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3782,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3783,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3784,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
-3785,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5,30.9,NA,NA,NA
+3775,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3776,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3777,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3778,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3779,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3780,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3781,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3782,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3783,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3784,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
+3785,19,Lucy,Salinity,Salinity,ppt,ppt,0,12.7,NA,25.5 - 30.9,25.5 , 30.9,NA,NA,NA
 3786,530,Carl,NaCl,NaCl,ppt NaCl (LC50),ppt,0.34,10,sudden,20,20,NA,NA,NA,NA
 3787,530,Carl,NaCl,NaCl,ppt NaCl (LC50),ppt,0.34,5,sudden,20,20,NA,NA,NA,NA
 3788,425,Sally,salinity,Salinity,psu,psu,0,4.7,NA,10,10,NA,NA,NA,NA
@@ -3846,34 +3846,34 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3845,540,Carl,Not stated,Not stated,"see ""Notes on effect""","see ""Notes on effect""","""freshwater""","""saline alkali""",ambient,ambient,Ambient,NA,NA,NA,NA
 3846,540,Carl,Not stated,Not stated,"see ""Notes on effect""","see ""Notes on effect""","""freshwater""","""saline alkali""",ambient,ambient,Ambient,NA,NA,NA,NA
 3847,540,Carl,Not stated,Not stated,"see ""Notes on effect""","see ""Notes on effect""","""freshwater""","""saline alkali""",ambient,ambient,Ambient,NA,NA,NA,NA
-3848,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18,23,NA,NA,NA
-3849,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18,23,NA,NA,NA
-3850,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18,23,NA,NA,NA
-3851,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18,23,NA,NA,NA
-3852,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3853,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3854,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3855,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3856,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3857,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3858,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3859,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3860,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3861,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3862,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
-3863,184,Rich,potassium bicarbonate,KHCO3,uEq/L,uEq/L,16,40,NA,18 - 23,18,23,NA,NA,NA
+3848,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18 , 23,NA,NA,NA
+3849,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18 , 23,NA,NA,NA
+3850,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18 , 23,NA,NA,NA
+3851,184,Rich,sodium bicarbonate,NaHCO3,uEq/L,uEq/L,11,32,NA,18 - 23,18 , 23,NA,NA,NA
+3852,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3853,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3854,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3855,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3856,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3857,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3858,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3859,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3860,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3861,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3862,184,Rich,ammonium sulfate,(NH4)2SO4,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
+3863,184,Rich,potassium bicarbonate,KHCO3,uEq/L,uEq/L,16,40,NA,18 - 23,18 , 23,NA,NA,NA
 3864,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3865,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3866,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
-3867,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,ug/L,µg/L,10,100,NA,28 ± 2,28,NA,2,NA,NA
+3867,34,Joshua,Cartap hydrochloride,Cartap hydrochloride,ug/L,µg/L,10,100,NA,28 ± 2,28 ,NA, 2,NA,NA
 3868,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3869,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3870,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3871,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3872,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3873,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
-3874,336,Rich,Ammonium,NH4+,ug/L,µg/L,5,230,NA,3.5 - 16,3.5,16,NA,NA,NA
-3875,336,Rich,Ammonium,NH4+,ug/L,µg/L,5,230,NA,3.5 - 16,3.5,16,NA,NA,NA
+3874,336,Rich,Ammonium,NH4+,ug/L,µg/L,5,230,NA,3.5 - 16,3.5 , 16,NA,NA,NA
+3875,336,Rich,Ammonium,NH4+,ug/L,µg/L,5,230,NA,3.5 - 16,3.5 , 16,NA,NA,NA
 3876,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3877,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
 3878,421,Abigail,Conductivity,Conductivity,ug/L,µg/L,178,903,NA,23,23,NA,NA,NA,NA
@@ -3975,8 +3975,8 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3974,233,Jo,Conductivity,Conductivity,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
 3975,233,Jo,Conductivity,Conductivity,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
 3976,233,Jo,Conductivity,Conductivity,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
-3977,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-3978,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
+3977,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+3978,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
 3979,350,Sally,sodium chloride,NaCl,umhos/cm,µmho/cm,371,2550,NA,25,25,NA,NA,NA,NA
 3980,350,Sally,sodium nitrate,NaNO3,umhos/cm,µmho/cm,374,2042,NA,25,25,NA,NA,NA,NA
 3981,350,Sally,sodium sulfate,Na2SO4,umhos/cm,µmho/cm,371,3003,NA,25,25,NA,NA,NA,NA
@@ -3998,24 +3998,24 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 3997,350,Sally,sodium chloride,NaCl,umhos/cm,µmho/cm,371,2550,NA,25,25,NA,NA,NA,NA
 3998,350,Sally,sodium nitrate,NaNO3,umhos/cm,µmho/cm,374,2042,NA,25,25,NA,NA,NA,NA
 3999,350,Sally,sodium sulfate,Na2SO4,umhos/cm,µmho/cm,371,3003,NA,25,25,NA,NA,NA,NA
-4000,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4001,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4002,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4003,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4004,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4005,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4006,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4007,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4008,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4009,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4010,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4011,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4012,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4013,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
-4014,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5,27,NA,NA,NA
+4000,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4001,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4002,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4003,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4004,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4005,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4006,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4007,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4008,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4009,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4010,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4011,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4012,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4013,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
+4014,372,Rich,conductivity,Conductivity,umhos/cm,µmho/cm,100,505,NA,15.5 - 27,15.5 , 27,NA,NA,NA
 4015,273,Rich,conductivity,Conductivity,umohs,µmho/cm,not given,not given,NA,NA,NA,NA,NA,NA,NA
 4016,273,Rich,conductivity,Conductivity,umohs,µmho/cm,not given,not given,NA,NA,NA,NA,NA,NA,NA
-4017,317,Rich,Electric Conductance,Conductivity,umohs/cm,µmho/cm,50,650,NA,22.4 - 31,22.4,31,NA,NA,NA
+4017,317,Rich,Electric Conductance,Conductivity,umohs/cm,µmho/cm,50,650,NA,22.4 - 31,22.4 , 31,NA,NA,NA
 4018,125,Carl,HCO3-,HCO3-,umol/L,µmol/L,7.5,680,NA,20-22,20,22,NA,NA,NA
 4019,125,Carl,Ca2+,Ca2+,umol/L,µmol/L,3,310,NA,20-22,20,22,NA,NA,NA
 4020,234,Paul,Conductivity,Conductivity,uS/cm,µS/cm,not given,not given,NA,NA,NA,NA,NA,NA,NA
@@ -4103,14 +4103,14 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4102,452,Rich,conductivity,Conductivity,uS/cm,µS/cm,10,100000,NA,NA,NA,NA,NA,NA,NA
 4103,452,Rich,conductivity,Conductivity,uS/cm,µS/cm,10,100000,NA,NA,NA,NA,NA,NA,NA
 4104,452,Rich,conductivity,Conductivity,uS/cm,µS/cm,10,100000,NA,NA,NA,NA,NA,NA,NA
-4105,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18,20,NA,NA,NA
-4106,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18,20,NA,NA,NA
-4107,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18,20,NA,NA,NA
-4108,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18,20,NA,NA,NA
-4109,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18,20,NA,NA,NA
-4110,465,Rich,conductivity (potassium),Conductivity,uS/cm,µS/cm,650,9900,NA,4.4 - 20.9,4.4,20.9,NA,Potassium,NA
-4111,465,Rich,conductivity (sodium),Conductivity,uS/cm,µS/cm,670,8400,NA,4.4 - 20.9,4.4,20.9,NA,conductivity (sodium),NA
-4112,465,Rich,conductivity,Conductivity,uS/cm,µS/cm,415,5600,NA,4.4 - 20.9,4.4,20.9,NA,NA,NA
+4105,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18 , 20,NA,NA,NA
+4106,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18 , 20,NA,NA,NA
+4107,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18 , 20,NA,NA,NA
+4108,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18 , 20,NA,NA,NA
+4109,456,Rich,sodium chloride,NaCl,uS/cm,µS/cm,0,3000,NA,18 - 20,18 , 20,NA,NA,NA
+4110,465,Rich,conductivity (potassium),Conductivity,uS/cm,µS/cm,650,9900,NA,4.4 - 20.9,4.4 , 20.9,NA,Potassium,NA
+4111,465,Rich,conductivity (sodium),Conductivity,uS/cm,µS/cm,670,8400,NA,4.4 - 20.9,4.4 , 20.9,NA,conductivity (sodium),NA
+4112,465,Rich,conductivity,Conductivity,uS/cm,µS/cm,415,5600,NA,4.4 - 20.9,4.4 , 20.9,NA,NA,NA
 4113,497,Rich,conductivity,Conductivity,uS/cm,µS/cm,0.14,16.47,NA,20,20,NA,NA,NA,NA
 4114,497,Rich,conductivity,Conductivity,uS/cm,µS/cm,0.14,16.47,NA,20,20,NA,NA,NA,NA
 4115,497,Rich,conductivity,Conductivity,uS/cm,µS/cm,0.14,16.47,NA,20,20,NA,NA,NA,NA
@@ -4147,9 +4147,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4146,556,Rich,salinity (Road Runner Ice Melt),Salinity,uS/cm,µS/cm,127,3882,sudden,19.9-21.7,19.9,21.7,NA,Road Runner Ice Melt,NA
 4147,556,Rich,salinity (Road Runner Ice Melt),Salinity,uS/cm,µS/cm,127,3882,sudden,19.9-21.7,19.9,21.7,NA,Road Runner Ice Melt,NA
 4148,49,Sally,Conductivity,Conductivity,uS/cm,µS/cm,270.7,1358.7,NA,NA,NA,NA,NA,NA,NA
-4149,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
+4149,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
 4150,238,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,277,3422,NA,NA,NA,NA,NA,NA,NA
-4151,240,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,0,790,NA,0 - 16.2,0,16.2,NA,NA,NA
+4151,240,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,0,790,NA,0 - 16.2,0 , 16.2,NA,NA,NA
 4152,269,Sally,conductivity,Conductivity,uS/cm,µS/cm,24.9,94.85,NA,NA,NA,NA,NA,NA,NA
 4153,269,Sally,conductivity,Conductivity,uS/cm,µS/cm,24.9,94.85,NA,NA,NA,NA,NA,NA,NA
 4154,275,Carl,Dominant: Mg Ca SO4 (Mg = 1.1x Ca mg/L) (Boardtree water),Dominant: Mg Ca SO4 (Mg = 1.1x Ca mg/L) (Boardtree water),uS/cm,µS/cm,274,2363,NA,23,23,NA,NA,NA,NA
@@ -4176,7 +4176,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4175,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 4176,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 4177,417,Rich,conductivity,Conductivity,uS/cm,µS/cm,2000,20000,NA,20,20,NA,NA,NA,NA
-4178,417,Rich,conductivity,Conductivity,uS/cm,µS/cm,500,30000,NA,15 - 30,15,30,NA,NA,NA
+4178,417,Rich,conductivity,Conductivity,uS/cm,µS/cm,500,30000,NA,15 - 30,15 , 30,NA,NA,NA
 4179,424,Sally,conductivity,Conductivity,uS/cm,µS/cm,13.2,1559.2,NA,25.9-32.7,25.9,32.7,NA,NA,NA
 4180,424,Sally,conductivity,Conductivity,uS/cm,µS/cm,13.2,1559.2,NA,25.9-32.7,25.9,32.7,NA,NA,NA
 4181,424,Sally,conductivity,Conductivity,uS/cm,µS/cm,13.2,1559.2,NA,25.9-32.7,25.9,32.7,NA,NA,NA
@@ -4195,7 +4195,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4194,459,Rich,conductivity,Conductivity,uS/cm,µS/cm,200,5000,NA,NA,NA,NA,NA,NA,NA
 4195,459,Rich,conductivity,Conductivity,uS/cm,µS/cm,200,5000,NA,NA,NA,NA,NA,NA,NA
 4196,459,Rich,conductivity,Conductivity,uS/cm,µS/cm,200,5000,NA,NA,NA,NA,NA,NA,NA
-4197,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10,31.54,NA,NA,NA
+4197,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
 4198,555,Rich,NaCl,NaCl,uS/cm,µS/cm,49.7,165.1,NA,8.8-9.3,8.8,9.3,NA,NA,NA
 4199,10,Rich,NaHCO3,NaHCO3,uS/cm,µS/cm,856,3649,NA,21.6-27.6,21.6,27.6,NA,NA,NA
 4200,10,Rich,NaHCO3,NaHCO3,uS/cm,µS/cm,856,3649,NA,21.6-27.6,21.6,27.6,NA,NA,NA
@@ -4314,63 +4314,63 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4313,277,Paul,conductivity (EC),Conductivity,uS/cm,µS/cm,89,104,NA,NA,NA,NA,NA,NA,NA
 4314,286,Jo,conductivity,Conductivity,uS/cm,µS/cm,73.1,90.5,NA,22.2-29,22.2,29,NA,NA,NA
 4315,292,Jo,Conductivity,Conductivity,uS/cm,µS/cm,32,642,NA,0-23,0,23,NA,NA,NA
-4316,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4317,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4318,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4319,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4320,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4321,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4322,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26,28,NA,NA,NA
-4323,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4324,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4325,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4326,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4327,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4328,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4329,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4330,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4331,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4332,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4333,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4334,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4335,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4336,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4337,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4338,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4339,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4340,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,2000,NA,26 - 28,26,28,NA,NA,NA
-4341,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4342,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4343,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4344,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26,28,NA,NA,NA
-4345,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4346,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4347,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,65,5000,NA,26 - 28,26,28,NA,NA,NA
-4348,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4349,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4350,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4351,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4352,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4353,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4354,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4355,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4356,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4357,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4358,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4359,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4360,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4361,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4362,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4363,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4364,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4365,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26,28,NA,NA,NA
-4366,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4367,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26,28,NA,NA,NA
-4368,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4369,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4370,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4371,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
-4372,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26,28,NA,NA,NA
+4316,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4317,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4318,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4319,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4320,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4321,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4322,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26 , 28,NA,NA,NA
+4323,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4324,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4325,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4326,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4327,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4328,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4329,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4330,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4331,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4332,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4333,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4334,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4335,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4336,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4337,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4338,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4339,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4340,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,2000,NA,26 - 28,26 , 28,NA,NA,NA
+4341,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4342,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4343,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4344,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26 , 28,NA,NA,NA
+4345,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4346,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4347,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,65,5000,NA,26 - 28,26 , 28,NA,NA,NA
+4348,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4349,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4350,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4351,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4352,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4353,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4354,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4355,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4356,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4357,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4358,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4359,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4360,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4361,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4362,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4363,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4364,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4365,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26 , 28,NA,NA,NA
+4366,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4367,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,50,2000,NA,26 - 28,26 , 28,NA,NA,NA
+4368,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4369,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4370,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4371,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
+4372,327,Rich,conductivity,Conductivity,uS/cm,µS/cm,100,1000,NA,26 - 28,26 , 28,NA,NA,NA
 4373,349,Rich,conductivity,Conductivity,uS/cm,µS/cm,150,230,NA,NA,NA,NA,NA,NA,NA
 4374,384,Rich,conductivity,Conductivity,uS/cm,µS/cm,300,1153,NA,NA,NA,NA,NA,NA,NA
 4375,384,Rich,conductivity,Conductivity,uS/cm,µS/cm,300,1153,NA,NA,NA,NA,NA,NA,NA
@@ -4563,30 +4563,30 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4562,144,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,457,480,NA,8.9,8.9,NA,NA,NA,NA
 4563,144,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,457,480,NA,8.9,8.9,NA,NA,NA,NA
 4564,153,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,100,500,NA,2-10,2,10,NA,NA,NA
-4565,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.36,21.16,33.36,NA,NA,NA
-4566,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.37,21.16,33.37,NA,NA,NA
-4567,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.35,21.16,33.35,NA,NA,NA
-4568,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.33,21.16,33.33,NA,NA,NA
-4569,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.34,21.16,33.34,NA,NA,NA
+4565,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.36,21.16, 33.36,NA,NA,NA
+4566,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.37,21.16, 33.37,NA,NA,NA
+4567,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.35,21.16, 33.35,NA,NA,NA
+4568,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.33,21.16, 33.33,NA,NA,NA
+4569,164,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,31.46,53.8,NA,21.16- 33.34,21.16, 33.34,NA,NA,NA
 4570,174,Sally,Conductivity,Conductivity,uS/cm,µS/cm,230,5521,NA,NA,NA,NA,NA,NA,NA
 4571,177,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,123,784,NA,NA,NA,NA,NA,NA,NA
 4572,177,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,123,784,NA,NA,NA,NA,NA,NA,NA
-4573,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
-4574,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
-4575,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
-4576,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
-4577,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
+4573,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
+4574,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
+4575,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
+4576,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
+4577,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
 4578,190,Sally,conductivity,Conductivity,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 4579,190,Sally,conductivity,Conductivity,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 4580,190,Sally,conductivity,Conductivity,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 4581,190,Sally,conductivity,Conductivity,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 4582,190,Sally,conductivity,Conductivity,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
-4583,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
-4584,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
-4585,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
-4586,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
-4587,209,Rich,conductivity,Conductivity,uS/cm,µS/cm,25,1021.5,NA,15 - 24.2,15,24.2,NA,NA,NA
-4588,209,Rich,conductivity,Conductivity,uS/cm,µS/cm,25,1021.5,NA,15 - 24.2,15,24.2,NA,NA,NA
+4583,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
+4584,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
+4585,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
+4586,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
+4587,209,Rich,conductivity,Conductivity,uS/cm,µS/cm,25,1021.5,NA,15 - 24.2,15 , 24.2,NA,NA,NA
+4588,209,Rich,conductivity,Conductivity,uS/cm,µS/cm,25,1021.5,NA,15 - 24.2,15 , 24.2,NA,NA,NA
 4589,211,Sally,Conductivity,Conductivity,uS/cm,µS/cm,290,1384,NA,NA,NA,NA,NA,NA,NA
 4590,226,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,22,3256,NA,NA,NA,NA,NA,NA,NA
 4591,226,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,22,3256,NA,NA,NA,NA,NA,NA,NA
@@ -4643,16 +4643,16 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4642,239,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,240,2350,NA,NA,NA,NA,NA,NA,NA
 4643,239,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,240,2350,NA,NA,NA,NA,NA,NA,NA
 4644,239,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,240,2350,NA,NA,NA,NA,NA,NA,NA
-4645,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4646,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4647,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4648,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4649,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4650,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4651,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4652,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4653,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
-4654,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4,26.6,NA,NA,NA
+4645,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4646,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4647,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4648,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4649,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4650,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4651,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4652,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4653,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
+4654,241,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,91.02,426.8,NA,23.4 - 26.6,23.4 , 26.6,NA,NA,NA
 4655,248,Sally,conductivity,Conductivity,uS/cm,µS/cm,180,1400,NA,20,20,NA,NA,NA,NA
 4656,248,Sally,conductivity,Conductivity,uS/cm,µS/cm,180,1400,NA,20,20,NA,NA,NA,NA
 4657,248,Sally,conductivity,Conductivity,uS/cm,µS/cm,180,1400,NA,20,20,NA,NA,NA,NA
@@ -4781,13 +4781,13 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4780,291,Sally,Conductivity,Conductivity,uS/cm,µS/cm,300,425,NA,ambient,Ambient,NA,NA,NA,NA
 4781,291,Sally,Conductivity,Conductivity,uS/cm,µS/cm,300,425,NA,ambient,Ambient,NA,NA,NA,NA
 4782,291,Sally,Conductivity,Conductivity,uS/cm,µS/cm,300,425,NA,ambient,Ambient,NA,NA,NA,NA
-4783,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4,19.2,NA,NA,NA
-4784,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4,19.2,NA,NA,NA
-4785,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4,19.2,NA,NA,NA
-4786,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4,19.2,NA,NA,NA
-4787,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4,19.2,NA,NA,NA
-4788,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4,19.2,NA,NA,NA
-4789,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4,19.2,NA,NA,NA
+4783,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4 , 19.2,NA,NA,NA
+4784,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4 , 19.2,NA,NA,NA
+4785,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4 , 19.2,NA,NA,NA
+4786,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4 , 19.2,NA,NA,NA
+4787,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4 , 19.2,NA,NA,NA
+4788,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4 , 19.2,NA,NA,NA
+4789,293,Rich,Conductivity,Conductivity,uS/cm,µS/cm,17.7,479,NA,11.4 - 19.2,11.4 , 19.2,NA,NA,NA
 4790,297,Carl,Specific conductance (Dominant ions are Ca Mg SO4 HCO3),Specific Conductance,uS/cm,µS/cm,24,1445,NA,ambient,Ambient,NA,NA,Dominant ions are Ca Mg SO4 HCO3,NA
 4791,297,Carl,Specific conductance (Dominant ions are Ca Mg SO4 HCO3),Specific Conductance,uS/cm,µS/cm,24,1445,NA,ambient,Ambient,NA,NA,Dominant ions are Ca Mg SO4 HCO3,NA
 4792,297,Carl,Specific conductance (Dominant ions are Ca Mg SO4 HCO3),Specific Conductance,uS/cm,µS/cm,24,1445,NA,ambient,Ambient,NA,NA,Dominant ions are Ca Mg SO4 HCO3,NA
@@ -4951,8 +4951,8 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 4950,318,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,6,125,NA,NA,NA,NA,NA,NA,NA
 4951,318,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,6,125,NA,NA,NA,NA,NA,NA,NA
 4952,318,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,6,125,NA,NA,NA,NA,NA,NA,NA
-4953,328,Rich,calcium,Ca2+,uS/cm,µS/cm,137,1185,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
-4954,328,Rich,calcium,Ca2+,uS/cm,µS/cm,137,1185,NA,10.2 - 24.3,10.2,24.3,NA,NA,NA
+4953,328,Rich,calcium,Ca2+,uS/cm,µS/cm,137,1185,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
+4954,328,Rich,calcium,Ca2+,uS/cm,µS/cm,137,1185,NA,10.2 - 24.3,10.2 , 24.3,NA,NA,NA
 4955,356,Sally,conductivity,Conductivity,uS/cm,µS/cm,6.3,98,NA,22.5-30.3,22.5,30.3,NA,NA,NA
 4956,356,Sally,conductivity,Conductivity,uS/cm,µS/cm,6.3,98,NA,22.5-30.3,22.5,30.3,NA,NA,NA
 4957,356,Sally,conductivity,Conductivity,uS/cm,µS/cm,6.3,98,NA,22.5-30.3,22.5,30.3,NA,NA,NA
@@ -5024,32 +5024,32 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 5023,378,Rich,conductivity (NaCl added),Conductivity,uS/cm,µS/cm,274,1274,NA,NA,NA,NA,NA,NaCl added,NA
 5024,378,Rich,conductivity (NaCl added),Conductivity,uS/cm,µS/cm,274,1274,NA,NA,NA,NA,NA,NaCl added,NA
 5025,378,Rich,conductivity (NaCl added),Conductivity,uS/cm,µS/cm,274,1274,NA,NA,NA,NA,NA,NaCl added,NA
-5026,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5027,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5028,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5029,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5030,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5031,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5032,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5033,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5034,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5035,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5036,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5037,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5038,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5039,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5040,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5041,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5042,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5043,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5044,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5045,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5046,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5047,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5048,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5049,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5050,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
-5051,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43,11.79,NA,NA,NA
+5026,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5027,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5028,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5029,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5030,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5031,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5032,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5033,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5034,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5035,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5036,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5037,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5038,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5039,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5040,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5041,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5042,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5043,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5044,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5045,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5046,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5047,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5048,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5049,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5050,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
+5051,379,Rich,conductivity,Conductivity,uS/cm,µS/cm,220,5000,sudden,11.43 - 11.79,11.43 , 11.79,NA,NA,NA
 5052,384,Rich,conductivity,Conductivity,uS/cm,µS/cm,300,1153,NA,NA,NA,NA,NA,NA,NA
 5053,384,Rich,conductivity,Conductivity,uS/cm,µS/cm,300,1153,NA,NA,NA,NA,NA,NA,NA
 5054,384,Rich,conductivity,Conductivity,uS/cm,µS/cm,300,1153,NA,NA,NA,NA,NA,NA,NA
@@ -5133,17 +5133,17 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 5132,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 5133,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 5134,415,Rich,conductivity,Conductivity,uS/cm,µS/cm,54.6,155.9,NA,NA,NA,NA,NA,NA,NA
-5135,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3,11.1,NA,NA,NA
+5135,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3 , 11.1,NA,NA,NA
 5136,418,Rich,conductivity,Conductivity,uS/cm,µS/cm,232,22836,NA,NA,NA,NA,NA,NA,NA
 5137,418,Rich,conductivity,Conductivity,uS/cm,µS/cm,232,22836,NA,NA,NA,NA,NA,NA,NA
 5138,418,Rich,conductivity,Conductivity,uS/cm,µS/cm,232,22836,NA,NA,NA,NA,NA,NA,NA
 5139,418,Rich,conductivity,Conductivity,uS/cm,µS/cm,232,22836,NA,NA,NA,NA,NA,NA,NA
 5140,418,Rich,conductivity,Conductivity,uS/cm,µS/cm,232,22836,NA,NA,NA,NA,NA,NA,NA
-5141,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13,30,NA,NA,NA
-5142,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10,31.54,NA,NA,NA
-5143,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10,31.54,NA,NA,NA
-5144,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10,31.54,NA,NA,NA
-5145,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10,31.54,NA,NA,NA
+5141,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13 , 30,NA,NA,NA
+5142,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
+5143,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
+5144,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
+5145,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
 5146,482,Rich,conductivity,Conductivity,uS/cm,µS/cm,23.3,69.5,NA,20-30.6,20,30.6,NA,NA,NA
 5147,482,Rich,conductivity,Conductivity,uS/cm,µS/cm,23.3,69.5,NA,20-30.6,20,30.6,NA,NA,NA
 5148,482,Rich,conductivity,Conductivity,uS/cm,µS/cm,23.3,69.5,NA,20-30.6,20,30.6,NA,NA,NA
@@ -5220,7 +5220,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 5219,200,Sally,Conductivity,Conductivity,uS/cm,µS/cm,21.3,1172.13,NA,NA,NA,NA,NA,NA,NA
 5220,200,Sally,Conductivity,Conductivity,uS/cm,µS/cm,21.3,1172.13,NA,NA,NA,NA,NA,NA,NA
 5221,200,Sally,Conductivity,Conductivity,uS/cm,µS/cm,21.3,1172.13,NA,NA,NA,NA,NA,NA,NA
-5222,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
+5222,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
 5223,323,Sally,conductivity,Conductivity,uS/cm,µS/cm,4.1,236.5,NA,NA,NA,NA,NA,NA,NA
 5224,329,Sally,conductivity,Conductivity,uS/cm,µS/cm,297,587,NA,24.75-27.45,24.75,27.45,NA,NA,NA
 5225,329,Sally,conductivity,Conductivity,uS/cm,µS/cm,297,587,NA,24.75-27.45,24.75,27.45,NA,NA,NA
@@ -5230,9 +5230,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 5229,331,Jo,Conductivity,Conductivity,uS/cm,µS/cm,44.47,92.8,NA,23-27,23,27,NA,NA,NA
 5230,331,Jo,Conductivity,Conductivity,uS/cm,µS/cm,44.47,92.8,NA,23-27,23,27,NA,NA,NA
 5231,331,Jo,Conductivity,Conductivity,uS/cm,µS/cm,44.47,92.8,NA,23-27,23,27,NA,NA,NA
-5232,336,Rich,Conductivity,Conductivity,uS/cm,µS/cm,28.7,136.5,NA,3.5 - 16,3.5,16,NA,NA,NA
-5233,336,Rich,Conductivity,Conductivity,uS/cm,µS/cm,28.7,136.5,NA,3.5 - 16,3.5,16,NA,NA,NA
-5234,336,Rich,Conductivity,Conductivity,uS/cm,µS/cm,28.7,136.5,NA,3.5 - 16,3.5,16,NA,NA,NA
+5232,336,Rich,Conductivity,Conductivity,uS/cm,µS/cm,28.7,136.5,NA,3.5 - 16,3.5 , 16,NA,NA,NA
+5233,336,Rich,Conductivity,Conductivity,uS/cm,µS/cm,28.7,136.5,NA,3.5 - 16,3.5 , 16,NA,NA,NA
+5234,336,Rich,Conductivity,Conductivity,uS/cm,µS/cm,28.7,136.5,NA,3.5 - 16,3.5 , 16,NA,NA,NA
 5235,338,Jo,Conductivity,Conductivity,uS/cm,µS/cm,21.3,171.6,NA,NA,NA,NA,NA,NA,NA
 5236,338,Jo,Conductivity,Conductivity,uS/cm,µS/cm,21.3,171.6,NA,NA,NA,NA,NA,NA,NA
 5237,338,Jo,Conductivity,Conductivity,uS/cm,µS/cm,21.3,171.6,NA,NA,NA,NA,NA,NA,NA
@@ -5253,7 +5253,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 5252,343,Rich,conductivity,Conductivity,uS/cm,µS/cm,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
 5253,343,Rich,conductivity,Conductivity,uS/cm,µS/cm,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
 5254,343,Rich,conductivity,Conductivity,uS/cm,µS/cm,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
-5255,345,Rich,conductivity,Conductivity,uS/cm,µS/cm,117.47,169.63,NA,26.2 - 30.1,26.2,30.1,NA,NA,NA
+5255,345,Rich,conductivity,Conductivity,uS/cm,µS/cm,117.47,169.63,NA,26.2 - 30.1,26.2 , 30.1,NA,NA,NA
 5256,348,Rich,conductivity,Conductivity,uS/cm,µS/cm,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
 5257,49,Sally,Conductivity,Conductivity,uS/cm,µS/cm,270.7,1358.7,NA,NA,NA,NA,NA,NA,NA
 5258,178,Carl,conductivity,Conductivity,uS/cm,µS/cm,357,431,NA,16.9-21,16.9,21,NA,NA,NA
@@ -5278,9 +5278,9 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 5277,205,Carl,Conductivity,Conductivity,uS/cm,µS/cm,68,85.5,NA,ambient,Ambient,NA,NA,NA,NA
 5278,205,Carl,Conductivity,Conductivity,uS/cm,µS/cm,68,85.5,NA,ambient,Ambient,NA,NA,NA,NA
 5279,205,Carl,Conductivity,Conductivity,uS/cm,µS/cm,68,85.5,NA,ambient,Ambient,NA,NA,NA,NA
-5280,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
-5281,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
-5282,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
+5280,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
+5281,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
+5282,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
 5283,213,Carl,NaCl,NaCl,uS/cm,µS/cm,300,3000,NA,18,18,NA,NA,NA,NA
 5284,213,Carl,NaCl,NaCl,uS/cm,µS/cm,300,3000,NA,18,18,NA,NA,NA,NA
 5285,213,Carl,NaCl,NaCl,uS/cm,µS/cm,300,3000,NA,18,18,NA,NA,NA,NA
@@ -5373,11 +5373,11 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5369,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 5370,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 5371,482,Rich,conductivity,Conductivity,uS/cm,µS/cm,23.3,69.5,NA,20-30.6,20,30.6,NA,NA,NA
-5372,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5,25,NA,Ca Na SO4 dominant (simulated river water),NA
-5373,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5,25,NA,Ca Na SO4 dominant (simulated river water),NA
-5374,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5,25,NA,Ca Na SO4 dominant (simulated river water),NA
-5375,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5,25,NA,Ca Na SO4 dominant (simulated river water),NA
-5376,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5,25,NA,Ca Na SO4 dominant (simulated river water),NA
+5372,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5 , 25,NA,Ca Na SO4 dominant (simulated river water),NA
+5373,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5 , 25,NA,Ca Na SO4 dominant (simulated river water),NA
+5374,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5 , 25,NA,Ca Na SO4 dominant (simulated river water),NA
+5375,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5 , 25,NA,Ca Na SO4 dominant (simulated river water),NA
+5376,261,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,220,1190,NA,22.5 - 25,22.5 , 25,NA,Ca Na SO4 dominant (simulated river water),NA
 5377,265,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,250,1274,NA,22,22,NA,NA,Ca Na SO4 dominant (simulated river water),NA
 5378,265,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,250,1274,NA,22,22,NA,NA,Ca Na SO4 dominant (simulated river water),NA
 5379,265,Carl,conductivity: Ca Na SO4 dominant (simulated river water),Conductivity,uS/cm,µS/cm,250,1274,NA,22,22,NA,NA,Ca Na SO4 dominant (simulated river water),NA
@@ -5435,11 +5435,11 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5431,49,Sally,Conductivity,Conductivity,uS/cm,µS/cm,270.7,1358.7,NA,NA,NA,NA,NA,NA,NA
 5432,49,Sally,Conductivity,Conductivity,uS/cm,µS/cm,270.7,1358.7,NA,NA,NA,NA,NA,NA,NA
 5433,72,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,26,3100,NA,NA,NA,NA,NA,NA,NA
-5434,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
-5435,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
+5434,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
+5435,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
 5436,200,Sally,Conductivity,Conductivity,uS/cm,µS/cm,21.3,1172.13,NA,NA,NA,NA,NA,NA,NA
-5437,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
-5438,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20,29,NA,NA,NA
+5437,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
+5438,208,Rich,conductivity,Conductivity,uS/cm,µS/cm,196,308,NA,20 -29,20 ,29,NA,NA,NA
 5439,226,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,22,3256,NA,NA,NA,NA,NA,NA,NA
 5440,238,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,277,3422,NA,NA,NA,NA,NA,NA,NA
 5441,305,Sally,conductivity,Conductivity,uS/cm,µS/cm,645,3134,NA,NA,NA,NA,NA,NA,NA
@@ -5455,8 +5455,8 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5451,318,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,6,125,NA,NA,NA,NA,NA,NA,NA
 5452,318,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,6,125,NA,NA,NA,NA,NA,NA,NA
 5453,318,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,6,125,NA,NA,NA,NA,NA,NA,NA
-5454,345,Rich,conductivity,Conductivity,uS/cm,µS/cm,117.47,169.63,NA,26.2 - 30.1,26.2,30.1,NA,NA,NA
-5455,345,Rich,conductivity,Conductivity,uS/cm,µS/cm,117.47,169.63,NA,26.2 - 30.1,26.2,30.1,NA,NA,NA
+5454,345,Rich,conductivity,Conductivity,uS/cm,µS/cm,117.47,169.63,NA,26.2 - 30.1,26.2 , 30.1,NA,NA,NA
+5455,345,Rich,conductivity,Conductivity,uS/cm,µS/cm,117.47,169.63,NA,26.2 - 30.1,26.2 , 30.1,NA,NA,NA
 5456,369,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,32,63,NA,NA,NA,NA,NA,NA,NA
 5457,371,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,22.4,25.8,NA,NA,NA,NA,NA,NA,NA
 5458,371,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,22.4,25.8,NA,NA,NA,NA,NA,NA,NA
@@ -5466,8 +5466,8 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5462,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 5463,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 5464,411,Rich,conductivity,Conductivity,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-5465,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3,11.1,NA,NA,NA
-5466,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3,11.1,NA,NA,NA
+5465,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3 , 11.1,NA,NA,NA
+5466,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3 , 11.1,NA,NA,NA
 5467,478,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,220,42400,NA,NA,NA,NA,NA,NA,NA
 5468,478,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,220,42400,NA,NA,NA,NA,NA,NA,NA
 5469,478,Lucy,Conductivity,Conductivity,uS/cm,µS/cm,220,42400,NA,NA,NA,NA,NA,NA,NA
@@ -5489,13 +5489,13 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5485,483,Rich,conductivity,Conductivity,uS/cm,µS/cm,410,437,NA,14-17,14,17,NA,NA,NA
 5486,483,Rich,conductivity,Conductivity,uS/cm,µS/cm,410,437,NA,14-17,14,17,NA,NA,NA
 5487,555,Rich,NaCl,NaCl,uS/cm,µS/cm,49.7,165.1,NA,8.8-9.3,8.8,9.3,NA,NA,NA
-5488,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46,20.82,NA,NA,NA
-5489,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10,31.54,NA,NA,NA
+5488,185,Rich,electrical conductivity,Conductivity,uS/cm,µS/cm,96.38,505,NA,20.46 - 20.82,20.46 , 20.82,NA,NA,NA
+5489,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
 5490,500,Rich,conductivity,Conductivity,uS/cm,µS/cm,99,19320,NA,4.5-32.2,4.5,32.2,NA,NA,NA
-5491,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1,31.28,NA,NA,NA
-5492,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1,31.28,NA,NA,NA
-5493,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1,31.28,NA,NA,NA
-5494,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1,31.28,NA,NA,NA
+5491,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1 ,31.28,NA,NA,NA
+5492,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1 ,31.28,NA,NA,NA
+5493,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1 ,31.28,NA,NA,NA
+5494,1,Rich,conductivity,Conductivity,uS/cm,µS/cm,71.9,152,NA,31.1 -31.28,31.1 ,31.28,NA,NA,NA
 5495,29,Joshua,Conductivity,Conductivity,uS/cm,µS/cm,17.7,350,NA,NA,NA,NA,NA,NA,NA
 5496,45,Joshua,Conductivity,Conductivity,us/cm,µS/cm,940,2890,NA,12.8-26.8,12.8,26.8,NA,NA,NA
 5497,45,Joshua,Conductivity,Conductivity,us/cm,µS/cm,940,2890,NA,12.8-26.8,12.8,26.8,NA,NA,NA
@@ -5514,8 +5514,8 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5510,59,Rich,conductivity,Conductivity,uS/cm,µS/cm,not provided,not provided,NA,20-27,20,27,NA,NA,NA
 5511,72,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,26,3100,NA,NA,NA,NA,NA,NA,NA
 5512,72,Abigail,Conductivity,Conductivity,uS/cm,µS/cm,26,3100,NA,NA,NA,NA,NA,NA,NA
-5513,75,Rich,conductivity,Conductivity,uS/cm,µS/cm,10,80,NA,26.2 - 30.2,26.2,30.2,NA,NA,NA
-5514,75,Rich,conductivity,Conductivity,uS/cm,µS/cm,10,80,NA,26.2 - 30.2,26.2,30.2,NA,NA,NA
+5513,75,Rich,conductivity,Conductivity,uS/cm,µS/cm,10,80,NA,26.2 - 30.2,26.2 , 30.2,NA,NA,NA
+5514,75,Rich,conductivity,Conductivity,uS/cm,µS/cm,10,80,NA,26.2 - 30.2,26.2 , 30.2,NA,NA,NA
 5515,190,Sally,conductivity,Conductivity,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 5516,232,Abigail,conductivity,Conductivity,uS/cm,µS/cm,290,7750,NA,25,25,NA,NA,NA,NA
 5517,232,Abigail,conductivity,Conductivity,uS/cm,µS/cm,294,6767,NA,25,25,NA,NA,NA,NA
@@ -5536,7 +5536,7 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5532,277,Paul,conductivity (EC),Conductivity,uS/cm,µS/cm,89,104,NA,NA,NA,NA,NA,NA,NA
 5533,277,Paul,conductivity (EC),Conductivity,uS/cm,µS/cm,89,104,NA,NA,NA,NA,NA,NA,NA
 5534,277,Paul,conductivity (EC),Conductivity,uS/cm,µS/cm,89,104,NA,NA,NA,NA,NA,NA,NA
-5535,294,Rich,conductivity,Conductivity,uS/cm,µS/cm,211,1263,NA,24.5 - 33.7,24.5,33.7,NA,NA,NA
+5535,294,Rich,conductivity,Conductivity,uS/cm,µS/cm,211,1263,NA,24.5 - 33.7,24.5 , 33.7,NA,NA,NA
 5536,353,Jo,Conductivity,Conductivity,uS/cm,µS/cm,290,7750,NA,25,25,NA,NA,NA,NA
 5537,353,Jo,Conductivity,Conductivity,uS/cm,µS/cm,294,6767,NA,25,25,NA,NA,NA,NA
 5538,353,Jo,Conductivity,Conductivity,uS/cm,µS/cm,301,8950,NA,25,25,NA,NA,NA,NA
@@ -5568,34 +5568,34 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5564,390,Rich,sodium chloride,NaCl,uS/cm,µS/cm,211,473,NA,20,20,NA,NA,NA,NA
 5565,390,Rich,sodium chloride,NaCl,uS/cm,µS/cm,276,700,NA,20,20,NA,NA,NA,NA
 5566,390,Rich,sodium chloride,NaCl,uS/cm,µS/cm,211,473,NA,20,20,NA,NA,NA,NA
-5567,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8,19.1,NA,NA,NA
-5568,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8,19.1,NA,NA,NA
-5569,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8,19.1,NA,NA,NA
-5570,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8,19.1,NA,NA,NA
-5571,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8,19.1,NA,NA,NA
+5567,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8 , 19.1,NA,NA,NA
+5568,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8 , 19.1,NA,NA,NA
+5569,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8 , 19.1,NA,NA,NA
+5570,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8 , 19.1,NA,NA,NA
+5571,396,Rich,conductivity,Conductivity,uS/cm,µS/cm,3224.1,5367.5,NA,17.8 - 19.1,17.8 , 19.1,NA,NA,NA
 5572,404,Joshua,Conductivity,Conductivity,uS/cm,µS/cm,28,31540,NA,NA,NA,NA,NA,NA,NA
 5573,404,Joshua,Conductivity,Conductivity,uS/cm,µS/cm,28,31540,NA,NA,NA,NA,NA,NA,NA
 5574,404,Joshua,Conductivity,Conductivity,uS/cm,µS/cm,28,31540,NA,NA,NA,NA,NA,NA,NA
 5575,410,Rich,conductivity,Conductivity,uS/cm,µS/cm,81.3,112.4,NA,27.3,27.3,NA,NA,NA,NA
 5576,410,Rich,conductivity,Conductivity,uS/cm,µS/cm,81.3,112.4,NA,27.3,27.3,NA,NA,NA,NA
 5577,412,Rich,conductivity,Conductivity,uS/cm,µS/cm,610,2075,NA,NA,NA,NA,NA,NA,NA
-5578,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3,11.1,NA,NA,NA
-5579,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3,11.1,NA,NA,NA
-5580,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3,11.1,NA,NA,NA
+5578,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3 , 11.1,NA,NA,NA
+5579,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3 , 11.1,NA,NA,NA
+5580,416,Rich,conductivity,Conductivity,uS/cm,µS/cm,79,203,NA,8.3 - 11.1,8.3 , 11.1,NA,NA,NA
 5581,418,Rich,conductivity,Conductivity,uS/cm,µS/cm,232,22836,NA,NA,NA,NA,NA,NA,NA
 5582,418,Rich,conductivity,Conductivity,uS/cm,µS/cm,232,22836,NA,NA,NA,NA,NA,NA,NA
-5583,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13,30,NA,NA,NA
-5584,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13,30,NA,NA,NA
-5585,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13,30,NA,NA,NA
-5586,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13,30,NA,NA,NA
-5587,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10,31.54,NA,NA,NA
-5588,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9,16.2,NA,NA,NA
-5589,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9,16.2,NA,NA,NA
-5590,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9,16.2,NA,NA,NA
-5591,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9,16.2,NA,NA,NA
-5592,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9,16.2,NA,NA,NA
-5593,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9,16.2,NA,NA,NA
-5594,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9,16.2,NA,NA,NA
+5583,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13 , 30,NA,NA,NA
+5584,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13 , 30,NA,NA,NA
+5585,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13 , 30,NA,NA,NA
+5586,419,Rich,conductivity,Conductivity,uS/cm,µS/cm,48.4,247,NA,13 - 30,13 , 30,NA,NA,NA
+5587,472,Rich,conductivity,Conductivity,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
+5588,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
+5589,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
+5590,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
+5591,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
+5592,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
+5593,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
+5594,480,Rich,conductivity,Conductivity,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
 5595,500,Rich,conductivity,Conductivity,uS/cm,µS/cm,99,19320,NA,4.5-32.2,4.5,32.2,NA,NA,NA
 5596,500,Rich,conductivity,Conductivity,uS/cm,µS/cm,99,19320,NA,4.5-32.2,4.5,32.2,NA,NA,NA
 5597,500,Rich,conductivity,Conductivity,uS/cm,µS/cm,99,19320,NA,4.5-32.2,4.5,32.2,NA,NA,NA
@@ -5689,16 +5689,16 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5685,41,Rich,conductivity,Conductivity,μS/cm,µS/cm,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
 5686,124,Joshua,Conductivity,Conductivity,μS/cm,µS/cm,18.5,27.7,NA,NA,NA,NA,NA,NA,NA
 5687,124,Joshua,Conductivity,Conductivity,μS/cm,µS/cm,18.5,27.7,NA,NA,NA,NA,NA,NA,NA
-5688,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5689,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5690,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5691,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5692,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5693,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5694,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5695,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5696,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
-5697,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,NA,NA,NA
+5688,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5689,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5690,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5691,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5692,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5693,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5694,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5695,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5696,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
+5697,195,Paul,Ca++,Ca2+,μS/cm,µS/cm,161,395,NA,17.6±1.43 degrees C,17.6,NA,1.43 degrees C,NA,NA
 5698,122,Abigail,conductivity,Conductivity,μS/cm,µS/cm,889.4,1692.75,NA,NA,NA,NA,NA,NA,NA
 5699,122,Abigail,conductivity,Conductivity,μS/cm,µS/cm,889.4,1692.75,NA,NA,NA,NA,NA,NA,NA
 5700,122,Abigail,conductivity,Conductivity,μS/cm,µS/cm,889.4,1692.75,NA,NA,NA,NA,NA,NA,NA
@@ -5773,9 +5773,9 @@ Ocean Nature)",Conductivity,uS/cm,µS/cm,0,3000,sudden,20,20,NA,NA,Synthetic sea
 5769,551,Paul,conductivity,Conductivity,µS/cm,µS/cm,20,"1,064",NA,ambient,Ambient,NA,NA,NA,NA
 5770,551,Paul,conductivity,Conductivity,µS/cm,µS/cm,20,"1,064",NA,ambient,Ambient,NA,NA,NA,NA
 5771,551,Paul,conductivity,Conductivity,µS/cm,µS/cm,20,"1,064",NA,ambient,Ambient,NA,NA,NA,NA
-5772,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9,26,NA,NA,NA
-5773,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9,26,NA,NA,NA
-5774,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9,26,NA,NA,NA
-5775,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9,26,NA,NA,NA
-5776,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9,26,NA,NA,NA
-5777,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9,26,NA,NA,NA
+5772,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9 , 26,NA,NA,NA
+5773,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9 , 26,NA,NA,NA
+5774,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9 , 26,NA,NA,NA
+5775,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9 , 26,NA,NA,NA
+5776,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9 , 26,NA,NA,NA
+5777,310,Rich,conductivity,Conductivity,μScm–1,µS/cm,25,29,NA,17.9 - 26,17.9 , 26,NA,NA,NA

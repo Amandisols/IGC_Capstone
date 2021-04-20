@@ -12,8 +12,158 @@ library(tidyverse)
 
 ```{r}
 
-DATA <- read_csv("data/RawSalts_Corrected.csv") 
+DATA <- read_csv("data/RawSalts_Clean.csv") 
 
 unique(sort(DATA$SaltUnits))
+unique(sort(DATA$Measurement))
+
+
+
+DATA$min.cond.corr.uScm=NA
+DATA$max.cond.corr.uScm=NA
+
+DATA$`Minimum concentration_original`=as.numeric(DATA$`Minimum concentration_original`)
+DATA$`Maximum concentration_original`=as.numeric(DATA$`Maximum concentration_original`)
+
+```
+
+
+Step 1: Easy unit conversions of conductivity units to uS/cm (microSiemens per centimeter)
+
+
+
+Notes from "Measurement = Conductivity"(SP 20210411)
+-mhos
+  -Recheck papers to see if there is a denominator in the unit (should be mhos/cm or mhos/m, etc.)
+  -RefID = 217, Reviewer = Sally
+-mmhos
+  -Recheck papers to see if there is a denominator in the unit (should be mmhos/cm or mmhos/m, etc.)
+  -RefID = 406, Reviewer = Rich
+-mg/L
+  -Recheck papers to see if this should be labeled under "conductivity" or as "salt/ion"
+  -Or is the "mg/L" measurement linked to an ion or salt equivalent? (e.g., mg/L as Cl)
+  -RefID = 453, Reviewer = Rich
+  -RefID = 506, Reviewer = Rich
+  -RefID = 26, Reviewer = Abigail
+  -RefID = 266, Reviewer = Carl
+-ug/L
+  -Recheck papers to see if this should be labeled under "conductivity" or as "salt/ion"
+  -Or is the "ug/L" measurement linked to an ion or salt equivalent? (e.g., ug/L as Cl)
+  -RefID = 421, Reviewer = Abigail
+-ppt
+  -Recheck papers to see if this should be labeled under "conductivity" or as "salt/ion" or as "Total Dissolved Solids"
+  -Or is the "ppt" measurement linked to an ion or salt equivalent? (e.g., ppt as Cl)
+  -RefID = 409, Reviewer = Rich
+  -RefID = 107, Reviewer = Paul
+-Not provided
+  -Should we just label these as NA's?
+
+```{r}
+
+#umhos/cm (umhos/cm = uS/cm)
+umhos.cm<-subset(DATA,SaltUnits=="µmho/cm")
+umhos.cm$min.cond.corr.uScm=umhos.cm$`Minimum concentration_original`
+umhos.cm$max.cond.corr.uScm=umhos.cm$`Maximum concentration_original`
+ 
+#dS/m (multiply by 100000 to get from deci to micro, divide by 100 to get from meter to centimeter)
+dS.m<-subset(DATA,SaltUnits=="dS/m")
+dS.m$min.cond.corr.uScm=dS.m$`Minimum concentration_original`*(100000/100)
+dS.m$max.cond.corr.uScm=dS.m$`Maximum concentration_original`*(100000/100)
+
+#mmhos/cm (mmhos/cm = mS/cm, multiply by 1000 to get from milli to micro)
+mmhos.cm<-subset(DATA,SaltUnits=="mmhos/cm")
+mmhos.cm$min.cond.corr.uScm=mmhos.cm$`Minimum concentration_original`*1000
+mmhos.cm$max.cond.corr.uScm=mmhos.cm$`Maximum concentration_original`*1000
+
+#uS/cm (uS/cm = uS/cm)
+uS.cm<-subset(DATA,SaltUnits=="µS/cm")
+uS.cm$min.cond.corr.uScm=uS.cm$`Minimum concentration_original`
+uS.cm$max.cond.corr.uScm=uS.cm$`Maximum concentration_original`
+       
+#mS/cm (multiply by 1000 to get from milli to micro)
+mS.cm<-subset(DATA,SaltUnits=="mS/cm")
+mS.cm$min.cond.corr.uScm=mS.cm$`Minimum concentration_original`*1000
+mS.cm$max.cond.corr.uScm=mS.cm$`Maximum concentration_original`*1000
+
+#mS/m (multiply by 1000 to get from milli to micro, divide by 100 to get from meter to centimeter)
+mS.m<-subset(DATA,SaltUnits=="mS/m")
+mS.m$min.cond.corr.uScm=mS.m$`Minimum concentration_original`*10
+mS.m$max.cond.corr.uScm=mS.m$`Maximum concentration_original`*10
+    
+#uS/m (divide by 100 to get from meter to centimeter)
+uS.m<-subset(DATA,SaltUnits=="µS/m")
+uS.m$min.cond.corr.uScm=uS.m$`Minimum concentration_original`/100
+uS.m$max.cond.corr.uScm=uS.m$`Maximum concentration_original`/100
+
+newDATA<-rbind(umhos.cm,dS.m,mmhos.cm,uS.cm,mS.cm,mS.m,uS.m)
+
+
+```
+
+Notes (SP 20210411)
+
+-Here is some spaghetti code 
+
+```{r}
+
+    #mhos
+    #***RECHECK UNITS IN PAPER***
+    mhos<-subset(DATA,SaltUnits=="mhos")
+    mhos$min.cond.corr.uScm=NA
+    mhos$max.cond.corr.uScm=NA
+
+    #mhmos
+    #***RECHECK UNITS IN PAPER***
+    mmhos<-subset(DATA,SaltUnits=="mhmos")
+    mmhos$min.cond.corr.uScm=NA
+    mmhos$max.cond.corr.uScm=NA
+    
+Conductivity<-subset(DATA, Measurement == "Conductivity")
+
+    #mg/L
+    #***RECHECK UNITS/TYPE OF MEASUREMENT IN PAPER***
+    mg.L<-subset(Conductivity,SaltUnits=="mg/L")
+    mg.L$min.cond.corr.uScm=NA
+    mg.L$max.cond.corr.uScm=NA
+    
+    #ug/L
+    #***RECHECK UNITS/TYPE OF MEASUREMENT IN PAPER***
+    ug.L<-subset(Conductivity,SaltUnits=="µg/L")
+    ug.L$min.cond.corr.uScm=NA
+    ug.L$max.cond.corr.uScm=NA
+    
+    #ppt
+    #***RECHECK UNITS/TYPE OF MEASUREMENT IN PAPER***
+    ppt<-subset(Conductivity,SaltUnits=="ppt")
+    ppt$min.cond.corr.uScm=NA
+    ppt$max.cond.corr.uScm=NA
+    
+    #Not provided
+    #***RECHECK UNITS IN PAPER***
+    notprovided<-subset(Conductivity,SaltUnits=="Not provided")
+    notprovided$min.cond.corr.uScm=NA
+    notprovided$max.cond.corr.uScm=NA
+
+ALLCOND<-rbind(newDATA,mhos,mmhos,mg.L,ug.L,ppt,notprovided)
+write.csv(ALLCOND, "allconductivitystudies.csv")
+
+unique(ALLCOND$RefID)
+```
+
+
+Notes (SP 20210411)
+
+-Lead on converting TDS to conductivity -> Correlation between conductivity and total dissolved solid in various type of water: A review
+To cite this article: Anna F Rusydi 2018 IOP Conf. Ser.: Earth Environ. Sci. 118 012019
+    -Pretty simple conversion factor, but changes for freshwater vs. salt water (so maybe we have a two compartment conversion?)
+
+```{r}
+
+#What and how many different units are we dealing with
+Salinity<-subset(DATA, Measurement == "Salinity")
+unique(sort(Salinity$SaltUnits))
+
+TDS<-subset(DATA, Measurement == "Total Dissolved Solids" | Measurement == "total suspended solids" | Measurement == "total ions")
+unique(sort(TDS$SaltUnits))
 
 ```
