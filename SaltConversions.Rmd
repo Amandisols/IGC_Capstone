@@ -167,3 +167,13 @@ TDS<-subset(DATA, Measurement == "Total Dissolved Solids" | Measurement == "tota
 unique(sort(TDS$SaltUnits))
 
 ```
+
+
+```{r}
+Cl <-subset(DATA, Measurement == "Cl-")
+unique(sort(NaCl$SaltUnits))
+
+
+```
+
+
