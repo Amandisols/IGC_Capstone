@@ -170,8 +170,13 @@ unique(sort(TDS$SaltUnits))
 
 
 ```{r}
-Cl <-subset(DATA, Measurement == "Cl-")
-unique(sort(NaCl$SaltUnits))
+
+CHLORIDE<-subset(DATA, Measurement == "Cl-")
+unique(sort(CHLORIDE$SaltUnits))
+
+ugL <- DATA %>%
+  filter(SaltUnits == "µg/L" & Measurement %in% c("Cl-", "NH4+")) %>% 
+  mutate()
 
 
 ```
