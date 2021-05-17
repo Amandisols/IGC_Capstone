@@ -135,6 +135,9 @@ DATA$Measurement <- ifelse(DATA$Measurement %in% c('Specific conductance'), "Spe
 DATA$Measurement <- ifelse(DATA$Measurement %in% c('artificial seawater', 'synthetic sea water', 'Artificial seawater'), "Artifical Seawater", DATA$Measurement)
 DATA$Measurement <- ifelse(DATA$Measurement %in% c('seawater', 'Seawater', 'natural sea water', 'natural seawater'), "Natural Seawater", DATA$Measurement)
 
+DATA$Measurement <- ifelse(DATA$Measurement %in% c('Bicarbonate'), "HCO3-", DATA$Measurement)
+
+unique(DATA$Measurement)
 
 ```
 
