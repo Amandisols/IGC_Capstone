@@ -14,8 +14,8 @@ library(tidyverse)
 
 DATA <- read_csv("data/RawSalts_Clean.csv") 
 
-unique(sort(DATA$SaltUnits))
-unique(sort(DATA$Measurement))
+#unique(sort(DATA$SaltUnits))
+#unique(sort(DATA$Measurement))
 
 
 
@@ -171,211 +171,217 @@ unique(sort(TDS$SaltUnits))
 Conversions to ppm, ion-specific.
 ```{r}
 
-#unique(DATA$SaltUnits)
+#unique(DATA$Measurement)
 
-DATA$`Minimum concentration_ppm` <- NA
-DATA$`Maximum concentration_ppm` <- NA
+IONS <- DATA %>% 
+  filter(!Measurement %in% c("Salinity", "Natural Seawater", "Hardness", "Total Dissolved Solids", "NaCl dominant (ion matrix similar to seawater)","Varies (Table 4)", "Conductivity", "total suspended solids", "Specific Conductance"))                                      
+                                             
+
+
+IONS$`Minimum concentration_ppm` <- NA
+IONS$`Maximum concentration_ppm` <- NA
 
 ##### ppt (parts per thousand)
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "ppt", 
-                                         DATA$`Minimum concentration_original` * 1000,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppt", 
+                                         IONS$`Minimum concentration_original` * 1000,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "ppt", 
-                                         DATA$`Maximum concentration_original` * 1000,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppt", 
+                                         IONS$`Maximum concentration_original` * 1000,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 ##### g/L
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "g/L", 
-                                         DATA$`Minimum concentration_original` * 1000,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "g/L", 
+                                         IONS$`Minimum concentration_original` * 1000,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "g/L", 
-                                         DATA$`Maximum concentration_original` * 1000,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "g/L", 
+                                         IONS$`Maximum concentration_original` * 1000,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 ##### mg/L
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "mg/L", 
-                                         DATA$`Minimum concentration_original`, 
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mg/L", 
+                                         IONS$`Minimum concentration_original`, 
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "mg/L", 
-                                         DATA$`Maximum concentration_original`, 
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mg/L", 
+                                         IONS$`Maximum concentration_original`, 
+                                         IONS$`Maximum concentration_ppm`)
 
 
 ##### ppm
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "ppm", 
-                                         DATA$`Minimum concentration_original`, 
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppm", 
+                                         IONS$`Minimum concentration_original`, 
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "ppm", 
-                                         DATA$`Maximum concentration_original`, 
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppm", 
+                                         IONS$`Maximum concentration_original`, 
+                                         IONS$`Maximum concentration_ppm`)
 
 
 ##### ug/L
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "µg/L", 
-                                         DATA$`Minimum concentration_original` / 1000,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µg/L", 
+                                         IONS$`Minimum concentration_original` / 1000,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "µg/L", 
-                                         DATA$`Maximum concentration_original` / 1000,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "µg/L", 
+                                         IONS$`Maximum concentration_original` / 1000,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 
 ##### %
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "%", 
-                                         DATA$`Minimum concentration_original` * 10000,
-                                         DATA$`Minimum concentration_ppm`)
+# IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "%", 
+#                                          IONS$`Minimum concentration_original` * 10000,
+#                                          IONS$`Minimum concentration_ppm`)
+# 
+# IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "%", 
+#                                          IONS$`Maximum concentration_original` * 10000,
+#                                          IONS$`Maximum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "%", 
-                                         DATA$`Maximum concentration_original` * 10000,
-                                         DATA$`Maximum concentration_ppm`)
 
 
-
-##### µmol/L & µM/L
+##### µmol/L
 
 #NH4+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "NH4+", 
-                                         DATA$`Minimum concentration_original` / 1000000 * 1000 * 18.04,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "NH4+", 
+                                         IONS$`Minimum concentration_original` / 1000000 * 1000 * 18.04,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "NH4+", 
-                                         DATA$`Maximum concentration_original` / 1000000 * 1000 * 18.04,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "NH4+", 
+                                         IONS$`Maximum concentration_original` / 1000000 * 1000 * 18.04,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 #Ca2+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits %in% c("µmol/L", "µM/L") & DATA$Measurement== "Ca2+", 
-                                         DATA$`Minimum concentration_original` / 1000000 * 1000 * 40.08,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits %in% c("µmol/L") & IONS$Measurement== "Ca2+", 
+                                         IONS$`Minimum concentration_original` / 1000000 * 1000 * 40.08,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits %in% c("µmol/L", "µM/L") & DATA$Measurement== "Ca2+", 
-                                         DATA$`Maximum concentration_original` / 1000000 * 1000 * 40.08,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits %in% c("µmol/L") & IONS$Measurement== "Ca2+", 
+                                         IONS$`Maximum concentration_original` / 1000000 * 1000 * 40.08,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 #HCO3-
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "µmol/L" & DATA$Measurement== "HCO3-", 
-                                         DATA$`Minimum concentration_original` / 1000000 * 1000 * 61.02,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "HCO3-", 
+                                         IONS$`Minimum concentration_original` / 1000000 * 1000 * 61.02,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "µmol/L" & DATA$Measurement== "HCO3-", 
-                                         DATA$`Maximum concentration_original` / 1000000 * 1000 * 61.02,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "HCO3-", 
+                                         IONS$`Maximum concentration_original` / 1000000 * 1000 * 61.02,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 #K+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "K+", 
-                                         DATA$`Minimum concentration_original` / 1000000 * 1000 * 39.09,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "K+", 
+                                         IONS$`Minimum concentration_original` / 1000000 * 1000 * 39.09,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "K+", 
-                                         DATA$`Maximum concentration_original` / 1000000 * 1000 * 39.09,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "K+", 
+                                         IONS$`Maximum concentration_original` / 1000000 * 1000 * 39.09,
+                                         IONS$`Maximum concentration_ppm`)
 
 #Mg3+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "Mg3+", 
-                                         DATA$`Minimum concentration_original` / 1000000 * 1000 * 24.31,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "Mg3+", 
+                                         IONS$`Minimum concentration_original` / 1000000 * 1000 * 24.31,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "Mg3+", 
-                                         DATA$`Maximum concentration_original` / 1000000 * 1000 * 24.31,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "Mg3+", 
+                                         IONS$`Maximum concentration_original` / 1000000 * 1000 * 24.31,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 #Na+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "Na+", 
-                                         DATA$`Minimum concentration_original` / 1000000 * 1000 * 22.99,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "Na+", 
+                                         IONS$`Minimum concentration_original` / 1000000 * 1000 * 22.99,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "µM/L" & DATA$Measurement== "Na+", 
-                                         DATA$`Maximum concentration_original` / 1000000 * 1000 * 22.99,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "Na+", 
+                                         IONS$`Maximum concentration_original` / 1000000 * 1000 * 22.99,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 
 
 #mmol/L
 #NaCl
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "NaCl", 
-                                         DATA$`Minimum concentration_original` / 1000 * 1000 * 58.44,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "NaCl", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 58.44,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "NaCl", 
-                                         DATA$`Maximum concentration_original` / 1000 * 1000 * 58.44,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "NaCl", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 58.44,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 
 #Ca2+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Ca2+", 
-                                         DATA$`Minimum concentration_original` / 1000 * 1000 * 40.08,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Ca2+", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 40.08,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Ca2+", 
-                                         DATA$`Maximum concentration_original` / 1000 * 1000 * 40.08,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Ca2+", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 40.08,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 
 #K+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "K+", 
-                                         DATA$`Minimum concentration_original` / 1000 * 1000 * 39.09,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "K+", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 39.09,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "K+", 
-                                         DATA$`Maximum concentration_original` / 1000 * 1000 * 39.09,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "K+", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 39.09,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 
 #Mg3+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Mg3+", 
-                                         DATA$`Minimum concentration_original` / 1000 * 1000 * 24.31,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Mg3+", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 24.31,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Mg3+", 
-                                         DATA$`Maximum concentration_original` / 1000 * 1000 * 24.31,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Mg3+", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 24.31,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 #Na+
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Na+", 
-                                         DATA$`Minimum concentration_original` / 1000 * 1000 * 22.99,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Na+", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 22.99,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Na+", 
-                                         DATA$`Maximum concentration_original` / 1000 * 1000 * 22.99,
-                                         DATA$`Maximum concentration_ppm`)
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Na+", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 22.99,
+                                         IONS$`Maximum concentration_ppm`)
 
 
 
 #Cl-
-DATA$`Minimum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Cl-", 
-                                         DATA$`Minimum concentration_original` / 1000 * 1000 * 35.45,
-                                         DATA$`Minimum concentration_ppm`)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Cl-", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 35.45,
+                                         IONS$`Minimum concentration_ppm`)
 
-DATA$`Maximum concentration_ppm`<-ifelse(DATA$SaltUnits== "mmol/L" & DATA$Measurement== "Cl-", 
-                                         DATA$`Maximum concentration_original` / 1000 * 1000 * 35.45,
-                                         DATA$`Maximum concentration_ppm`)
-
-
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "Cl-", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 35.45,
+                                         IONS$`Maximum concentration_ppm`)
 
 
-#unique(DATA$SaltUnits)
-#sub<-subset(DATA, Measurement == "NaCl" & SaltUnits== "mmol/L")
-sub1<-subset(DATA, SaltUnits== "µmol/L")
-sub2<-subset(DATA, SaltUnits== "µM/L")
+
+
+unique(IONS$SaltUnits)
+#sub<-subset(IONS, Measurement == "NaCl" & SaltUnits== "mmol/L")
+uEq<-subset(IONS, SaltUnits== "µmol/L")
+
 
 
 #Check for stragglers (no new data). Likely a name that needs to be fixed in 'DataCleaning' and then added above to conversDATA. 
-
+ 
 ```
+ 
 
 
