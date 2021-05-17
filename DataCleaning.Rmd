@@ -376,9 +376,9 @@ DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mOsm*kg/l"), "mOsm/kg", DATA$Sal
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("millimole"), "mmol", DATA$SaltUnits)
 
-DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("uM Ca2+", "uM", "mM"), "µM", DATA$SaltUnits)
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("uM Ca2+", "uM"), "µM", DATA$SaltUnits)
 
-DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mM/l", "mM/L"), "µM/L", DATA$SaltUnits)
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mM/l", "mM/L"), "mmol/L", DATA$SaltUnits)
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("um/cm"), "µm/cm", DATA$SaltUnits)
 
