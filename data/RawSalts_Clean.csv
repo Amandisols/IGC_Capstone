@@ -461,23 +461,23 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 460,545,Joshua,NaHCO3,NaHCO3,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
 461,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
 462,545,Joshua,Synthetic marine salts,Synthetic marine salts,g/L,g/L,0,60,NA,20 ± 1,20 ,NA, 1,NA,NA
-463,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,<1.62,>1.62,NA,ambient,Ambient,NA,NA,NA,NA
-464,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,<0.5,4,Instantaneous,room temperature,room temperature,NA,NA,NA,NA
-465,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,<0.5,4,Instantaneous,room temperature,room temperature,NA,NA,NA,NA
-466,529,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L,≤ 0.33,3,ambient,ambient,Ambient,NA,NA,NA,NA
+463,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L salinity,<1.62,>1.62,NA,ambient,Ambient,NA,NA,NA,NA
+464,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L salinity,<0.5,4,Instantaneous,room temperature,room temperature,NA,NA,NA,NA
+465,569,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L salinity,<0.5,4,Instantaneous,room temperature,room temperature,NA,NA,NA,NA
+466,529,Carl,NaCl dominant (ion matrix similar to seawater),NaCl dominant (ion matrix similar to seawater),g/L salinity,g/L salinity,≤ 0.33,3,ambient,ambient,Ambient,NA,NA,NA,NA
 467,101,Joshua,sodium chloride,NaCl,gm/litre,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-468,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
-469,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
-470,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
-471,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
-472,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
-473,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
-474,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
-475,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
-476,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
-477,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
-478,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
-479,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,m mol l-1,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
+468,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+469,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+470,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
+471,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
+472,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+473,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+474,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
+475,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+476,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+477,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,30-35 C,30,35 ,NA,NA,NA
+478,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-20 C,18,20 ,NA,NA,NA
+479,11,Paul,calcium chloride (CaCl2.2H2O),CaCl2,m mol l-1,mmol/L,62.5,65,2.5 m mol l-1 to 65 m mol l-1 in 3 days,18-22 C,18,22 ,NA,NA,NA
 480,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Ca /L,mg/L,0.5,5,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 481,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
 482,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
@@ -2042,72 +2042,72 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2041,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
 2042,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
 2043,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
-2044,70,Abigail,Magnesium,Mg3+,mM,µM,0,20,NA,20-25,20,25,NA,NA,NA
-2045,70,Abigail,potassium,K+,mM,µM,0,50,NA,20-25,20,25,NA,NA,NA
-2046,165,Sally,chloride,Cl-,mM,µM,0.5,10,NA,12,12,NA,NA,NA,NA
-2047,165,Sally,chloride,Cl-,mM,µM,0.5,10,NA,12,12,NA,NA,NA,NA
-2048,165,Sally,chloride,Cl-,mM,µM,0.5,10,NA,12,12,NA,NA,NA,NA
-2049,223,Sally,sodium,Na+,mM,µM,2,10,NA,12,12,NA,NA,NA,NA
-2050,223,Sally,sodium,Na+,mM,µM,2,10,NA,12,12,NA,NA,NA,NA
-2051,223,Sally,sodium,Na+,mM,µM,2,10,NA,12,12,NA,NA,NA,NA
-2052,223,Sally,sodium,Na+,mM,µM,2,10,NA,12,12,NA,NA,NA,NA
-2053,422,Abigail,chloride,Cl-,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2054,422,Abigail,chloride,Cl-,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2055,422,Abigail,chloride,Cl-,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2056,422,Abigail,chloride,Cl-,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2057,422,Abigail,Sodium,Na+,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2058,422,Abigail,Sodium,Na+,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2059,422,Abigail,Sodium,Na+,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2060,422,Abigail,Sodium,Na+,mM,µM,0.05,0.25,NA,5,5,NA,NA,NA,NA
-2061,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2062,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2063,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2064,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2065,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2066,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2067,35,Joshua,"K, Na","K, Na",mM,µM,1,5,NA,13,13,NA,NA,NA,NA
-2068,93,Joshua,CaCl2,CaCl2,mM,µM,0,13.4,NA,25.8 ± 1.8,25.8 ,NA, 1.8,NA,NA
-2069,93,Joshua,CaCl2,CaCl2,mM,µM,0,13.4,NA,25.8 ± 1.8,25.8 ,NA, 1.8,NA,NA
-2070,426,Rich,salinity,Salinity,mM,µM,100,3400,sudden,20,20,NA,NA,NA,NA
-2071,102,Carl,KCl,KCl,mM,µM,10,50,NA,NA,NA,NA,NA,NA,NA
-2072,102,Carl,NaCl,NaCl,mM,µM,10,50,NA,NA,NA,NA,NA,NA,NA
-2073,102,Carl,KCl,KCl,mM,µM,0,50,NA,NA,NA,NA,NA,NA,NA
-2074,102,Carl,NaCl,NaCl,mM,µM,0,50,NA,NA,NA,NA,NA,NA,NA
-2075,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2076,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2077,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2078,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2079,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2080,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2081,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2082,111,Carl,NaCl,NaCl,mM,µM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-2083,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2084,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2085,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2086,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2087,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2088,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2089,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2090,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2091,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2092,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2093,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2094,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2095,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2096,113,Carl,NaCl,NaCl,mM,µM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-2097,243,Carl,sodium,Na+,mM,µM,0.13,5,NA,22-25,22,25,NA,NA,NA
-2098,243,Carl,sodium,Na+,mM,µM,0.13,5,NA,22-25,22,25,NA,NA,NA
-2099,243,Carl,sodium,Na+,mM,µM,0.13,12,NA,22-25,22,25,NA,NA,NA
-2100,243,Carl,sodium,Na+,mM,µM,0.13,12,NA,22-25,22,25,NA,NA,NA
-2101,243,Carl,sodium,Na+,mM,µM,0.13,12,NA,22-25,22,25,NA,NA,NA
-2102,243,Carl,sodium,Na+,mM,µM,0.13,12,NA,22-25,22,25,NA,NA,NA
-2103,243,Carl,chloride,Cl-,mM,µM,0.13,11,NA,22-25,22,25,NA,NA,NA
-2104,243,Carl,chloride,Cl-,mM,µM,0.13,11,NA,22-25,22,25,NA,NA,NA
-2105,243,Carl,chloride,Cl-,mM,µM,0.13,11,NA,22-25,22,25,NA,NA,NA
-2106,495,Abigail,Ammonium,NH4+,mM/l,µM/L,0.2,1,NA,NA,NA,NA,NA,NA,NA
-2107,495,Abigail,Potassium,K+,mM/l,µM/L,1,4,NA,NA,NA,NA,NA,NA,NA
-2108,495,Abigail,Calcium,Ca2+,mM/l,µM/L,1,5,NA,NA,NA,NA,NA,NA,NA
-2109,495,Abigail,Magnesium,Mg3+,mM/l,µM/L,1,3,NA,NA,NA,NA,NA,NA,NA
+2044,70,Abigail,Magnesium,Mg3+,mM,mM,0,20,NA,20-25,20,25,NA,NA,NA
+2045,70,Abigail,potassium,K+,mM,mM,0,50,NA,20-25,20,25,NA,NA,NA
+2046,165,Sally,chloride,Cl-,mM,mM,0.5,10,NA,12,12,NA,NA,NA,NA
+2047,165,Sally,chloride,Cl-,mM,mM,0.5,10,NA,12,12,NA,NA,NA,NA
+2048,165,Sally,chloride,Cl-,mM,mM,0.5,10,NA,12,12,NA,NA,NA,NA
+2049,223,Sally,sodium,Na+,mM,mM,2,10,NA,12,12,NA,NA,NA,NA
+2050,223,Sally,sodium,Na+,mM,mM,2,10,NA,12,12,NA,NA,NA,NA
+2051,223,Sally,sodium,Na+,mM,mM,2,10,NA,12,12,NA,NA,NA,NA
+2052,223,Sally,sodium,Na+,mM,mM,2,10,NA,12,12,NA,NA,NA,NA
+2053,422,Abigail,chloride,Cl-,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2054,422,Abigail,chloride,Cl-,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2055,422,Abigail,chloride,Cl-,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2056,422,Abigail,chloride,Cl-,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2057,422,Abigail,Sodium,Na+,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2058,422,Abigail,Sodium,Na+,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2059,422,Abigail,Sodium,Na+,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2060,422,Abigail,Sodium,Na+,mM,mM,0.05,0.25,NA,5,5,NA,NA,NA,NA
+2061,35,Joshua,"K, Na","K, Na",mM,mM,1,5,NA,13,13,NA,NA,NA,NA
+2062,35,Joshua,"K, Na","K, Na",mM,mM,1,5,NA,13,13,NA,NA,NA,NA
+2063,35,Joshua,"K, Na","K, Na",mM,mM,1,5,NA,13,13,NA,NA,NA,NA
+2064,35,Joshua,"K, Na","K, Na",mM,mM,1,5,NA,13,13,NA,NA,NA,NA
+2065,35,Joshua,"K, Na","K, Na",mM,mM,1,5,NA,13,13,NA,NA,NA,NA
+2066,35,Joshua,"K, Na","K, Na",mM,mM,1,5,NA,13,13,NA,NA,NA,NA
+2067,35,Joshua,"K, Na","K, Na",mM,mM,1,5,NA,13,13,NA,NA,NA,NA
+2068,93,Joshua,CaCl2,CaCl2,mM,mM,0,13.4,NA,25.8 ± 1.8,25.8 ,NA, 1.8,NA,NA
+2069,93,Joshua,CaCl2,CaCl2,mM,mM,0,13.4,NA,25.8 ± 1.8,25.8 ,NA, 1.8,NA,NA
+2070,426,Rich,salinity,Salinity,mM,mM,100,3400,sudden,20,20,NA,NA,NA,NA
+2071,102,Carl,KCl,KCl,mM,mM,10,50,NA,NA,NA,NA,NA,NA,NA
+2072,102,Carl,NaCl,NaCl,mM,mM,10,50,NA,NA,NA,NA,NA,NA,NA
+2073,102,Carl,KCl,KCl,mM,mM,0,50,NA,NA,NA,NA,NA,NA,NA
+2074,102,Carl,NaCl,NaCl,mM,mM,0,50,NA,NA,NA,NA,NA,NA,NA
+2075,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2076,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2077,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2078,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2079,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2080,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2081,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2082,111,Carl,NaCl,NaCl,mM,mM,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
+2083,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2084,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2085,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2086,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2087,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2088,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2089,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2090,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2091,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2092,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2093,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2094,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2095,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2096,113,Carl,NaCl,NaCl,mM,mM,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+2097,243,Carl,sodium,Na+,mM,mM,0.13,5,NA,22-25,22,25,NA,NA,NA
+2098,243,Carl,sodium,Na+,mM,mM,0.13,5,NA,22-25,22,25,NA,NA,NA
+2099,243,Carl,sodium,Na+,mM,mM,0.13,12,NA,22-25,22,25,NA,NA,NA
+2100,243,Carl,sodium,Na+,mM,mM,0.13,12,NA,22-25,22,25,NA,NA,NA
+2101,243,Carl,sodium,Na+,mM,mM,0.13,12,NA,22-25,22,25,NA,NA,NA
+2102,243,Carl,sodium,Na+,mM,mM,0.13,12,NA,22-25,22,25,NA,NA,NA
+2103,243,Carl,chloride,Cl-,mM,mM,0.13,11,NA,22-25,22,25,NA,NA,NA
+2104,243,Carl,chloride,Cl-,mM,mM,0.13,11,NA,22-25,22,25,NA,NA,NA
+2105,243,Carl,chloride,Cl-,mM,mM,0.13,11,NA,22-25,22,25,NA,NA,NA
+2106,495,Abigail,Ammonium,NH4+,mM/l,mmol/L,0.2,1,NA,NA,NA,NA,NA,NA,NA
+2107,495,Abigail,Potassium,K+,mM/l,mmol/L,1,4,NA,NA,NA,NA,NA,NA,NA
+2108,495,Abigail,Calcium,Ca2+,mM/l,mmol/L,1,5,NA,NA,NA,NA,NA,NA,NA
+2109,495,Abigail,Magnesium,Mg3+,mM/l,mmol/L,1,3,NA,NA,NA,NA,NA,NA,NA
 2110,24,Rich,mixture,mixture,mM/L,mmol/L,0,0.187,NA,25.1,25.1,NA,NA,NA,NA
 2111,24,Rich,mixture,mixture,mM/L,mmol/L,0,0.187,NA,25.1,25.1,NA,NA,NA,NA
 2112,24,Rich,mixture,mixture,mM/L,mmol/L,0,0.187,NA,25.1,25.1,NA,NA,NA,NA
@@ -2129,7 +2129,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 2128,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
 2129,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
 2130,368,Lucy,NaCl,NaCl,mM/L,mmol/L,0,475,5 days,14- 17,14, 17,NA,NA,NA
-2131,368,Lucy,Sodium,Na+,mM/l,µM/L,0,420,not given,14-17,14,17,NA,NA,NA
+2131,368,Lucy,Sodium,Na+,mM/l,mmol/L,0,420,not given,14-17,14,17,NA,NA,NA
 2132,385,Sally,NaCl,NaCl,mM/L,mmol/L,120,170,NA,NA,NA,NA,NA,NA,NA
 2133,385,Sally,NaCl,NaCl,mM/L,mmol/L,120,330,NA,NA,NA,NA,NA,NA,NA
 2134,249,Rich,calcium,Ca2+,mM/L,mmol/L,0.054,2.71,NA,NA,NA,NA,NA,NA,NA

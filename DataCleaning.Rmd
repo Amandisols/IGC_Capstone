@@ -350,13 +350,13 @@ DATA$SaltUnits = DATA$`Units for salt concentration_original`
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("Percent NaCl", "percent", "percent SW", "%sw", "% seawater"), "%", DATA$SaltUnits)
 
-DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("g L-1", "g/l", "g NaCl/L", "g L-", "gm/litre", "g/L salinity"), "g/L", DATA$SaltUnits)
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("g L-1", "g/l", "g NaCl/L", "g L-", "gm/litre"), "g/L", DATA$SaltUnits)
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mg Ca /L", "mg Ca/L", "mg CaCO3/L", "mg Cl / L", "mg Cl- / L", "mg Cl/L", "mg K / L", "mg l", "mg Mg/L", "mg SO4/L", "mg/ L", "mg/l", "mg/L CaCO3"), "mg/L", DATA$SaltUnits)
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("us/cm", "uS/cm", "uScm-1", "μS/cm", "µS/cm", "μScm–1" ), "µS/cm", DATA$SaltUnits)
 
-DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mmol Ca/L", "mmol Mg/L", "mmol l-1", "mmol K/L", "mmol Na/L", "mMol/L", "mmole/L", "mM/L"), "mmol/L", DATA$SaltUnits)
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mmol Ca/L", "mmol Mg/L", "mmol l-1", "mmol K/L", "mmol Na/L", "mMol/L", "mmole/L", "mM/L", "m mol l-1"), "mmol/L", DATA$SaltUnits)
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mS cm ^-1", "mS cm−1", "mS / cm", "ms/cm"), "mS/cm", DATA$SaltUnits)
 
