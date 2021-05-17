@@ -219,7 +219,7 @@ IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppm",
                                          IONS$`Maximum concentration_ppm`)
 
 
-##### g/L
+##### ug/L
 IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µg/L", 
                                          IONS$`Minimum concentration_original` / 1000,
                                          IONS$`Minimum concentration_ppm`)
@@ -240,7 +240,8 @@ IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "%",
                                          IONS$`Maximum concentration_ppm`)
 
 
-
+mmol <- DATA %>%
+  filter(SaltUnits %in% c("mmol/L")) 
 
 
 
