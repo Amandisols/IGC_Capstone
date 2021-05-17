@@ -902,7 +902,7 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 901,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 902,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 903,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-904,333,Carl,Bicarbonate,Bicarbonate,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
+904,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 905,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
 906,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
 907,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
@@ -1548,12 +1548,12 @@ DataID,RefID,Reviewer,Focal: Salt/Ion type (if known) OR Conductivity,Measuremen
 1547,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 1548,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 1549,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-1550,333,Carl,Bicarbonate,Bicarbonate,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
+1550,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 1551,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 1552,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 1553,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 1554,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-1555,333,Carl,Bicarbonate,Bicarbonate,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
+1555,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
 1556,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
 1557,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
 1558,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA

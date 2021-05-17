@@ -168,16 +168,84 @@ unique(sort(TDS$SaltUnits))
 
 ```
 
-
+Conversions to ppm, ion-specific.
 ```{r}
+unique(DATA$Measurement)
 
-CHLORIDE<-subset(DATA, Measurement == "Cl-")
-unique(sort(CHLORIDE$SaltUnits))
+IONS <- DATA %>%
+  filter(Measurement %in% c("NaCl", "KCl", "Na2SO4", "MgCl2", "CaCl2", "NaHCO3", "MgSO4", "NaSO4", "CaSO4", "Ca2+","CaCO3", "Cl-", "SO4 2-", "K+", "NO3-", "Mg3+", "Bicarbonate", "K2SO4", "KHCO3", "NH4+", "Na+" ,"NH4Cl", "NaF", "(NH4)2SO4", "NaNO3", "HCO3-", "iron oxide", "NH3+")) 
 
-ugL <- DATA %>%
-  filter(SaltUnits == "µg/L" & Measurement %in% c("Cl-", "NH4+")) %>% 
-  mutate()
+unique(IONS$SaltUnits)
+IONS$`Minimum concentration_ppm` <- NA
+IONS$`Maximum concentration_ppm` <- NA
 
+##### ppt (is this parts per trillion? or parts per thousand? this could change)
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppt", 
+                                         IONS$`Minimum concentration_original` * 1000,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppt", 
+                                         IONS$`Maximum concentration_original` * 1000,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+##### #g/L
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "g/L", 
+                                         IONS$`Minimum concentration_original` * 1000,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "g/L", 
+                                         IONS$`Maximum concentration_original` * 1000,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+##### mg/L
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mg/L", 
+                                         IONS$`Minimum concentration_original`, 
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mg/L", 
+                                         IONS$`Maximum concentration_original`, 
+                                         IONS$`Maximum concentration_ppm`)
+
+
+##### ppm
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppm", 
+                                         IONS$`Minimum concentration_original`, 
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppm", 
+                                         IONS$`Maximum concentration_original`, 
+                                         IONS$`Maximum concentration_ppm`)
+
+
+##### g/L
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "µg/L", 
+                                         IONS$`Minimum concentration_original` / 1000,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "µg/L", 
+                                         IONS$`Maximum concentration_original` / 1000,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+
+##### %
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "%", 
+                                         IONS$`Minimum concentration_original` * 10000,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "%", 
+                                         IONS$`Maximum concentration_original` * 10000,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+
+
+
+
+
+#Check for stragglers (no new data). Likely a name that needs to be fixed in 'DataCleaning' and then added above to conversions. 
 
 ```
 
