@@ -446,7 +446,8 @@ unique(IONS$SaltUnits)
 #Check for stragglers (no new data). Likely a name that needs to be fixed in 'DataCleaning' and then added above to conversDATA. 
  
 
-ref <- subset(IONS, SaltUnits == "mmol/L")
+ref <- IONS[(is.na(IONS$`Maximum concentration_ppm`)), ]
+ref <- subset(IONS, `Maximum concentration_ppm` == NA)
 
 ```
  
