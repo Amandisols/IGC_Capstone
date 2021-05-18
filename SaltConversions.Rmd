@@ -10,7 +10,7 @@ library(tidyverse)
 
 ```
 
-```{r}
+```{r message= FALSE}
 
 DATA <- read_csv("data/RawSalts_Clean.csv") 
 
@@ -188,6 +188,16 @@ IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppt",
 
 IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppt", 
                                          IONS$`Maximum concentration_original` * 1000,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+##### ppb
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppb", 
+                                         IONS$`Minimum concentration_original` / 1000,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "ppb", 
+                                         IONS$`Maximum concentration_original` / 1000,
                                          IONS$`Maximum concentration_ppm`)
 
 
@@ -371,16 +381,73 @@ IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measur
                                          IONS$`Maximum concentration_ppm`)
 
 
+#CaCl2
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "CaCl2", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 110.98,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "CaCl2", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 110.98,
+                                         IONS$`Maximum concentration_ppm`)
+
+#KCl
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "KCl", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 74.55,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "KCl", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 74.55,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+#NH4+
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "NH4+", 
+                                         IONS$`Minimum concentration_original` / 1000 * 1000 * 18.04,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "mmol/L" & IONS$Measurement== "NH4+", 
+                                         IONS$`Maximum concentration_original` / 1000 * 1000 * 18.04,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+#uEq/L  
+#NaHCO3, sodium bicarbonate
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "uEq/L" & IONS$Measurement== "NaHCO3", 
+                                         IONS$`Minimum concentration_original` / 1000 * 84.0,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "uEq/L" & IONS$Measurement== "NaHCO3", 
+                                         IONS$`Maximum concentration_original` / 1000 * 84.0,
+                                         IONS$`Maximum concentration_ppm`)
+
+#(NH4)2SO4 ; ammonium sulfate
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "uEq/L" & IONS$Measurement== "(NH4)2SO4", 
+                                         IONS$`Minimum concentration_original` / 1000 * 132.14,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "uEq/L" & IONS$Measurement== "(NH4)2SO4", 
+                                         IONS$`Maximum concentration_original` / 1000 * 132.14,
+                                         IONS$`Maximum concentration_ppm`)
+
+
+#KHCO3 ; potassium bicarbonate
+IONS$`Minimum concentration_ppm`<-ifelse(IONS$SaltUnits== "uEq/L" & IONS$Measurement== "KHCO3", 
+                                         IONS$`Minimum concentration_original` / 1000 * 100.115,
+                                         IONS$`Minimum concentration_ppm`)
+
+IONS$`Maximum concentration_ppm`<-ifelse(IONS$SaltUnits== "uEq/L" & IONS$Measurement== "KHCO3", 
+                                         IONS$`Maximum concentration_original` / 1000 * 100.115,
+                                         IONS$`Maximum concentration_ppm`)
+
+
 
 
 unique(IONS$SaltUnits)
-#sub<-subset(IONS, Measurement == "NaCl" & SaltUnits== "mmol/L")
-uEq<-subset(IONS, SaltUnits== "µmol/L")
-
-
-
 #Check for stragglers (no new data). Likely a name that needs to be fixed in 'DataCleaning' and then added above to conversDATA. 
  
+
+ref <- subset(IONS, SaltUnits == "mmol/L")
+
 ```
  
 
