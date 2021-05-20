@@ -143,9 +143,86 @@ unique(DATA$Measurement)
 
 
 
-Take out additional notes in `Measurement` and populate new column `MeasurementNotes`
+Take out additional information in `Measurement` and add it to a `MeasurementNotes` column. 
 ```{r}
 DATA$MeasurementNotes <- NA
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (SO4:HCO3 ratio)")] <- "SO4:HCO3 ratio"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (SO4:HCO3 ratio)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: KCl)")] <- "Focal Salt: KCl"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: KCl)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: MgCl2)")] <- "Focal Salt: MgCl2"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: MgCl2)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance( Focal Salt: NaHCO3)")] <- "Focal Salt: NaHCO3"
+DATA$Measurement[DATA$Measurement == "Specific Conductance( Focal Salt: NaHCO3)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: seasalt)")] <- "seasalt"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: seasalt)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: CaCO3)")] <- "Focal Salt: CaCO3"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: CaCO3)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: Na2SO4)")] <- "Focal Salt: Na2SO4"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: Na2SO4)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: NaNO3)")] <- "Focal Salt: NaNO3"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: NaNO3)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: Mg3+)")] <- "Focal Salt: Mg3+"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: Mg3+)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: NH3+)")] <- "Focal Salt: NH3+"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: NH3+)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: PO4)")] <- "Focal Salt: PO4"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: PO4)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: Cl-)")] <- "Focal Salt: Cl-"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: Cl-)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: iron oxide)")] <- "Focal Salt: iron oxide"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: iron oxide)"] <- "Specific Conductance"
+                                          
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: Ca Na SO4 dominant (simulated river water))")] <- "Focal Salt: Ca Na SO4 dominant (simulated river water)"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: Ca Na SO4 dominant (simulated river water))"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: Ca Mg HCO3 SO4 dominant)")] <- "Focal Salt: Ca Mg HCO3 SO4 dominante"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: Ca Mg HCO3 SO4 dominant)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salts: Mg Ca SO4 (Mg = 2x Ca mg/L) (Winding Shoals water))")] <- "Focal Salts: Mg Ca SO4 (Mg = 2x Ca mg/L) (Winding Shoals water))"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salts: Mg Ca SO4 (Mg = 2x Ca mg/L) (Winding Shoals water))"] <- "Specific Conductance"     
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Dominant ions are Ca Mg SO4 HCO3)")] <- "Dominant ions are Ca Mg SO4 HCO3"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Dominant ions are Ca Mg SO4 HCO3)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salts: Ca Mg SO4 HCO3)")] <- "Focal Salts: Ca Mg SO4 HCO3"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salts: Ca Mg SO4 HCO3)"] <- "Specific Conductance"
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific conductance (Dominant ions are Ca Mg SO4 HCO3)")] <- "Dominant ions are Ca Mg SO4 HCO3"
+DATA$Measurement[DATA$Measurement == "Specific conductance (Dominant ions are Ca Mg SO4 HCO3)"] <- "Specific Conductance"
+                             
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salts: Ca Mg SO4 HCO3 dominant)")] <- "Focal Salts: Ca Mg SO4 HCO3 dominant"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salts: Ca Mg SO4 HCO3 dominant)"] <- "Specific Conductance"                               
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: Ca2+)")] <- "Focal Salt: Ca2+"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: Ca2+)"] <- "Specific Conductance"                                  
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)")] <- "Focal Salt: Na, K, HCO3 are dominant+"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)"] <- "Specific Conductance"          
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: NaCl & KCl)")] <- "Focal Salt: NaCl & KCl"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: NaCl & KCl)"] <- "Specific Conductance" 
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: SO4, HCO5)")] <- "Focal Salt: SO4, HCO5"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: SO4, HCO5)"] <- "Specific Conductance" 
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: SO42)")] <- "Focal Salt: SO42"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: SO42)"] <- "Specific Conductance" 
+
+DATA$MeasurementNotes[which(DATA$Measurement == "Specific Conductance (Focal Salt: NaCl)")] <- "Focal Salt: NaCl"
+DATA$Measurement[DATA$Measurement == "Specific Conductance (Focal Salt: NaCl)"] <- "Specific Conductance" 
+
+DATA$Measurement[DATA$Measurement == "Specific Conductance \n"] <- "Specific Conductance"
 
 DATA$MeasurementNotes[which(DATA$Measurement == "Ca (applied as CaCO3)")] <- "Applied as CaCO3"
 DATA$Measurement[DATA$Measurement == "Ca (applied as CaCO3)"] <- "Ca2+"
@@ -335,6 +412,8 @@ DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("23 C"), 
 DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("ambiant", "ambient"), "Ambient", DATA$`TempSingleValue/Min`)
 DATA$`TempSingleValue/Min` <- ifelse(DATA$`TempSingleValue/Min` %in% c("25 ", "25 conductivity corrected for 25)"), "25", DATA$`TempSingleValue/Min`)
 
+
+
 #### Clean up TempMax
 DATA$TempMax <- str_remove(DATA$TempMax, "[C]")
 
@@ -386,8 +465,14 @@ DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("umol/L", "µM", "uM Ca2+", "uM")
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("psu (practical salinity units)"), "psu", DATA$SaltUnits)
 
+DATA$SaltUnits[DATA$SaltUnits == "see \"Notes on effect\""] <- "not provided"
+
 
 unique(sort(DATA$SaltUnits))
+
+
+
+
 
 ```
 
