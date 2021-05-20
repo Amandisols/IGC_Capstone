@@ -62,10 +62,9 @@ CONDUCTANCE$Min_Conductivity_uScm=NA
 CONDUCTANCE$Max_Conductivity_uScm=NA
 
 #umhos/cm (umhos/cm = uS/cm)
-##### ppt (parts per thousand)
 CONDUCTANCE$Min_Conductivity_uScm<-ifelse(CONDUCTANCE$SaltUnits == "µmho/cm", 
                                          CONDUCTANCE$`Minimum concentration_original`,
-                                         IONS$Min_Conductivity_uScm)
+                                         CONDUCTANCE$Min_Conductivity_uScm)
 
 
 umhos.cm<-subset(CONDUCTANCE, SaltUnits=="µmho/cm")
