@@ -18,8 +18,8 @@ library(tidyverse)
 
 ```{r echo = FALSE}
 
-#Most recent download of Raw Salt Data Sheet (as of 03/27/21)
-DATAraw <- read_csv("data/raw_salt_data_032721.csv") 
+#Most recent download of Raw Salt Data Sheet (as of 05/20/21)
+DATAraw <- read_csv("data/raw_salt_data_052021.csv") 
 
 #Give each line of data a reference id
 DATAraw$DataID <- 1:nrow(DATAraw)
@@ -27,7 +27,7 @@ DATAraw$DataID <- 1:nrow(DATAraw)
 #Select columns of interest, keep `DataID` for table joining later.
 
 DATA <- DATAraw %>%
-  select(DataID, RefID, Reviewer, `Focal: Salt/Ion type (if known) OR Conductivity`, `Units for salt concentration_original`, `Minimum concentration_original`, `Maximum concentration_original`, `Rate of change in salt (if applicaple)`, `Temperature (C)`)
+  select(DataID, RefID, Reviewer, Salt_Iontype_Conductivity, Units_salt_concentration_original, Minimum_concentration_original, Maximum_concentration_original, `Rate of change in salt (if applicaple)`, Temperature)
 
 ```
 
@@ -35,7 +35,7 @@ DATA <- DATAraw %>%
 New column for measurements, cleaning the `Focal: Salt/Ion type (if known) OR Conductivity` column for spelling and capitalization errors.
 ```{r}
 
-DATA$Measurement = DATA$`Focal: Salt/Ion type (if known) OR Conductivity`
+DATA$Measurement = DATA$Salt_Iontype_Conductivity
 
 
 #### Calcium ion, calcium chloride, calcium carbonates
@@ -278,7 +278,7 @@ DATA$Measurement[DATA$Measurement == "K (as component of seawater solution)"] <-
 DATA$MeasurementNotes[which(DATA$Measurement == "salinity (natural seawater)")] <- "Natural Seawater"
 DATA$Measurement[DATA$Measurement == "salinity (natural seawater)"] <- "Salinity"
 
-
+unique(DATA$Measurement)
 
 ```
 
@@ -287,35 +287,35 @@ Cleaning temperature data and creating new columns.
 
 DATA$TempNotes = NA
 
-DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("na", "not given", "Not given", "not mentioned","not provided", "not reported","Not specified", "not stated", "Not stated", "? (ASTM standard for mussel tox)"), NA, DATA$`Temperature (C)`)
+DATA$Temperature <- ifelse(DATA$Temperature %in% c("na", "not given", "Not given", "not mentioned","not provided", "not reported","Not specified", "not stated", "Not stated", "? (ASTM standard for mussel tox)"), NA, DATA$Temperature)
 
-DATA$TempNotes[which(DATA$`Temperature (C)` == "Not stated, but mussels were stored at 22 +/1 2 deg C")] <- "Mussels were stored at 22 +/1 2 deg C"
-DATA$`Temperature (C)`[DATA$`Temperature (C)` == "Not stated, but mussels were stored at 22 +/1 2 deg C"] <- NA
+DATA$TempNotes[which(DATA$Temperature == "Not stated, but mussels were stored at 22 +/1 2 deg C")] <- "Mussels were stored at 22 +/1 2 deg C"
+DATA$Temperature[DATA$Temperature == "Not stated, but mussels were stored at 22 +/1 2 deg C"] <- NA
 
-DATA$TempNotes[which(DATA$`Temperature (C)` == "7.5, 10, 12.5, 15, 20, 20.5 C")] <- "7.5, 10, 12.5, 15, 20, 20.5 C"
-DATA$TempNotes[which(DATA$`Temperature (C)` == "5, 7.5, 10, 12.5, 15, 20, 20.5 C")] <- "5, 7.5, 10, 12.5, 15, 20, 20.5 C"
-DATA$TempNotes[which(DATA$`Temperature (C)` == "5, 10, 12.5, 15, 20, 20.5 C")] <- "5, 10, 12.5, 15, 20, 20.5 C"
-DATA$TempNotes[which(DATA$`Temperature (C)` == "20, 24, 28, 32C")] <- "20, 24, 28, 32C"
-DATA$TempNotes[which(DATA$`Temperature (C)` == "15.1, 14.9, 11.1")] <- "15.1, 14.9, 11.1" 
-DATA$TempNotes[which(DATA$`Temperature (C)` == "10, 12.5, 15, 20, 20.5 C" )] <- "10, 12.5, 15, 20, 20.5 C"  
+DATA$TempNotes[which(DATA$Temperature == "7.5, 10, 12.5, 15, 20, 20.5 C")] <- "7.5, 10, 12.5, 15, 20, 20.5 C"
+DATA$TempNotes[which(DATA$Temperature == "5, 7.5, 10, 12.5, 15, 20, 20.5 C")] <- "5, 7.5, 10, 12.5, 15, 20, 20.5 C"
+DATA$TempNotes[which(DATA$Temperature == "5, 10, 12.5, 15, 20, 20.5 C")] <- "5, 10, 12.5, 15, 20, 20.5 C"
+DATA$TempNotes[which(DATA$Temperature == "20, 24, 28, 32C")] <- "20, 24, 28, 32C"
+DATA$TempNotes[which(DATA$Temperature == "15.1, 14.9, 11.1")] <- "15.1, 14.9, 11.1" 
+DATA$TempNotes[which(DATA$Temperature == "10, 12.5, 15, 20, 20.5 C" )] <- "10, 12.5, 15, 20, 20.5 C"  
 
-DATA$TempNotes[which(DATA$`Temperature (C)` == "varied among streams" )] <- "varied among streams" 
+DATA$TempNotes[which(DATA$Temperature == "varied among streams" )] <- "varied among streams" 
 
-DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("7.5, 10, 12.5, 15, 20, 20.5 C", "5, 7.5, 10, 12.5, 15, 20, 20.5 C", "5, 10, 12.5, 15, 20, 20.5 C", "20, 24, 28, 32C", "10, 12.5, 15, 20, 20.5 C", "15.1, 14.9, 11.1", "varied among streams"), "Multiple, See TempNotes", DATA$`Temperature (C)`)
+DATA$Temperature <- ifelse(DATA$Temperature %in% c("7.5, 10, 12.5, 15, 20, 20.5 C", "5, 7.5, 10, 12.5, 15, 20, 20.5 C", "5, 10, 12.5, 15, 20, 20.5 C", "20, 24, 28, 32C", "10, 12.5, 15, 20, 20.5 C", "15.1, 14.9, 11.1", "varied among streams"), "Multiple, See TempNotes", DATA$Temperature)
 
-DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("2 degrees- 10 degrees"), "2-10", DATA$`Temperature (C)`)
+DATA$Temperature <- ifelse(DATA$Temperature %in% c("2 degrees- 10 degrees"), "2-10", DATA$Temperature)
 
-DATA$TempNotes[which(DATA$`Temperature (C)` == "16 - 32 (ambient range)" )] <- "ambient range" 
-DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("16 - 32 (ambient range)" ), "16-32", DATA$`Temperature (C)`)
+DATA$TempNotes[which(DATA$Temperature == "16 - 32 (ambient range)" )] <- "ambient range" 
+DATA$Temperature <- ifelse(DATA$Temperature %in% c("16 - 32 (ambient range)" ), "16-32", DATA$Temperature)
 
-DATA$TempNotes[which(DATA$`Temperature (C)` == "2 - 30 (temp was also an experimental variable)" )] <- "temp was also an experimental variable"
-DATA$`Temperature (C)` <- ifelse(DATA$`Temperature (C)` %in% c("2 - 30 (temp was also an experimental variable)"), "2-30", DATA$`Temperature (C)`)
+DATA$TempNotes[which(DATA$Temperature == "2 - 30 (temp was also an experimental variable)" )] <- "temp was also an experimental variable"
+DATA$Temperature <- ifelse(DATA$Temperature %in% c("2 - 30 (temp was also an experimental variable)"), "2-30", DATA$Temperature)
 
 
 
 #### Create SingleValue/Min & Max columns
 DATA <- DATA %>%
-  separate(`Temperature (C)`, c("TempSingleValue/Min", "TempMax"), sep = "-", remove = FALSE)
+  separate(Temperature, c("TempSingleValue/Min", "TempMax"), sep = "-", remove = FALSE)
 
 
 #### Create a Plus/Minus temperature column
@@ -345,7 +345,7 @@ DATA$TempMax <- str_remove(DATA$TempMax, "[C]")
 Cleaning units
 ```{r}
 
-DATA$SaltUnits = DATA$`Units for salt concentration_original`
+DATA$SaltUnits = DATA$Units_salt_concentration_original
 
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("Percent NaCl", "percent", "percent SW", "%sw", "% seawater"), "%", DATA$SaltUnits)
