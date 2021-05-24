@@ -19,8 +19,11 @@ DATA <- read_csv("data/RawSalts_Clean.csv")
 
 #When you turn these columns into numeric, anything non-numeric turns to "NA" and you lose the original data. Instead, let's create a new "original column" and populate with the numeric values. 
 
-DATA$`Minimum_concentration_original_num` <- as.numeric(DATA$`Minimum_concentration_original`)
-DATA$`Maximum_concentration_original_num` <- as.numeric(DATA$`Maximum_concentration_original`)
+DATA$Minimum_concentration_original_num=NA
+DATA$Maximum_concentration_original_num=NA
+
+DATA$Minimum_concentration_original_num <- as.numeric(DATA$`Minimum_concentration_original`)
+DATA$Maximum_concentration_original_num <- as.numeric(DATA$`Maximum_concentration_original`)
 
 ```
 
@@ -74,6 +77,9 @@ DATA <- DATA %>% select(-c(Min_Conductivity_uScm.x, Max_Conductivity_uScm.x))
 
 names(DATA)[names(DATA) == "Min_Conductivity_uScm.y"] <- "Min_Conductivity_uScm"
 names(DATA)[names(DATA) == "Max_Conductivity_uScm.y"] <- "Max_Conductivity_uScm"
+
+
+#unique(DATA$Measurement)
 
 ```
 
@@ -148,14 +154,14 @@ IONS$Max_Concentration_ppm<-ifelse(IONS$SaltUnits== "µg/L",
 
 
 
-##### %
-# IONS$Min_Concentration_ppm<-ifelse(IONS$SaltUnits== "%", 
-#                                          IONS$Minimum_concentration_original_num * 10000,
-#                                          IONS$Min_Concentration_ppm)
-# 
-# IONS$Max_Concentration_ppm<-ifelse(IONS$SaltUnits== "%", 
-#                                          IONS$Maximum_concentration_original_num * 10000,
-#                                          IONS$Max_Concentration_ppm)
+#### %
+IONS$Min_Concentration_ppm<-ifelse(IONS$SaltUnits== "%",
+                                         IONS$Minimum_concentration_original_num * 10 * 1000,
+                                         IONS$Min_Concentration_ppm)
+
+IONS$Max_Concentration_ppm<-ifelse(IONS$SaltUnits== "%",
+                                         IONS$Maximum_concentration_original_num * 10 * 1000,
+                                         IONS$Max_Concentration_ppm)
 
 
 
@@ -366,23 +372,69 @@ https://static.fishersci.com/cmsassets/downloads/segment/Scientific/pdf/WaterAna
 
 require(gsw)
 
-Salinity<-subset(DATA, Measurement == "Salinity")
-unique(sort(Salinity$SaltUnits))
+SALINITY<-subset(DATA, Measurement == "Salinity")
+unique(sort(SALINITY$SaltUnits))
 
-Salinity$PracticalSalinity_psu <- NA
+SALINITY$Min_salinity_psu <- NA
+SALINITY$Max_salinity_psu <- NA
+
+SALINITY$Min_salinity_psu <- as.numeric(SALINITY$Min_salinity_psu)
+SALINITY$Max_salinity_psu <- as.numeric(SALINITY$Max_salinity_psu)
 
 #Convert all to psu (same at ppt)
-#%
+
 #g/L
+SALINITY$Min_salinity_psu<-ifelse(SALINITY$SaltUnits == "g/L",
+                                         SALINITY$Minimum_concentration_original_num / 1000000,
+                                         SALINITY$Min_salinity_psu)
+
+SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits == "g/L",
+                                         SALINITY$Maximum_concentration_original_num / 1000000,
+                                         SALINITY$Max_salinity_psu)
+
+
 #mg/L and ppm
+SALINITY$Min_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppm", "mg/L"),
+                                         SALINITY$Minimum_concentration_original_num / 1000,
+                                         SALINITY$Min_salinity_psu)
+
+SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppm", "mg/L"), 
+                                         SALINITY$Maximum_concentration_original_num / 1000,
+                                         SALINITY$Max_salinity_psu)
+
+
 #ppt = psu
+SALINITY$Min_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppt", "psu"),
+                                         SALINITY$Minimum_concentration_original_num,
+                                         SALINITY$Min_salinity_psu)
+
+SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppt", "psu"), 
+                                         SALINITY$Maximum_concentration_original_num,
+                                         SALINITY$Max_salinity_psu)
+
+
+#% multiply by 10 to get g/kg, then multiply by 1000 to get to mg/L
+SALINITY$Min_salinity_psu<-ifelse(SALINITY$SaltUnits == "%",
+                                         SALINITY$Minimum_concentration_original_num * 10 * 1000,
+                                         SALINITY$Min_salinity_psu)
+
+SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits == "%", 
+                                         SALINITY$Maximum_concentration_original_num * 10 * 1000,
+                                         SALINITY$Max_salinity_psu)
+
 #mOsm/kg
 #mOsm
 #mmol/L
-#psu
 
-#practical salinity to conductivity. Must have temperature data. 
-gsw_C_from_SP()
+
+#practical salinity to conductivity. Must have temperature and pressure data.
+###### gsw_C_from_SP(SP, T, P)
+
+#This will have to change
+SALINITY <- SALINITY %>% select(DataID, Min_salinity_psu, Max_salinity_psu)
+
+DATA <- left_join(DATA, SALINITY, by = "DataID")
+
 
 ```
 
@@ -392,7 +444,7 @@ gsw_C_from_SP()
 Write out csv
 ```{r}
 
-DATA<- DATA[,c(1, 2, 5, 7, 19, 20, 21, 22, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)]
+DATA<- DATA[,c(1, 2, 5, 7, 19, 20, 21, 22, 23, 24, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)]
 
 
 #Move around the columns
@@ -418,8 +470,6 @@ To cite this article: Anna F Rusydi 2018 IOP Conf. Ser.: Earth Environ. Sci. 118
 ```{r}
 
 #What and how many different units are we dealing with
-Salinity<-subset(DATA, Measurement == "Salinity")
-unique(sort(Salinity$SaltUnits))
 
 MmTDS<-subset(DATA, Measurement == "Total Dissolved Solids" | Measurement == "total suspended solids" | Measurement == "total ions")
 unique(sort(TDS$SaltUnits))

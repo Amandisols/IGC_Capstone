@@ -137,7 +137,7 @@ DATA$Measurement <- ifelse(DATA$Measurement %in% c('seawater', 'Seawater', 'natu
 
 DATA$Measurement <- ifelse(DATA$Measurement %in% c('Bicarbonate'), "HCO3-", DATA$Measurement)
 
-unique(DATA$Measurement)
+#unique(DATA$Measurement)
 
 ```
 
@@ -355,7 +355,7 @@ DATA$Measurement[DATA$Measurement == "K (as component of seawater solution)"] <-
 DATA$MeasurementNotes[which(DATA$Measurement == "salinity (natural seawater)")] <- "Natural Seawater"
 DATA$Measurement[DATA$Measurement == "salinity (natural seawater)"] <- "Salinity"
 
-unique(DATA$Measurement)
+#unique(DATA$Measurement)
 
 ```
 
@@ -445,7 +445,7 @@ DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("ugl-1", "ug/L"), "µg/L", DATA$S
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("umho/cm", "umohs/cm", "umhos/cm", "umohs", "umhos", "μMho", "micro-mhos"), "µmho/cm", DATA$SaltUnits)
 
-DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mhmos/m"), "mhos/m", DATA$SaltUnits)
+#DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mhmos/m"), "mmhos/m", DATA$SaltUnits)
 
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("not given", "not provided"), "Not provided", DATA$SaltUnits)
@@ -469,11 +469,7 @@ DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("psu (practical salinity units)")
 DATA$SaltUnits[DATA$SaltUnits == "see \"Notes on effect\""] <- "not provided"
 
 
-unique(sort(DATA$SaltUnits))
-
-
-
-
+#unique(sort(DATA$SaltUnits))
 
 ```
 
