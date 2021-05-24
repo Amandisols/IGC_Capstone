@@ -445,6 +445,7 @@ DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("ugl-1", "ug/L"), "µg/L", DATA$S
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("umho/cm", "umohs/cm", "umhos/cm", "umohs", "umhos", "μMho", "micro-mhos"), "µmho/cm", DATA$SaltUnits)
 
+DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("mhmos/m"), "mhos/m", DATA$SaltUnits)
 
 
 DATA$SaltUnits <- ifelse(DATA$SaltUnits %in% c("not given", "not provided"), "Not provided", DATA$SaltUnits)

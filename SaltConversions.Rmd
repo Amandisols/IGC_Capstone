@@ -357,6 +357,52 @@ DATA <- left_join(DATA, IONS, by = "DataID")
 ```
 
 
+Reference to the following conversion tool: 
+http://www.teos-10.org/pubs/gsw/html/gsw_C_from_SP.html
+
+Reference for ppt to psu:
+https://static.fishersci.com/cmsassets/downloads/segment/Scientific/pdf/WaterAnalysis/Log92TipConductivitySalinity.pdf
+```{r}
+
+require(gsw)
+
+Salinity<-subset(DATA, Measurement == "Salinity")
+unique(sort(Salinity$SaltUnits))
+
+Salinity$PracticalSalinity_psu <- NA
+
+#Convert all to psu (same at ppt)
+#%
+#g/L
+#mg/L and ppm
+#ppt = psu
+#mOsm/kg
+#mOsm
+#mmol/L
+#psu
+
+#practical salinity to conductivity. Must have temperature data. 
+gsw_C_from_SP()
+
+```
+
+
+
+
+Write out csv
+```{r}
+
+DATA<- DATA[,c(1, 2, 5, 7, 19, 20, 21, 22, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)]
+
+
+#Move around the columns
+
+write_csv(DATA, "data/ConvertedSalts_Clean.csv")
+
+```
+
+
+
 
 What's left?  --> Salinity and Total Dissolved Solids
 Work on below.
@@ -455,4 +501,5 @@ write.csv(ALLCOND, "allconductivitystudies.csv")
 
 unique(ALLCOND$RefID)
 ```
+
 
