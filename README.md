@@ -9,8 +9,9 @@ Files in this repository:
 2. SaltConversions.Rmd
     
 3. Data
-    - raw_salt_data_032721.csv (raw salt data, with last download date attached)
+    - raw_salt_data_052021.csv (raw salt data, with last download date attached)
     - RawSalts_Clean.csv (output from DataCleaning.Rmd)
+    - ConvertedSalts_Clean.csv (output from SaltConversions.Rmd)
     
 
 
