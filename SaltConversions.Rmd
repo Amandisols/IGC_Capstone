@@ -357,7 +357,8 @@ DATA <- left_join(DATA, IONS, by = "DataID")
 ```
 
 
-What's left? 
+
+What's left?  --> Salinity and Total Dissolved Solids
 Work on below.
 
 Step 3: Converting TDS to conductivity.
@@ -374,43 +375,42 @@ To cite this article: Anna F Rusydi 2018 IOP Conf. Ser.: Earth Environ. Sci. 118
 Salinity<-subset(DATA, Measurement == "Salinity")
 unique(sort(Salinity$SaltUnits))
 
-TDS<-subset(DATA, Measurement == "Total Dissolved Solids" | Measurement == "total suspended solids" | Measurement == "total ions")
+MmTDS<-subset(DATA, Measurement == "Total Dissolved Solids" | Measurement == "total suspended solids" | Measurement == "total ions")
 unique(sort(TDS$SaltUnits))
 
 ```
 
 
-#Highlights in orange are the answers that Rich sent. They might still need to be changed in the "Data Cleaning.Rmd". Look below to confirm.
-#Check to make sure they haven't already changed in the group sheet.
-#Does the AllConductivity spreadsheet that Rich sent match the group sheet?
+#Highlights in orange are the answers that Rich sent, mostly updated. 
+
 Notes from "Measurement = Conductivity"(SP 20210411)
 -mhos
   -Recheck papers to see if there is a denominator in the unit (should be mhos/cm or mhos/m, etc.)
-  -RefID = 217, Reviewer = Sally *(mhos/m) Changed manually in google drive salt data sheet. Download most recent version and re-run SaltCleaning!*
+  -RefID = 217, Reviewer = Sally *(mhos/m) Updated*
 -mmhos
   -Recheck papers to see if there is a denominator in the unit (should be mmhos/cm or mmhos/m, etc.)
-  -RefID = 406, Reviewer = Rich *(mhos/m) Changed manually in google drive salt data sheet. Download most recent version and re-run SaltCleaning!*
+  -RefID = 406, Reviewer = Rich *(mhos/m) Updated*
   
 
 -mg/L
   -Recheck papers to see if this should be labeled under "conductivity" or as "salt/ion"
   -Or is the "mg/L" measurement linked to an ion or salt equivalent? (e.g., mg/L as Cl)
-  -RefID = 453, Reviewer = Rich *(Road Runner Ice Melt; mostly NaCl and KCl) Changed manually in google drive salt data sheet. Download most recent version and re-run SaltCleaning!*
+  -RefID = 453, Reviewer = Rich *(Road Runner Ice Melt; mostly NaCl and KCl) Updated*
   -RefID = 506, Reviewer = Rich *(they report uS/cm and nothing about it being specific conductivity or not) NOT CHANGED*
-  -RefID = 26, Reviewer = Abigail *(Specific Conductance) Changed manually in google drive salt data sheet. Download most recent version and re-run SaltCleaning!*
+  -RefID = 26, Reviewer = Abigail *(Specific Conductance) Updated*
   -RefID = 266, Reviewer = Carl *(mg/L of Nitrate and unit for conductivity not given)  Why doesn't this work? NOT CHANGED*
   
   
 -ug/L
   -Recheck papers to see if this should be labeled under "conductivity" or as "salt/ion"
   -Or is the "ug/L" measurement linked to an ion or salt equivalent? (e.g., ug/L as Cl)
-  -RefID = 421, Reviewer = Abigail *(should actually be uS/cm; specific conductivity) Changed manually in google drive salt data sheet. Download most recent version and re-run SaltCleaning!*
+  -RefID = 421, Reviewer = Abigail *(should actually be uS/cm; specific conductivity) Updated*
   
   
 -ppt
   -Recheck papers to see if this should be labeled under "conductivity" or as "salt/ion" or as "Total Dissolved Solids"
   -Or is the "ppt" measurement linked to an ion or salt equivalent? (e.g., ppt as Cl)
-  -RefID = 409, Reviewer = Rich *(it is ppt of sea water) Changed manually in google drive salt data sheet. Download most recent version and re-run SaltCleaning!*
+  -RefID = 409, Reviewer = Rich *(it is ppt of sea water) Updated*
   -RefID = 107, Reviewer = Paul
 -Not provided *(should be uS/cm; specific conductivity: 10-1200, already corrected in the google drive file)*
   -Should we just label these as NA's?  *(yes, NA is fine for this purpose. We had issues with too many people putting NAs everywhere when it was not appropriate, so we redid all NAs)*
@@ -418,25 +418,12 @@ Notes from "Measurement = Conductivity"(SP 20210411)
 
 Notes from "Measurement = Salinity" (SP 20210411)
 
-RefID = 281, Reviewer = Abigail *(this is actually mS/cm specific conductivity) Changed manually in google drive salt data sheet. Download most recent version and re-run SaltCleaning!*
-
+RefID = 281, Reviewer = Abigail *(this is actually mS/cm specific conductivity) Updated*
 
 RefID = 496, Reviewer = Rich (*the units are mmol/L of the specific ion evaluated in the haemolymph, which is labeled in "specific_response_metric" column (sodium, chloride, or potasium); was a very confusing paper, for sure) NOT CHANGED*
 
 ```{r}
 
-    #mhos
-    #***RECHECK UNITS IN PAPER***
-    mhos<-subset(DATA,SaltUnits=="mhos")
-    mhos$Min_Conductivity_uScm=NA
-    mhos$Max_Conductivity_uScm=NA
-
-    #mhmos
-    #***RECHECK UNITS IN PAPER***
-    mmhos<-subset(DATA,SaltUnits=="mhmos")
-    mmhos$Min_Conductivity_uScm=NA
-    mmhos$Max_Conductivity_uScm=NA
-    
 Conductivity<-subset(DATA, Measurement == "Conductivity")
 
     #mg/L
