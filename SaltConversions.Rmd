@@ -439,7 +439,7 @@ DATA <- left_join(DATA, SALINITY, by = "DataID")
 ```
 
 
-
+Get all TDS to a common unit at least for now?
 
 Write out csv
 ```{r}
