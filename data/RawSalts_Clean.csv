@@ -145,11 +145,11 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 144,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
 145,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
 146,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
-147,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
-148,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
-149,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
-150,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
-151,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
+147,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+148,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+149,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+150,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+151,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
 152,10,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,856,3649,NA,16-22 C,16,22 ,NA,NA,NA
 153,10,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,856,3649,NA,21.6-27.6,21.6,27.6,NA,NA,NA
 154,10,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,856,3649,NA,21.6-27.6,21.6,27.6,NA,NA,NA
@@ -220,10 +220,10 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 219,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,15,15,NA,NA,NA,NA
 220,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,20,20,NA,NA,NA,NA
 221,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,25,25,NA,NA,NA,NA
-222,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"5, 10, 12.5, 15, 20, 20.5 C"
-223,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"7.5, 10, 12.5, 15, 20, 20.5 C"
-224,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"5, 7.5, 10, 12.5, 15, 20, 20.5 C"
-225,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"10, 12.5, 15, 20, 20.5 C"
+222,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+223,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+224,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+225,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
 226,16,Joshua,Specific Conductance,Specific Conductance,uS/cm,µS/cm,Not given,Not given,NA,NA,NA,NA,NA,NA,NA
 227,16,Joshua,Specific Conductance,Specific Conductance,uS/cm,µS/cm,Not given,Not given,NA,NA,NA,NA,NA,NA,NA
 228,16,Joshua,Specific Conductance,Specific Conductance,uS/cm,µS/cm,Not given,Not given,NA,NA,NA,NA,NA,NA,NA
@@ -378,20 +378,20 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 377,35,Joshua,"K, Na","K, Na",mM,mmol/L,1,5,NA,13,13,NA,NA,NA,NA
 378,35,Joshua,"K, Na","K, Na",mM,mmol/L,1,5,NA,13,13,NA,NA,NA,NA
 379,35,Joshua,"K, Na","K, Na",mM,mmol/L,1,5,NA,13,13,NA,NA,NA,NA
-380,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-381,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-382,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-383,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-384,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-385,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-386,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-387,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-388,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-389,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-390,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-391,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-392,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
-393,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+380,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+381,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+382,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+383,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+384,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+385,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+386,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+387,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+388,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+389,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+390,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+391,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+392,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+393,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
 394,37,Joshua,NaCl,NaCl,%,%,0.1,0.8,NA,NA,NA,NA,NA,NA,NA
 395,37,Joshua,NaCl,NaCl,%,%,0.1,0.8,NA,NA,NA,NA,NA,NA,NA
 396,38,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,221,57200,NA,25.2-31,25.2,31,NA,NA,NA
@@ -907,24 +907,24 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 906,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
 907,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
 908,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-909,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-910,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-911,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-912,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-913,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-914,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-915,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-916,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-917,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-918,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-919,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-920,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-921,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-922,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-923,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-924,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-925,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
-926,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+909,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+910,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+911,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+912,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+913,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
+914,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+915,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+916,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+917,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+918,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+919,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+920,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
+921,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+922,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+923,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
+924,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+925,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
+926,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
 927,114,Joshua,Specific Conductance,Specific Conductance,micro-mhos,µmho/cm,"10,000","45,000",NA,NA,NA,NA,NA,NA,NA
 928,115,Joshua,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.025,0.55,NA,20.75-22.25,20.75,22.25,NA,NA,NA
 929,115,Joshua,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.025,0.55,NA,20.75-22.25,20.75,22.25,NA,NA,NA
@@ -1323,8 +1323,8 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1322,178,Carl,Specific Conductance,Specific Conductance,uS/cm,µS/cm,357,431,NA,16.9-21,16.9,21,NA,NA,NA
 1323,178,Carl,Specific Conductance,Specific Conductance,uS/cm,µS/cm,357,431,NA,16.9-21,16.9,21,NA,NA,NA
 1324,178,Carl,Specific Conductance,Specific Conductance,uS/cm,µS/cm,357,1071,NA,16.9-21,16.9,21,NA,NA,NA
-1325,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",ambient range
-1326,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",ambient range
+1325,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",NA
+1326,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",NA
 1327,180,Carl,NaCl,NaCl,mg Cl- / L,mg/L,2.8,10,NA,21,21,NA,NA,NA,NA
 1328,180,Carl,NaCl,NaCl,mg Cl- / L,mg/L,2.8,10,NA,21,21,NA,NA,NA,NA
 1329,180,Carl,NaCl,NaCl,mg Cl- / L,mg/L,2.8,10,NA,21,21,NA,NA,NA,NA
@@ -1382,14 +1382,14 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1381,186,Lucy,calcium nitrate,calcium nitrate,g/L,g/L,0,5,not given,22.2,22.2,NA,NA,NA,NA
 1382,186,Lucy,NaCl & Ca(N03)2,NaCl & Ca(N03)2,g/L,g/L,0,7,not given,22.2,22.2,NA,NA,NA,NA
 1383,186,Lucy,NaCL,NaCl,g/L,g/L,0.031,4,not given,22.2,22.2,NA,NA,NA,NA
-1384,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
-1385,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
+1384,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,NA
+1385,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,NA
 1386,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Ca /L,mg/L,0.5,5,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 1387,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Ca/L,mg/L,0.5,5,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 1388,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Mg/L,mg/L,0.5,25,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 1389,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Mg/L,mg/L,0.5,25,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
-1390,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,varied among streams
-1391,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,varied among streams
+1390,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+1391,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
 1392,190,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 1393,190,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 1394,190,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA

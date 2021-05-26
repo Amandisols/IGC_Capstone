@@ -456,8 +456,12 @@ write_csv(DATA, "data/ConvertedSalts_Clean.csv")
 
 
 
-What's left?  --> Salinity and Total Dissolved Solids
+What's left?  --> Total Dissolved Solids, plus misc.
+
 Work on below.
+
+Miscellaneous 
+
 
 Step 3: Converting TDS to conductivity.
 
