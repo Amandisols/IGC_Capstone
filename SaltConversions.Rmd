@@ -93,6 +93,7 @@ IONS <- DATA %>%
 IONS$Min_Concentration_ppm <- NA
 IONS$Max_Concentration_ppm <- NA
 
+
 ##### ppt (parts per thousand)
 IONS$Min_Concentration_ppm<-ifelse(IONS$SaltUnits== "ppt", 
                                          IONS$Minimum_concentration_original_num * 1000,
@@ -225,7 +226,34 @@ IONS$Max_Concentration_ppm<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement
                                          IONS$Maximum_concentration_original_num / 1000000 * 1000 * 22.99,
                                          IONS$Max_Concentration_ppm)
 
+#MgCl2 
+IONS$Min_Concentration_ppm<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "MgCl2", 
+                                         IONS$Minimum_concentration_original_num / 1000000 * 1000 * 95.211,
+                                         IONS$Min_Concentration_ppm)
 
+IONS$Max_Concentration_ppm<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "MgCl2", 
+                                         IONS$Maximum_concentration_original_num / 1000000 * 1000 * 95.211,
+                                         IONS$Max_Concentration_ppm)
+
+
+#CaCl2
+IONS$Min_Concentration_ppm<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "CaCl2", 
+                                         IONS$Minimum_concentration_original_num / 1000000 * 1000 * 110.98,
+                                         IONS$Min_Concentration_ppm)
+
+IONS$Max_Concentration_ppm<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "CaCl2", 
+                                         IONS$Maximum_concentration_original_num / 1000000 * 1000 * 110.98,
+                                         IONS$Max_Concentration_ppm)
+
+
+# NaCl
+IONS$Min_Concentration_ppm<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "NaCl", 
+                                         IONS$Minimum_concentration_original_num / 1000000 * 1000 * 58.44,
+                                         IONS$Min_Concentration_ppm)
+
+IONS$Max_Concentration_ppm<-ifelse(IONS$SaltUnits== "µmol/L" & IONS$Measurement== "NaCl", 
+                                         IONS$Maximum_concentration_original_num / 1000000 * 1000 * 58.44,
+                                         IONS$Max_Concentration_ppm)
 
 
 #mmol/L
@@ -363,11 +391,15 @@ DATA <- left_join(DATA, IONS, by = "DataID")
 ```
 
 
+
+Turn all Salinity to conductivity and concentration:
 Reference to the following conversion tool: 
 http://www.teos-10.org/pubs/gsw/html/gsw_C_from_SP.html
 
 Reference for ppt to psu:
 https://static.fishersci.com/cmsassets/downloads/segment/Scientific/pdf/WaterAnalysis/Log92TipConductivitySalinity.pdf
+
+
 ```{r}
 
 require(gsw)
@@ -377,9 +409,14 @@ unique(sort(SALINITY$SaltUnits))
 
 SALINITY$Min_salinity_psu <- NA
 SALINITY$Max_salinity_psu <- NA
-
 SALINITY$Min_salinity_psu <- as.numeric(SALINITY$Min_salinity_psu)
 SALINITY$Max_salinity_psu <- as.numeric(SALINITY$Max_salinity_psu)
+
+SALINITY$Min_salinity_ppm <- NA
+SALINITY$Max_salinity_ppm <- NA
+SALINITY$Min_salinity_ppm <- as.numeric(SALINITY$Min_salinity_ppm)
+SALINITY$Max_salinity_ppm <- as.numeric(SALINITY$Max_salinity_ppm)
+
 
 #Convert all to psu (same at ppt)
 
@@ -392,6 +429,14 @@ SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits == "g/L",
                                          SALINITY$Maximum_concentration_original_num / 1000000,
                                          SALINITY$Max_salinity_psu)
 
+SALINITY$Min_salinity_ppm<-ifelse(SALINITY$SaltUnits == "g/L",
+                                         SALINITY$Minimum_concentration_original_num * 1000,
+                                         SALINITY$Min_salinity_ppm)
+
+SALINITY$Max_salinity_ppm<-ifelse(SALINITY$SaltUnits == "g/L",
+                                         SALINITY$Maximum_concentration_original_num * 1000,
+                                         SALINITY$Max_salinity_ppm)
+
 
 #mg/L and ppm
 SALINITY$Min_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppm", "mg/L"),
@@ -401,6 +446,16 @@ SALINITY$Min_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppm", "mg/L"),
 SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppm", "mg/L"), 
                                          SALINITY$Maximum_concentration_original_num / 1000,
                                          SALINITY$Max_salinity_psu)
+
+SALINITY$Min_salinity_ppm<-ifelse(SALINITY$SaltUnits %in% c("ppm", "mg/L"),
+                                         SALINITY$Minimum_concentration_original_num,
+                                         SALINITY$Min_salinity_ppm)
+
+SALINITY$Max_salinity_ppm<-ifelse(SALINITY$SaltUnits %in% c("ppm", "mg/L"), 
+                                         SALINITY$Maximum_concentration_original_num,
+                                         SALINITY$Max_salinity_ppm)
+
+
 
 
 #ppt = psu
@@ -412,6 +467,14 @@ SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits %in% c("ppt", "psu"),
                                          SALINITY$Maximum_concentration_original_num,
                                          SALINITY$Max_salinity_psu)
 
+SALINITY$Min_salinity_ppm<-ifelse(SALINITY$SaltUnits %in% c("ppt", "psu"),
+                                         SALINITY$Minimum_concentration_original_num * 1000,
+                                         SALINITY$Min_salinity_ppm)
+
+SALINITY$Max_salinity_ppm<-ifelse(SALINITY$SaltUnits %in% c("ppt", "psu"), 
+                                         SALINITY$Maximum_concentration_original_num * 1000,
+                                         SALINITY$Max_salinity_ppm)
+
 
 #% multiply by 10 to get g/kg, then multiply by 1000 to get to mg/L
 SALINITY$Min_salinity_psu<-ifelse(SALINITY$SaltUnits == "%",
@@ -422,6 +485,14 @@ SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits == "%",
                                          SALINITY$Maximum_concentration_original_num * 10 * 1000,
                                          SALINITY$Max_salinity_psu)
 
+SALINITY$Min_salinity_ppm<-ifelse(SALINITY$SaltUnits == "%",
+                                         SALINITY$Minimum_concentration_original_num * 10 * 1000,
+                                         SALINITY$Min_salinity_ppm)
+
+SALINITY$Max_salinity_ppm<-ifelse(SALINITY$SaltUnits == "%", 
+                                         SALINITY$Maximum_concentration_original_num * 10 * 1000,
+                                         SALINITY$Max_salinity_ppm)
+
 #mOsm/kg
 #mOsm
 #mmol/L
@@ -431,12 +502,15 @@ SALINITY$Max_salinity_psu<-ifelse(SALINITY$SaltUnits == "%",
 ###### gsw_C_from_SP(SP, T, P)
 
 #This will have to change
-SALINITY <- SALINITY %>% select(DataID, Min_salinity_psu, Max_salinity_psu)
+SALINITY <- SALINITY %>% select(DataID, Min_salinity_psu, Max_salinity_psu, Min_salinity_ppm, Max_salinity_ppm)
 
 DATA <- left_join(DATA, SALINITY, by = "DataID")
 
 
 ```
+
+
+
 
 
 Get all TDS to a common unit at least for now?
@@ -456,11 +530,17 @@ write_csv(DATA, "data/ConvertedSalts_Clean.csv")
 
 
 
-What's left?  --> Total Dissolved Solids, plus misc.
+What's left?  --> Total Dissolved Solids, plus background concentrations
 
 Work on below.
 
 Miscellaneous 
+
+```{r}
+
+
+
+```
 
 
 Step 3: Converting TDS to conductivity.
@@ -471,6 +551,8 @@ Notes (SP 20210411)
 To cite this article: Anna F Rusydi 2018 IOP Conf. Ser.: Earth Environ. Sci. 118 012019
     -Pretty simple conversion factor, but changes for freshwater vs. salt water (so maybe we have a two compartment conversion?)
 
+
+In the meantime, TDS to ppm
 ```{r}
 
 #What and how many different units are we dealing with
