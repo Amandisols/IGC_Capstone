@@ -1,0 +1,37 @@
+---
+title: "Plotting"
+author: "Stephen and Amanda"
+date: "5/27/2021"
+output: html_document
+---
+
+```{r echo = FALSE}
+
+
+```
+
+
+Going to work on ion stuff here.
+```{r}
+
+
+
+```
+
+
+
+```{r}
+
+
+
+```
+
+
+
+```{r}
+
+
+
+
+```
+
