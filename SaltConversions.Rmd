@@ -552,7 +552,7 @@ To cite this article: Anna F Rusydi 2018 IOP Conf. Ser.: Earth Environ. Sci. 118
     -Pretty simple conversion factor, but changes for freshwater vs. salt water (so maybe we have a two compartment conversion?)
 
 
-In the meantime, TDS to ppm
+In the meantime... TDS to ppm?
 ```{r}
 
 #What and how many different units are we dealing with
