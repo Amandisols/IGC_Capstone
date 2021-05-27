@@ -5,7 +5,8 @@ date: "4/5/2021"
 output: html_document
 ---
 
-```{r}
+```{r echo = FALSE}
+
 library(tidyverse)
 
 ```
@@ -385,9 +386,6 @@ IONS<- IONS %>% select(DataID, Min_Concentration_ppm, Max_Concentration_ppm)
 DATA <- left_join(DATA, IONS, by = "DataID")
 
 
-#ref <- IONS[(is.na(IONS$Max_Concentration_ppm)), ]
-
-#Check for stragglers (no new data). Likely a name that needs to be fixed in 'DataCleaning' and then added above to conversDATA. 
 ```
 
 
@@ -513,50 +511,16 @@ DATA <- left_join(DATA, SALINITY, by = "DataID")
 
 
 
-Get all TDS to a common unit at least for now?
-
-Write out csv
-```{r}
-
-<<<<<<< HEAD
-
-DATA<- DATA[,c(1, 2, 5, 7, 19, 20, 21, 22, 23, 24, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)]
-=======
-DATA<- DATA[,c(1, 2, 5, 7, 19, 20, 21, 22, 23, 24, 25, 26, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)]
->>>>>>> cb1582f7188eb2031153706208955d7b59210a8f
+Step 3: Salinity by Stephen (A new fragrance)
 
 
-#Move around the columns
-
-write_csv(DATA, "data/ConvertedSalts_Clean.csv")
-
-```
-
-
-
-
-What's left?  --> Total Dissolved Solids, plus background concentrations
-
-Work on below.
-
-<<<<<<< HEAD
 Useful info on Conductivty, Salinity, and TDS -> https://www.fondriest.com/environmental-measurements/parameters/water-quality/conductivity-salinity-tds/
 
 Rating Table and Empirical Model USGS uses to convert between specific conductance and salinity -> https://www.researchgate.net/publication/281866180_Guidelines_and_Standard_Procedures_for_Continuous_Water-Quality_Monitors_Station_Operation_Record_Computation_and_Data_Reporting
 
 Source of empirical model USGS uses to convert between specific conductance and salinity -> https://www.researchgate.net/publication/280561503_Specific_Conductance_Theoretical_Considerations_and_Application_to_Analytical_Quality_Control
-=======
-Miscellaneous 
-
-```{r}
 
 
-
-```
-
->>>>>>> cb1582f7188eb2031153706208955d7b59210a8f
-
-Step 3: Converting TDS to conductivity.
 
 Notes (SP 20210411)
 
@@ -564,8 +528,6 @@ Notes (SP 20210411)
 To cite this article: Anna F Rusydi 2018 IOP Conf. Ser.: Earth Environ. Sci. 118 012019
     -Pretty simple conversion factor, but changes for freshwater vs. salt water (so maybe we have a two compartment conversion?)
 
-
-In the meantime... TDS to ppm?
 ```{r}
 
 #What and how many different units are we dealing with
@@ -606,6 +568,17 @@ SALINITY <- SALINITY %>% select(DataID, Min_Conductivity_uScm, Max_Conductivity_
 
 
 DATA <- left_join(DATA, SALINITY, by = "DataID")
+
+DATA$Min_Conductivity_uScm.x <- ifelse(is.na(DATA$Min_Conductivity_uScm.x), DATA$Min_Conductivity_uScm.y, DATA$Min_Conductivity_uScm.x)
+
+DATA$Max_Conductivity_uScm.x <- ifelse(is.na(DATA$Max_Conductivity_uScm.x), DATA$Max_Conductivity_uScm.y, DATA$Max_Conductivity_uScm.x)
+
+
+DATA <- DATA %>% select(-c(Min_Conductivity_uScm.y, Max_Conductivity_uScm.y))
+
+names(DATA)[19]<- "Min_Conductivity_uScm"
+names(DATA)[20]<- "Max_Conductivity_uScm"
+
 ```
 
 ```{r}
@@ -663,7 +636,41 @@ TDS <- TDS %>% select(DataID, Min_Conductivity_uScm, Max_Conductivity_uScm)
 
 DATA <- left_join(DATA, TDS, by = "DataID")
 
+
+DATA$Min_Conductivity_uScm.x <- ifelse(is.na(DATA$Min_Conductivity_uScm.x), DATA$Min_Conductivity_uScm.y, DATA$Min_Conductivity_uScm.x)
+
+DATA$Max_Conductivity_uScm.x <- ifelse(is.na(DATA$Max_Conductivity_uScm.x), DATA$Max_Conductivity_uScm.y, DATA$Max_Conductivity_uScm.x)
+
+
+DATA <- DATA %>% select(-c(Min_Conductivity_uScm.y, Max_Conductivity_uScm.y))
+
+names(DATA)[19]<- "Min_Conductivity_uScm"
+names(DATA)[20]<- "Max_Conductivity_uScm"
+
 ```
+
+
+
+Write out csv
+```{r}
+
+
+DATA<- DATA[,c(1, 2, 5, 7, 19, 20, 21, 22, 23, 24, 25, 26, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)]
+
+
+
+#Move around the columns
+
+write_csv(DATA, "data/ConvertedSalts_Clean.csv")
+
+```
+
+
+
+
+
+
+
 
 
 #Highlights in orange are the answers that Rich sent, mostly updated. 
