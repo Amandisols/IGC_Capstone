@@ -7,13 +7,30 @@ output: html_document
 
 ```{r echo = FALSE}
 
+library(tidyverse)
 
 ```
 
+```{r}
+DATA <- read_csv("data/ConvertedSalts_Clean.csv")
+
+```
 
 Going to work on ion stuff here.
+
+Seawater salinity = 35,000 ppm
 ```{r}
 
+
+DATA %>% 
+  filter(Measurement %in% c("CaCO3","Ca2+", "NaHCO3", "NaCl", "KCl", "Cl-", "K+", "Na+", "MgCl2")) %>%
+  ggplot(aes(x = Measurement, y = Min_Concentration_ppm))+
+  geom_boxplot()+
+  theme_classic()
+
+#length(DATA$Measurement[DATA$Measurement == "HCO3-"])                                     
+                                           
+unique(DATA$Measurement)
 
 
 ```
