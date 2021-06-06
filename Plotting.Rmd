@@ -39,6 +39,28 @@ unique(DATA$Measurement)
 
 ```{r}
 
+#Lets remove extreme values for now
+
+DATA %>% 
+  filter(Measurement %in% c("Specific Conductance","Salinity", "Total Dissolved Solids")) %>%
+  mutate(Min_Conductivity_uScm = ifelse(Min_Conductivity_uScm > 10000, NA, Min_Conductivity_uScm),
+              Max_Conductivity_uScm = ifelse(Max_Conductivity_uScm > 60000, NA, Max_Conductivity_uScm))%>%
+  ggplot(aes(x = Measurement, y = Max_Conductivity_uScm))+
+  geom_violin(aes(colour = "#1268FF"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Conductivity_uScm, colour = "#3268FF"), alpha = 0.3)+
+  #geom_jitter(height = 0, width = 0.3)+
+  scale_y_continuous(trans='log10')+
+  theme_classic()
+
+#Without extreme values removed
+DATA %>% 
+  filter(Measurement %in% c("Specific Conductance","Salinity", "Total Dissolved Solids")) %>%
+  ggplot(aes(x = Measurement, y = Max_Conductivity_uScm))+
+  geom_violin(aes(colour = "#1268FF"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Conductivity_uScm, colour = "#3268FF"), alpha = 0.3)+
+  #geom_jitter(height = 0, width = 0.3)+
+  scale_y_continuous(trans='log10')+
+  theme_classic()
 
 
 ```
