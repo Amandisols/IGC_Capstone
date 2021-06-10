@@ -112,6 +112,16 @@ DATA %>%
   geom_boxplot()+
   theme_classic()
 
+
+DATA %>% 
+  filter(Measurement %in% c("CaCO3","Ca2+", "NaHCO3", "NaCl", "KCl", "Cl-", "K+", "Na+", "MgCl2")) %>%
+  ggplot(aes(x = Measurement, y = Max_Concentration_ppm))+
+  geom_violin(aes(colour = "#1268FF"), alpha = 0.5)+
+  geom_violin(aes(y = Min_Concentration_ppm, colour = "#3268FF"), alpha = 0.5)+
+  geom_jitter(height = 0.1, width = 0.2, alpha = 0.1)+
+  scale_y_continuous(trans='log10')+
+  theme_classic()
+
 #length(DATA$Measurement[DATA$Measurement == "HCO3-"])                                     
                                            
 unique(DATA$Measurement)
@@ -123,6 +133,28 @@ unique(DATA$Measurement)
 
 ```{r}
 
+#Lets remove extreme values for now
+
+DATA %>% 
+  filter(Measurement %in% c("Specific Conductance","Salinity", "Total Dissolved Solids")) %>%
+  mutate(Min_Conductivity_uScm = ifelse(Min_Conductivity_uScm > 10000, NA, Min_Conductivity_uScm),
+              Max_Conductivity_uScm = ifelse(Max_Conductivity_uScm > 60000, NA, Max_Conductivity_uScm))%>%
+  ggplot(aes(x = Measurement, y = Max_Conductivity_uScm))+
+  geom_violin(aes(fill = "#1268FF"), alpha = 0.4)+
+  geom_violin(aes(y = Min_Conductivity_uScm, fill = "#3268FF"), alpha = 0.4)+
+  geom_jitter(height = 0.1, width = 0.3, alpha = 0.1)+
+  scale_y_continuous(trans='log10')+
+  theme_classic()
+
+#Without extreme values removed
+DATA %>% 
+  filter(Measurement %in% c("Specific Conductance","Salinity", "Total Dissolved Solids")) %>%
+  ggplot(aes(x = Measurement, y = Max_Conductivity_uScm))+
+  geom_violin(aes(colour = "#1268FF"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Conductivity_uScm, colour = "#3268FF"), alpha = 0.3)+
+  #geom_jitter(height = 0, width = 0.3)+
+  scale_y_continuous(trans='log10')+
+  theme_classic()
 
 
 ```
