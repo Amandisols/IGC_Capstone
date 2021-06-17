@@ -19,7 +19,7 @@ library(tidyverse)
 ```{r echo = FALSE}
 
 #Most recent download of Raw Salt Data Sheet (as of 05/20/21)
-DATAraw <- read_csv("data/raw_salt_data_052021.csv") 
+DATAraw <- read_csv("data/raw_salt_data_061721.csv") 
 
 #Give each line of data a reference id
 DATAraw$DataID <- 1:nrow(DATAraw)

@@ -145,11 +145,11 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 144,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
 145,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
 146,8,Amber,NaCl,NaCl,g L-,g/L,3,9,NA,23-25 C,23,25 ,NA,NA,NA
-147,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-148,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-149,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-150,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-151,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+147,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
+148,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
+149,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
+150,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
+151,9,Sally,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,","KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",mg/ L,mg/L,0.1,10,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"20, 24, 28, 32C"
 152,10,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,856,3649,NA,16-22 C,16,22 ,NA,NA,NA
 153,10,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,856,3649,NA,21.6-27.6,21.6,27.6,NA,NA,NA
 154,10,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,856,3649,NA,21.6-27.6,21.6,27.6,NA,NA,NA
@@ -220,10 +220,10 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 219,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,15,15,NA,NA,NA,NA
 220,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,20,20,NA,NA,NA,NA
 221,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,25,25,NA,NA,NA,NA
-222,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-223,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-224,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-225,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+222,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"5, 10, 12.5, 15, 20, 20.5 C"
+223,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,824,13188,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"7.5, 10, 12.5, 15, 20, 20.5 C"
+224,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"5, 7.5, 10, 12.5, 15, 20, 20.5 C"
+225,15,Abigail,sodium chloride,NaCl,mg/L,mg/L,412,6594,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"10, 12.5, 15, 20, 20.5 C"
 226,16,Joshua,Specific Conductance,Specific Conductance,uS/cm,µS/cm,Not given,Not given,NA,NA,NA,NA,NA,NA,NA
 227,16,Joshua,Specific Conductance,Specific Conductance,uS/cm,µS/cm,Not given,Not given,NA,NA,NA,NA,NA,NA,NA
 228,16,Joshua,Specific Conductance,Specific Conductance,uS/cm,µS/cm,Not given,Not given,NA,NA,NA,NA,NA,NA,NA
@@ -378,20 +378,20 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 377,35,Joshua,"K, Na","K, Na",mM,mmol/L,1,5,NA,13,13,NA,NA,NA,NA
 378,35,Joshua,"K, Na","K, Na",mM,mmol/L,1,5,NA,13,13,NA,NA,NA,NA
 379,35,Joshua,"K, Na","K, Na",mM,mmol/L,1,5,NA,13,13,NA,NA,NA,NA
-380,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-381,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-382,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-383,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-384,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-385,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-386,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-387,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-388,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-389,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-390,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-391,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-392,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-393,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+380,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+381,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+382,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+383,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+384,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+385,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+386,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+387,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+388,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+389,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+390,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+391,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+392,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
+393,36,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,602,867,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,"15.1, 14.9, 11.1"
 394,37,Joshua,NaCl,NaCl,%,%,0.1,0.8,NA,NA,NA,NA,NA,NA,NA
 395,37,Joshua,NaCl,NaCl,%,%,0.1,0.8,NA,NA,NA,NA,NA,NA,NA
 396,38,Joshua,Specific Conductance,Specific Conductance,μS/cm,µS/cm,221,57200,NA,25.2-31,25.2,31,NA,NA,NA
@@ -404,7 +404,7 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 403,40,Lucy,TDS,Total Dissolved Solids,g/L,g/L,10,30,NA,20,20,NA,NA,NA,NA
 404,40,Lucy,TDS,Total Dissolved Solids,g/L,g/L,10,30,NA,20,20,NA,NA,NA,NA
 405,40,Lucy,TDS,Total Dissolved Solids,g/L,g/L,10,50,NA,20,20,NA,NA,NA,NA
-406,40,Lucy,TDS,Total Dissolved Solids,g/L,g/L,25,50,NA,20,20,NA,NA,NA,NA
+406,40,Lucy,TDS,Total Dissolved Solids,g/L,g/L,10,50,NA,20,20,NA,NA,NA,NA
 407,40,Lucy,TDS,Total Dissolved Solids,g/L,g/L,15,75,NA,20,20,NA,NA,NA,NA
 408,41,Rich,Specific Conductance,Specific Conductance,μS/cm,µS/cm,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
 409,41,Rich,Specific Conductance,Specific Conductance,μS/cm,µS/cm,not provided,not provided,NA,NA,NA,NA,NA,NA,NA
@@ -451,7 +451,7 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 450,46,Sally,salinity,Salinity,ppt,ppt,4,15,NA,NA,NA,NA,NA,NA,NA
 451,46,Sally,salinity,Salinity,ppt,ppt,2,4,NA,NA,NA,NA,NA,NA,NA
 452,46,Sally,salinity,Salinity,ppt,ppt,2,4,NA,NA,NA,NA,NA,NA,NA
-453,46,Sally,salinity,Salinity,ppt,ppt,10,10,NA,NA,NA,NA,NA,NA,NA
+453,46,Sally,salinity,Salinity,ppt,ppt,2,10,NA,NA,NA,NA,NA,NA,NA
 454,46,Sally,salinity,Salinity,ppt,ppt,2,10,NA,NA,NA,NA,NA,NA,NA
 455,47,Abigail,conductivity,Conductivity,uS/cm,µS/cm,458,7240,NA,NA,NA,NA,NA,NA,NA
 456,47,Abigail,conductivity,Conductivity,uS/cm,µS/cm,458,7240,NA,NA,NA,NA,NA,NA,NA
@@ -576,40 +576,40 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 575,67,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,13,56,NA,9.9-36.6,9.9,36.6,NA,NA,NA
 576,67,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,13,56,NA,9.9-36.6,9.9,36.6,NA,NA,NA
 577,67,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,13,56,NA,9.9-36.6,9.9,36.6,NA,NA,NA
-578,68,Joshua,Specific Conductance,Specific Conductance,ppt,ppt,0,14,NA,NA,NA,NA,NA,NA,NA
-579,68,Joshua,Specific Conductance,Specific Conductance,ppt,ppt,0,14,NA,NA,NA,NA,NA,NA,NA
-580,68,Joshua,Specific Conductance,Specific Conductance,ppt,ppt,0,14,NA,NA,NA,NA,NA,NA,NA
-581,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-582,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-583,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-584,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-585,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-586,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-587,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-588,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-589,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-590,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-591,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-592,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-593,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-594,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-595,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-596,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-597,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-598,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-599,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-600,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-601,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-602,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-603,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-604,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-605,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-606,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-607,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-608,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-609,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20-25,20,25,NA,NA,NA
-610,70,Abigail,salinity,Salinity,mOsm*kg/l,mOsm/kg,0,75,NA,20-25,20,25,NA,NA,NA
-611,70,Abigail,salinity,Salinity,mOsm*kg/l,mOsm/kg,0,75,NA,20-25,20,25,NA,NA,NA
+578,68,Joshua,Salinity,Salinity,ppt,ppt,0,14,NA,NA,NA,NA,NA,NA,NA
+579,68,Joshua,Salinity,Salinity,ppt,ppt,0,14,NA,NA,NA,NA,NA,NA,NA
+580,68,Joshua,Salinity,Salinity,ppt,ppt,0,14,NA,NA,NA,NA,NA,NA,NA
+581,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+582,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+583,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+584,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+585,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+586,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+587,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+588,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+589,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+590,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+591,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+592,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+593,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+594,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+595,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+596,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+597,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+598,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+599,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+600,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+601,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+602,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+603,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+604,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+605,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+606,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+607,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+608,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+609,69,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.247,50,NA,20-25,20,25,NA,NA,NA
+610,70,Abigail,salinity,Salinity,mOsm*kg/l,mOsm/kg,10,75,NA,20-25,20,25,NA,NA,NA
+611,70,Abigail,salinity,Salinity,mOsm*kg/l,mOsm/kg,10,75,NA,20-25,20,25,NA,NA,NA
 612,70,Abigail,Magnesium,Mg3+,mM,mmol/L,0,20,NA,20-25,20,25,NA,NA,NA
 613,70,Abigail,potassium,K+,mM,mmol/L,0,50,NA,20-25,20,25,NA,NA,NA
 614,71,Abigail,Specific Conductance (Focal Salt: NaCl),Specific Conductance,uS/cm,µS/cm,250,"14,240",NA,NA,NA,NA,NA,Focal Salt: NaCl,NA
@@ -644,10 +644,10 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 643,76,Rich,salinity,Salinity,ppt,ppt,0,24,2ppt per day,27,27,NA,NA,NA,NA
 644,76,Rich,salinity,Salinity,ppt,ppt,0,24,2ppt per day,27,27,NA,NA,NA,NA
 645,76,Rich,salinity,Salinity,ppt,ppt,0,24,2ppt per day,27,27,NA,NA,NA,NA
-646,77,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,483,24400,NA,25-Dec,25,Dec,NA,NA,NA
-647,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
-648,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
-649,78,Rich,chloride,Cl-,ml/L,ml/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
+646,77,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,483,24400,NA,12-25,12,25,NA,NA,NA
+647,78,Rich,chloride,Cl-,mg/L,mg/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
+648,78,Rich,chloride,Cl-,mg/L,mg/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
+649,78,Rich,chloride,Cl-,mg/L,mg/L,22.5,32.4,NA,19.5 - 30.3,19.5 , 30.3,NA,NA,NA
 650,79,Jo,Salinity,Salinity,ppt,ppt,0.14,11.7,NA,NA,NA,NA,NA,NA,NA
 651,80,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,348,403,NA,8.9-9.2,8.9,9.2,NA,NA,NA
 652,81,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,21.9,82.3,NA,NA,NA,NA,NA,NA,NA
@@ -694,26 +694,26 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 693,84,Joshua,MgCO3,MgCO3,mN,mN,0,2,NA,22,22,NA,NA,NA,NA
 694,84,Joshua,NaCl,NaCl,mN,mN,0,2,NA,22,22,NA,NA,NA,NA
 695,84,Joshua,NaHCO3,NaHCO3,mN,mN,0,2,NA,22,22,NA,NA,NA,NA
-696,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-697,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-698,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-699,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-700,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-701,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-702,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-703,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-704,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-705,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-706,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-707,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-708,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-709,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-710,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-711,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-712,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-713,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-714,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
-715,85,Rich,salinity,Salinity,mOsm,mOsm,0.1,750,NA,10,10,NA,NA,NA,NA
+696,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+697,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+698,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+699,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+700,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+701,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+702,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+703,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+704,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+705,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+706,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+707,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+708,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+709,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+710,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+711,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+712,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+713,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+714,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
+715,85,Rich,salinity,Salinity,mOsm/L,mOsm/L,0.1,750,NA,10,10,NA,NA,NA,NA
 716,86,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,18.5,57.3,NA,14-18.5,14,18.5,NA,NA,NA
 717,87,Joshua,Salinity,Salinity,ppt,ppt,1.2,13,NA,10.2-30.4,10.2,30.4,NA,NA,NA
 718,87,Joshua,Salinity,Salinity,ppt,ppt,1.2,13,NA,10.2-30.4,10.2,30.4,NA,NA,NA
@@ -736,7 +736,7 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 735,89,Jo,Salinity,Salinity,mg/L,mg/L,0,17500,NA,20-24,20,24,NA,NA,NA
 736,89,Jo,Salinity,Salinity,mg/L,mg/L,0,17500,NA,20-24,20,24,NA,NA,NA
 737,89,Jo,Salinity,Salinity,mg/L,mg/L,100,20000,NA,20-24,20,24,NA,NA,NA
-738,89,Jo,Salinity,Salinity,mg/L,mg/L,10000,20000,NA,20-24,20,24,NA,NA,NA
+738,89,Jo,Salinity,Salinity,mg/L,mg/L,100,20000,NA,20-24,20,24,NA,NA,NA
 739,90,Jo,Salinity,Salinity,ppt,ppt,0,12.7,NA,10.7-13.1,10.7,13.1,NA,NA,NA
 740,90,Jo,Salinity,Salinity,ppt,ppt,0,9.1,NA,10.7-13.1,10.7,13.1,NA,NA,NA
 741,90,Jo,Salinity,Salinity,ppt,ppt,0,9.5,NA,10.7-13.1,10.7,13.1,NA,NA,NA
@@ -788,21 +788,21 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 787,97,Joshua,Specific Conductance,Specific Conductance,umhos,µmho/cm,594,637,NA,21.6-22.7,21.6,22.7,NA,NA,NA
 788,98,Joshua,salinity,Salinity,g/L,g/L,0,10,NA,NA,NA,NA,NA,NA,NA
 789,98,Joshua,salinity,Salinity,g/L,g/L,0,10,NA,NA,NA,NA,NA,NA,NA
-790,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-791,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-792,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-793,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-794,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-795,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-796,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-797,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-798,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-799,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-800,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-801,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-802,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-803,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
-804,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,19-Jun,19,Jun,NA,NA,NA
+790,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+791,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+792,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+793,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+794,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+795,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+796,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+797,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+798,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+799,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+800,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+801,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+802,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+803,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
+804,99,Rich,Specific Conductance,Specific Conductance,us/cm,µS/cm,380,846,NA,6-19,6,19,NA,NA,NA
 805,100,Rich,sodium bicarbonate,NaHCO3,mg/L,mg/L,175,1400,NA,16-16.5,16,16.5,NA,NA,NA
 806,100,Rich,sodium bicarbonate,NaHCO3,mg/L,mg/L,175,2000,NA,24.5-24.6,24.5,24.6,NA,NA,NA
 807,100,Rich,sodium bicarbonate,NaHCO3,mg/L,mg/L,175,1400,NA,16-16.5,16,16.5,NA,NA,NA
@@ -886,45 +886,45 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 885,111,Carl,NaCl,NaCl,mM,mmol/L,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
 886,111,Carl,NaCl,NaCl,mM,mmol/L,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
 887,111,Carl,NaCl,NaCl,mM,mmol/L,0.01,1,NA,20 +/- 0.5,20 , 0.5,NA,NA,NA
-888,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-889,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-890,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-891,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-892,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,20-25,20,25,NA,NA,NA
-893,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,21,21,NA,NA,NA,NA
-894,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,20,20,NA,NA,NA,NA
-895,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-896,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-897,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-898,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-899,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-900,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-901,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-902,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-903,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-904,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-905,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-906,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-907,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-908,112,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0,80,NA,NA,NA,NA,NA,NA,NA
-909,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-910,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-911,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-912,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-913,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
-914,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-915,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-916,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-917,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-918,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-919,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-920,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
-921,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-922,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-923,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
-924,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
-925,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,NA
-926,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,NA
+888,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+889,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+890,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+891,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+892,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,20-25,20,25,NA,NA,NA
+893,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,21,21,NA,NA,NA,NA
+894,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,20,20,NA,NA,NA,NA
+895,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+896,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+897,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+898,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+899,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+900,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+901,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+902,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+903,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+904,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+905,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+906,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+907,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+908,112,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,334,50400,NA,NA,NA,NA,NA,NA,NA
+909,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+910,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+911,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+912,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+913,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+914,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+915,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+916,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+917,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+918,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+919,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+920,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+921,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+922,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+923,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+924,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+925,113,Carl,NaCl,NaCl,uM/g dry tissue,uM/g dry tissue,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
+926,113,Carl,NaCl,NaCl,mM,mmol/L,4,102,NA,NA,NA,NA,NA,NA,Mussels were stored at 22 +/1 2 deg C
 927,114,Joshua,Specific Conductance,Specific Conductance,micro-mhos,µmho/cm,"10,000","45,000",NA,NA,NA,NA,NA,NA,NA
 928,115,Joshua,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.025,0.55,NA,20.75-22.25,20.75,22.25,NA,NA,NA
 929,115,Joshua,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.025,0.55,NA,20.75-22.25,20.75,22.25,NA,NA,NA
@@ -1013,17 +1013,17 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1012,120,Amber,NA,NA,g L-1,g/L,1,12,NA,NA,NA,NA,NA,NA,NA
 1013,120,Amber,NA,NA,g L-1,g/L,1,12,NA,NA,NA,NA,NA,NA,NA
 1014,120,Amber,NA,NA,g L-1,g/L,1,12,NA,NA,NA,NA,NA,NA,NA
-1015,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1016,121,Abigail,Salinity,Salinity,g/L,g/L,0,330,NA,NA,NA,NA,NA,NA,NA
-1017,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1018,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1019,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1020,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1021,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1022,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1023,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1024,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
-1025,121,Abigail,Salinity,Salinity,g/L,g/L,0,25,NA,NA,NA,NA,NA,NA,NA
+1015,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1016,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,330,NA,NA,NA,NA,NA,NA,NA
+1017,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1018,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1019,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1020,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1021,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1022,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1023,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1024,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
+1025,121,Abigail,Salinity,Salinity,g/L,g/L,0.03,25,NA,NA,NA,NA,NA,NA,NA
 1026,122,Abigail,Specific Conductance,Specific Conductance,μS/cm,µS/cm,889.4,1692.75,NA,NA,NA,NA,NA,NA,NA
 1027,122,Abigail,Specific Conductance,Specific Conductance,μS/cm,µS/cm,889.4,1692.75,NA,NA,NA,NA,NA,NA,NA
 1028,122,Abigail,Specific Conductance,Specific Conductance,μS/cm,µS/cm,889.4,1692.75,NA,NA,NA,NA,NA,NA,NA
@@ -1122,7 +1122,7 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1121,142,Sally,NaCl,NaCl,mg/L,mg/L,2,140,na,15,15,NA,NA,NA,NA
 1122,142,Sally,NaCl,NaCl,mg/L,mg/L,2,140,na,15,15,NA,NA,NA,NA
 1123,142,Sally,NaCl,NaCl,mg/L,mg/L,2,7,na,15,15,NA,NA,NA,NA
-1124,143,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,28.67,520.54,NA,19-Nov,19,Nov,NA,NA,NA
+1124,143,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,28.67,520.54,NA,11-19,11,19,NA,NA,NA
 1125,144,Lucy,Specific Conductance,Specific Conductance,uS/cm,µS/cm,457,480,NA,8.9,8.9,NA,NA,NA,NA
 1126,144,Lucy,Specific Conductance,Specific Conductance,uS/cm,µS/cm,457,480,NA,8.9,8.9,NA,NA,NA,NA
 1127,144,Lucy,Specific Conductance,Specific Conductance,uS/cm,µS/cm,457,480,NA,8.9,8.9,NA,NA,NA,NA
@@ -1301,11 +1301,11 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1300,174,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,230,5521,NA,NA,NA,NA,NA,NA,NA
 1301,174,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,230,5521,NA,NA,NA,NA,NA,NA,NA
 1302,174,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,230,5521,NA,NA,NA,NA,NA,NA,NA
-1303,175,Sally,Specific Conductance,Specific Conductance,ms/cm,mS/cm,28.1,488,NA,NA,NA,NA,NA,NA,NA
-1304,175,Sally,Specific Conductance,Specific Conductance,ms/cm,mS/cm,28.1,488,NA,NA,NA,NA,NA,NA,NA
-1305,175,Sally,Specific Conductance,Specific Conductance,ms/cm,mS/cm,28.1,488,NA,NA,NA,NA,NA,NA,NA
-1306,175,Sally,Specific Conductance,Specific Conductance,ms/cm,mS/cm,28.1,488,NA,NA,NA,NA,NA,NA,NA
-1307,175,Sally,Specific Conductance,Specific Conductance,ms/cm,mS/cm,28.1,488,NA,NA,NA,NA,NA,NA,NA
+1303,175,Sally,Specific Conductance,Specific Conductance,mS/m,mS/m,28.1,488,NA,NA,NA,NA,NA,NA,NA
+1304,175,Sally,Specific Conductance,Specific Conductance,mS/m,mS/m,28.1,488,NA,NA,NA,NA,NA,NA,NA
+1305,175,Sally,Specific Conductance,Specific Conductance,mS/m,mS/m,28.1,488,NA,NA,NA,NA,NA,NA,NA
+1306,175,Sally,Specific Conductance,Specific Conductance,mS/m,mS/m,28.1,488,NA,NA,NA,NA,NA,NA,NA
+1307,175,Sally,Specific Conductance,Specific Conductance,mS/m,mS/m,28.1,488,NA,NA,NA,NA,NA,NA,NA
 1308,176,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,22,29,NA,23.56,23.56,NA,NA,NA,NA
 1309,176,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,22,29,NA,23.56,23.56,NA,NA,NA,NA
 1310,176,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,22,29,NA,23.56,23.56,NA,NA,NA,NA
@@ -1323,8 +1323,8 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1322,178,Carl,Specific Conductance,Specific Conductance,uS/cm,µS/cm,357,431,NA,16.9-21,16.9,21,NA,NA,NA
 1323,178,Carl,Specific Conductance,Specific Conductance,uS/cm,µS/cm,357,431,NA,16.9-21,16.9,21,NA,NA,NA
 1324,178,Carl,Specific Conductance,Specific Conductance,uS/cm,µS/cm,357,1071,NA,16.9-21,16.9,21,NA,NA,NA
-1325,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",NA
-1326,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",NA
+1325,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",ambient range
+1326,179,Carl,"Specific Conductance (Focal Salt: Na, K, HCO3 are dominant)",Specific Conductance,uS/cm,µS/cm,108,246,NA,16-32,16,32,NA,"Focal Salt: Na, K, HCO3 are dominant+",ambient range
 1327,180,Carl,NaCl,NaCl,mg Cl- / L,mg/L,2.8,10,NA,21,21,NA,NA,NA,NA
 1328,180,Carl,NaCl,NaCl,mg Cl- / L,mg/L,2.8,10,NA,21,21,NA,NA,NA,NA
 1329,180,Carl,NaCl,NaCl,mg Cl- / L,mg/L,2.8,10,NA,21,21,NA,NA,NA,NA
@@ -1382,14 +1382,14 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1381,186,Lucy,calcium nitrate,calcium nitrate,g/L,g/L,0,5,not given,22.2,22.2,NA,NA,NA,NA
 1382,186,Lucy,NaCl & Ca(N03)2,NaCl & Ca(N03)2,g/L,g/L,0,7,not given,22.2,22.2,NA,NA,NA,NA
 1383,186,Lucy,NaCL,NaCl,g/L,g/L,0.031,4,not given,22.2,22.2,NA,NA,NA,NA
-1384,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,NA
-1385,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,NA
+1384,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
+1385,187,Carl,Ca (applied as CaCO3),Ca2+,mg Ca/L,mg/L,0,180,NA,2-30,2,30,NA,Applied as CaCO3,temp was also an experimental variable
 1386,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Ca /L,mg/L,0.5,5,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 1387,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Ca/L,mg/L,0.5,5,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 1388,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Mg/L,mg/L,0.5,25,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
 1389,188,Carl,Ca (applied as sulfates; and in combination with Mg),Ca2+,mg Mg/L,mg/L,0.5,25,NA,26,26,NA,NA,Applied as sulfates; and in combination with Mg,NA
-1390,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
-1391,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,NA
+1390,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,varied among streams
+1391,189,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,50,200,NA,"Multiple, See TempNotes","Multiple, See TempNotes",NA,NA,NA,varied among streams
 1392,190,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 1393,190,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
 1394,190,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,168,195,NA,NA,NA,NA,NA,NA,NA
@@ -1832,12 +1832,12 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 1831,232,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,247,8863,NA,25,25,NA,NA,NA,NA
 1832,232,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,294,6767,NA,25,25,NA,NA,NA,NA
 1833,232,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,227,6017,NA,25,25,NA,NA,NA,NA
-1834,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
-1835,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
-1836,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
-1837,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
-1838,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
-1839,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-9.8,NA,9.8,NA,NA,NA
+1834,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-2.9 - 6.9,NA,2.9 ,NA,NA,NA
+1835,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-2.9 - 6.9,NA,2.9 ,NA,NA,NA
+1836,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-2.9 - 6.9,NA,2.9 ,NA,NA,NA
+1837,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-2.9 - 6.9,NA,2.9 ,NA,NA,NA
+1838,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-2.9 - 6.9,NA,2.9 ,NA,NA,NA
+1839,233,Jo,Specific Conductance,Specific Conductance,umhos/cm,µmho/cm,95,284,NA,-2.9 - 6.9,NA,2.9 ,NA,NA,NA
 1840,234,Paul,Specific Conductance,Specific Conductance,uS/cm,µS/cm,not given,not given,NA,NA,NA,NA,NA,NA,NA
 1841,234,Paul,Specific Conductance,Specific Conductance,uS/cm,µS/cm,not given,not given,NA,NA,NA,NA,NA,NA,NA
 1842,234,Paul,Specific Conductance,Specific Conductance,uS/cm,µS/cm,not given,not given,NA,NA,NA,NA,NA,NA,NA
@@ -2154,11 +2154,11 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 2153,263,Jo,TDS,Total Dissolved Solids,mg/l,mg/L,189,1961,NA,12,12,NA,NA,NA,NA
 2154,263,Jo,TDS,Total Dissolved Solids,mg/l,mg/L,203,2080,NA,12,12,NA,NA,NA,NA
 2155,263,Jo,TDS,Total Dissolved Solids,mg/l,mg/L,179,2089,NA,23,23,NA,NA,NA,NA
-2156,264,Jo,Specific conductance,Specific Conductance,NA,NA,326,390.6,NA,NA,NA,NA,NA,NA,NA
-2157,264,Jo,Specific conductance,Specific Conductance,NA,NA,326,390.6,NA,NA,NA,NA,NA,NA,NA
-2158,264,Jo,Specific conductance,Specific Conductance,NA,NA,326,390.6,NA,NA,NA,NA,NA,NA,NA
-2159,264,Jo,Specific conductance,Specific Conductance,NA,NA,326,390.6,NA,NA,NA,NA,NA,NA,NA
-2160,264,Jo,Specific conductance,Specific Conductance,NA,NA,326,390.6,NA,NA,NA,NA,NA,NA,NA
+2156,264,Jo,Specific conductance,Specific Conductance,mmhos/cm,mmhos/cm,326,390.6,NA,NA,NA,NA,NA,NA,NA
+2157,264,Jo,Specific conductance,Specific Conductance,mmhos/cm,mmhos/cm,326,390.6,NA,NA,NA,NA,NA,NA,NA
+2158,264,Jo,Specific conductance,Specific Conductance,mmhos/cm,mmhos/cm,326,390.6,NA,NA,NA,NA,NA,NA,NA
+2159,264,Jo,Specific conductance,Specific Conductance,mmhos/cm,mmhos/cm,326,390.6,NA,NA,NA,NA,NA,NA,NA
+2160,264,Jo,Specific conductance,Specific Conductance,mmhos/cm,mmhos/cm,326,390.6,NA,NA,NA,NA,NA,NA,NA
 2161,265,Carl,Specific Conductance (Focal Salt: Ca Na SO4 dominant (simulated river water)),Specific Conductance,uS/cm,µS/cm,250,1274,NA,22,22,NA,NA,Focal Salt: Ca Na SO4 dominant (simulated river water),NA
 2162,265,Carl,Specific Conductance (Focal Salt: Ca Na SO4 dominant (simulated river water)),Specific Conductance,uS/cm,µS/cm,250,1274,NA,22,22,NA,NA,Focal Salt: Ca Na SO4 dominant (simulated river water),NA
 2163,265,Carl,Specific Conductance (Focal Salt: Ca Na SO4 dominant (simulated river water)),Specific Conductance,uS/cm,µS/cm,250,1274,NA,22,22,NA,NA,Focal Salt: Ca Na SO4 dominant (simulated river water),NA
@@ -2241,20 +2241,20 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 2240,270,Carl,Specific Conductance (Focal Salt: Ca Mg HCO3 SO4 dominant),Specific Conductance,uS/cm,µS/cm,200,600,NA,ambient,Ambient,NA,NA,Focal Salt: Ca Mg HCO3 SO4 dominante,NA
 2241,270,Carl,Specific Conductance (Focal Salt: Ca Mg HCO3 SO4 dominant),Specific Conductance,uS/cm,µS/cm,200,600,NA,ambient,Ambient,NA,NA,Focal Salt: Ca Mg HCO3 SO4 dominante,NA
 2242,270,Carl,Specific Conductance (Focal Salt: Ca Mg HCO3 SO4 dominant),Specific Conductance,uS/cm,µS/cm,200,600,NA,ambient,Ambient,NA,NA,Focal Salt: Ca Mg HCO3 SO4 dominante,NA
-2243,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2244,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2245,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2246,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2247,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2248,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2249,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2250,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2251,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2252,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2253,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2254,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2255,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
-2256,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
+2243,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2244,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2245,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2246,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2247,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2248,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2249,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2250,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2251,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2252,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2253,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2254,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2255,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
+2256,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,NA,NA,NA,20,20,NA,NA,NA,NA
 2257,271,Lucy,Specific Conductance,Specific Conductance,mS/cm,mS/cm,5.5,76,NA,20,20,NA,NA,NA,NA
 2258,272,Rich,sodium chloride,NaCl,g/L,g/L,0,4.5,sudden,20,20,NA,NA,NA,NA
 2259,272,Rich,sodium chloride,NaCl,g/L,g/L,0,4,sudden,20,20,NA,NA,NA,NA
@@ -2343,15 +2343,15 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 2342,279,Sally,salinity,Salinity,ppt,ppt,0,27,NA,28,28,NA,NA,NA,NA
 2343,279,Sally,salinity,Salinity,ppt,ppt,0,27,NA,28,28,NA,NA,NA,NA
 2344,279,Sally,salinity,Salinity,ppt,ppt,0,27,NA,28,28,NA,NA,NA,NA
-2345,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2346,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2347,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2348,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2349,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2350,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2351,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2352,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
-2353,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3-1,>100,NA,ambient,Ambient,NA,NA,NA,NA
+2345,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2346,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2347,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2348,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2349,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2350,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2351,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2352,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
+2353,280,Sally,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.3,682,NA,ambient,Ambient,NA,NA,NA,NA
 2354,281,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.277,3.422,NA,NA,NA,NA,NA,NA,NA
 2355,281,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.277,3.422,NA,NA,NA,NA,NA,NA,NA
 2356,281,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,0.277,3.422,NA,NA,NA,NA,NA,NA,NA
@@ -2610,18 +2610,18 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 2609,303,Jo,Specific Conductance,Specific Conductance,uS/m,µS/m,27.9,199.9,NA,12.2-24.6,12.2,24.6,NA,NA,NA
 2610,303,Jo,Specific Conductance,Specific Conductance,uS/m,µS/m,27.9,199.9,NA,12.2-24.6,12.2,24.6,NA,NA,NA
 2611,303,Jo,Specific Conductance,Specific Conductance,uS/m,µS/m,27.9,199.9,NA,12.2-24.6,12.2,24.6,NA,NA,NA
-2612,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
-2613,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
-2614,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
-2615,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
-2616,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
-2617,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
-2618,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
-2619,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
-2620,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
-2621,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,16-Apr,16,Apr,NA,NA,NA
-2622,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
-2623,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,16-Apr,16,Apr,NA,NA,NA
+2612,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,4-16,4,16,NA,NA,NA
+2613,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,4-16,4,16,NA,NA,NA
+2614,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,4-16,4,16,NA,NA,NA
+2615,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,4-16,4,16,NA,NA,NA
+2616,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,4-16,4,16,NA,NA,NA
+2617,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,4-16,4,16,NA,NA,NA
+2618,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,4-16,4,16,NA,NA,NA
+2619,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,4-16,4,16,NA,NA,NA
+2620,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,4-16,4,16,NA,NA,NA
+2621,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,4,50,NA,4-16,4,16,NA,NA,NA
+2622,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,4-16,4,16,NA,NA,NA
+2623,304,Jo,sodium chloride,NaCl,mM/L,mmol/L,25,75,NA,4-16,4,16,NA,NA,NA
 2624,305,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,645,3134,NA,NA,NA,NA,NA,NA,NA
 2625,305,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,645,3134,NA,NA,NA,NA,NA,NA,NA
 2626,305,Sally,Specific Conductance,Specific Conductance,uS/cm,µS/cm,645,3134,NA,NA,NA,NA,NA,NA,NA
@@ -3006,278 +3006,278 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 3005,332,Carl,NaCl,NaCl,mg Cl / L,mg/L,15,676,NA,23,23,NA,NA,NA,NA
 3006,332,Carl,NaCl,NaCl,mg Cl / L,mg/L,15,676,NA,23,23,NA,NA,NA,NA
 3007,332,Carl,NaCl,NaCl,mg Cl / L,mg/L,11,614,NA,20,20,NA,NA,NA,NA
-3008,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3009,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3010,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3011,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3012,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3013,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3014,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3015,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3016,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3017,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3018,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3019,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3020,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3021,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3022,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000",NA,25,25,NA,NA,NA,NA
-3023,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3024,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3025,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3026,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3027,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3028,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3029,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3030,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3031,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3032,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3033,333,Carl,NaCl/Na2SO4,NaCl/Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3034,333,Carl,NaCl/NaHCO3,NaCl/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3035,333,Carl,Na2SO4/NaHCO3,Na2SO4/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3036,333,Carl,KCl/K2SO4,KCl/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3037,333,Carl,KCl/KHCO53,KCl/KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3038,333,Carl,K2SO4/KHCO3,K2SO4/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3039,333,Carl,CaCl2/CaSO4,CaCl2/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3040,333,Carl,MgCl2/MgSO4,MgCl2/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3041,333,Carl,NaCl/KCl,NaCl/KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3042,333,Carl,NaCl/CaCl2,NaCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3043,333,Carl,NaCl/MgCl2,NaCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3044,333,Carl,KCl/CaCl2,KCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3045,333,Carl,KCl/MgCl2,KCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3046,333,Carl,CaCl2/MgCl2,CaCl2/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3047,333,Carl,Na2SO4/K2SO4,Na2SO4/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3048,333,Carl,Na2SO4/MgSO4,Na2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3049,333,Carl,K2SO4/CaSO4,K2SO4/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3050,333,Carl,K2SO4/MgSO4,K2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3051,333,Carl,NaHCO3/KHCO3,NaHCO3/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3052,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3053,333,Carl,CaCl2-K2SO4,CaCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3054,333,Carl,CaCl2-KCl,CaCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3055,333,Carl,CaCl2-KHCO3,CaCl2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3056,333,Carl,CaCl2-NA2SO4,CaCl2-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3057,333,Carl,CaCl2-NaCl,CaCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3058,333,Carl,CaCl2-NaHCO3,CaCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3059,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3060,333,Carl,CaSO4-CaCL2,CaSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3061,333,Carl,CaSO4-K2SO4,CaSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3062,333,Carl,CaSO4-KCl,CaSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3063,333,Carl,CaSO4-KHCO3,CaSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3064,333,Carl,CaSO4-NA2SO4,CaSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3065,333,Carl,CaSO4-NaCl,CaSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3066,333,Carl,CaSO4-NaHCO3,CaSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3067,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3068,333,Carl,K2SO4-KCl,K2SO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3069,333,Carl,K2SO4-NA2SO4,K2SO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3070,333,Carl,K2SO4-NaCl,K2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3071,333,Carl,K2SO4-NaHCO3,K2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3072,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3073,333,Carl,KCl-NA2SO4,KCl-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3074,333,Carl,KCl-NaCl,KCl-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3075,333,Carl,KCl-NaHCO3,KCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3076,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3077,333,Carl,KHCO3-K2SO4,KHCO3-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3078,333,Carl,KHCO3-KCl,KHCO3-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3079,333,Carl,KHCO3-NA2SO4,KHCO3-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3080,333,Carl,KHCO3-NaCl,KHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3081,333,Carl,KHCO3-NaHCO3,KHCO3-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3082,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3083,333,Carl,MgCl2-CaCL2,MgCl2-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3084,333,Carl,MgCl2-CaSO4,MgCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3085,333,Carl,MgCl2-K2SO4,MgCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3086,333,Carl,MgCl2-KCl,MgCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3087,333,Carl,MgCl2-KHCO3,MgCl2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3088,333,Carl,MgCl2-NA2SO4,MgCl2-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3089,333,Carl,MgCl2-NaCl,MgCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3090,333,Carl,MgCl2-NaHCO3,MgCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3091,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3092,333,Carl,MgSO4-CaCL2,MgSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3093,333,Carl,MgSO4-CaSO4,MgSO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3094,333,Carl,MgSO4-K2SO4,MgSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3095,333,Carl,MgSO4-KCl,MgSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3096,333,Carl,MgSO4-KHCO3,MgSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3097,333,Carl,MgSO4-MgCL2,MgSO4-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3098,333,Carl,MgSO4-NA2SO4,MgSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3099,333,Carl,MgSO4-NaCl,MgSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3100,333,Carl,MgSO4-NaHCO3,MgSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3101,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3102,333,Carl,Na2SO4-NaCl,Na2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3103,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3104,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3105,333,Carl,NaHCO3-NA2SO4,NaHCO3-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3106,333,Carl,NaHCO3-NaCl,NaHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3107,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3108,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3109,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3110,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3111,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3112,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3113,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3114,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3115,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3116,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3117,333,Carl,NaCl-Na2SO4,NaCl-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3118,333,Carl,NaCl-NaHCO3,NaCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3119,333,Carl,Na2SO4-NaHCO3,Na2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3120,333,Carl,KCl-K2SO4,KCl-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3121,333,Carl,KCl-KHCO53,KCl-KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3122,333,Carl,K2SO4-KHCO3,K2SO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3123,333,Carl,CaCl2-CaSO4,CaCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3124,333,Carl,MgCl2-MgSO4,MgCl2-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3125,333,Carl,NaCl-KCl,NaCl-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3126,333,Carl,NaCl-CaCl2,NaCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3127,333,Carl,NaCl-MgCl2,NaCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3128,333,Carl,KCl-CaCl2,KCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3129,333,Carl,KCl-MgCl2,KCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3130,333,Carl,CaCl2-MgCl2,CaCl2-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3131,333,Carl,Na2SO4-K2SO4,Na2SO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3132,333,Carl,Na2SO4-MgSO4,Na2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3133,333,Carl,K2SO4-CaSO4,K2SO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3134,333,Carl,K2SO4-MgSO4,K2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3135,333,Carl,CaSO4-MgSO4,CaSO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3136,333,Carl,NaHCO3-KHCO3,NaHCO3-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3137,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3138,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3139,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3140,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3141,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3142,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3143,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3144,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3145,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3146,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3147,333,Carl,NaCl-Na2SO4,NaCl-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3148,333,Carl,NaCl-NaHCO3,NaCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3149,333,Carl,Na2SO4-NaHCO3,Na2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3150,333,Carl,KCl-K2SO4,KCl-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3151,333,Carl,KCl-KHCO53,KCl-KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3152,333,Carl,K2SO4-KHCO3,K2SO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3153,333,Carl,CaCl2-CaSO4,CaCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3154,333,Carl,MgCl2-MgSO4,MgCl2-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3155,333,Carl,NaCl-KCl,NaCl-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3156,333,Carl,NaCl-CaCl2,NaCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3157,333,Carl,NaCl-MgCl2,NaCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3158,333,Carl,KCl-CaCl2,KCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3159,333,Carl,KCl-MgCl2,KCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3160,333,Carl,CaCl2-MgCl2,CaCl2-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3161,333,Carl,Na2SO4-K2SO4,Na2SO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3162,333,Carl,Na2SO4-MgSO4,Na2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3163,333,Carl,K2SO4-CaSO4,K2SO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3164,333,Carl,K2SO4-MgSO4,K2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3165,333,Carl,CaSO4-MgSO4,CaSO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3166,333,Carl,NaHCO3-KHCO3,NaHCO3-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,20,20,NA,NA,NA,NA
-3167,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3168,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3169,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3170,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3171,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3172,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3173,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3174,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3175,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3176,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3177,333,Carl,NaCl/Na2SO4,NaCl/Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3178,333,Carl,NaCl/NaHCO3,NaCl/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3179,333,Carl,Na2SO4/NaHCO3,Na2SO4/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3180,333,Carl,KCl/K2SO4,KCl/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3181,333,Carl,KCl/KHCO53,KCl/KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3182,333,Carl,K2SO4/KHCO3,K2SO4/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3183,333,Carl,CaCl2/CaSO4,CaCl2/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3184,333,Carl,MgCl2/MgSO4,MgCl2/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3185,333,Carl,NaCl/KCl,NaCl/KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3186,333,Carl,NaCl/CaCl2,NaCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3187,333,Carl,NaCl/MgCl2,NaCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3188,333,Carl,KCl/CaCl2,KCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3189,333,Carl,KCl/MgCl2,KCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3190,333,Carl,CaCl2/MgCl2,CaCl2/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3191,333,Carl,Na2SO4/K2SO4,Na2SO4/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3192,333,Carl,Na2SO4/MgSO4,Na2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3193,333,Carl,K2SO4/CaSO4,K2SO4/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3194,333,Carl,K2SO4/MgSO4,K2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3195,333,Carl,NaHCO3/KHCO3,NaHCO3/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3196,333,Carl,CaCL2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3197,333,Carl,CaCL2-K2SO4,CaCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3198,333,Carl,CaCL2-KCl,CaCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3199,333,Carl,CaCL2-KHCO3,CaCL2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3200,333,Carl,CaCL2-Na2SO4,CaCl2-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3201,333,Carl,CaCL2-NaCl,CaCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3202,333,Carl,CaCL2-NaHCO3,CaCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3203,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3204,333,Carl,CaSO4-CaCl2,CaSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3205,333,Carl,CaSO4-K2SO4,CaSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3206,333,Carl,CaSO4-KCl,CaSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3207,333,Carl,CaSO4-KHCO3,CaSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3208,333,Carl,CaSO4-Na2SO4,CaSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3209,333,Carl,CaSO4-NaCl,CaSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3210,333,Carl,CaSO4-NaHCO3,CaSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3211,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3212,333,Carl,K2SO4-KCl,K2SO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3213,333,Carl,K2SO4-Na2SO4,K2SO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3214,333,Carl,K2SO4-NaCl,K2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3215,333,Carl,K2SO4-NaHCO3,K2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3216,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3217,333,Carl,KCl-Na2SO4,KCl-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3218,333,Carl,KCl-NaCl,KCl-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3219,333,Carl,KCl-NaHCO3,KCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3220,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3221,333,Carl,KHCO3-K2SO4,KHCO3-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3222,333,Carl,KHCO3-KCl,KHCO3-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3223,333,Carl,KHCO3-Na2SO4,KHCO3-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3224,333,Carl,KHCO3-NaCl,KHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3225,333,Carl,KHCO3-NaHCO3,KHCO3-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3226,333,Carl,MgCL2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3227,333,Carl,MgCL2-CaCl2,MgCl2-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3228,333,Carl,MgCL2-CaSO4,MgCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3229,333,Carl,MgCL2-K2SO4,MgCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3230,333,Carl,MgCL2-KCl,MgCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3231,333,Carl,MgCL2-KHCO3,MgCl2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3232,333,Carl,MgCL2-Na2SO4,MgCl2-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3233,333,Carl,MgCL2-NaCl,MgCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3234,333,Carl,MgCL2-NaHCO3,MgCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3235,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3236,333,Carl,MgSO4-CaCl2,MgSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3237,333,Carl,MgSO4-CaSO4,MgSO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3238,333,Carl,MgSO4-K2SO4,MgSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3239,333,Carl,MgSO4-KCl,MgSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3240,333,Carl,MgSO4-KHCO3,MgSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3241,333,Carl,MgSO4-MgCl2,MgSO4-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3242,333,Carl,MgSO4-Na2SO4,MgSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3243,333,Carl,MgSO4-NaCl,MgSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3244,333,Carl,MgSO4-NaHCO3,MgSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3245,333,Carl,NA2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3246,333,Carl,NA2SO4-NaCl,NA2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3247,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3248,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3249,333,Carl,NaHCO3-Na2SO4,NaHCO3-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3250,333,Carl,NaHCO3-NaCl,NaHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3251,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3252,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3253,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3254,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3255,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3256,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3257,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3258,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3259,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3260,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3261,333,Carl,NaCl/Na2SO4,NaCl/Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3262,333,Carl,NaCl/NaHCO3,NaCl/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3263,333,Carl,Na2SO4/NaHCO3,Na2SO4/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3264,333,Carl,KCl/K2SO4,KCl/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3265,333,Carl,KCl/KHCO53,KCl/KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3266,333,Carl,K2SO4/KHCO3,K2SO4/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3267,333,Carl,CaCl2/CaSO4,CaCl2/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3268,333,Carl,MgCl2/MgSO4,MgCl2/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3269,333,Carl,NaCl/KCl,NaCl/KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3270,333,Carl,NaCl/CaCl2,NaCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3271,333,Carl,NaCl/MgCl2,NaCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3272,333,Carl,KCl/CaCl2,KCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3273,333,Carl,KCl/MgCl2,KCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3274,333,Carl,CaCl2/MgCl2,CaCl2/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3275,333,Carl,Na2SO4/K2SO4,Na2SO4/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3276,333,Carl,Na2SO4/MgSO4,Na2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3277,333,Carl,K2SO4/CaSO4,K2SO4/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3278,333,Carl,K2SO4/MgSO4,K2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
-3279,333,Carl,NaHCO3/KHCO3,NaHCO3/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000",NA,25,25,NA,NA,NA,NA
+3008,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3009,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3010,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3011,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3012,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3013,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3014,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3015,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3016,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3017,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3018,333,Carl,potassium,K+,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3019,333,Carl,magnesium,Mg3+,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3020,333,Carl,chloride,Cl-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3021,333,Carl,sulfate,SO4 2-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3022,333,Carl,Bicarbonate,HCO3-,mg/L,mg/L,220,"10,000.00",NA,25,25,NA,NA,NA,NA
+3023,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3024,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3025,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3026,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3027,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3028,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3029,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3030,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3031,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3032,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3033,333,Carl,NaCl/Na2SO4,NaCl/Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3034,333,Carl,NaCl/NaHCO3,NaCl/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3035,333,Carl,Na2SO4/NaHCO3,Na2SO4/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3036,333,Carl,KCl/K2SO4,KCl/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3037,333,Carl,KCl/KHCO53,KCl/KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3038,333,Carl,K2SO4/KHCO3,K2SO4/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3039,333,Carl,CaCl2/CaSO4,CaCl2/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3040,333,Carl,MgCl2/MgSO4,MgCl2/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3041,333,Carl,NaCl/KCl,NaCl/KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3042,333,Carl,NaCl/CaCl2,NaCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3043,333,Carl,NaCl/MgCl2,NaCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3044,333,Carl,KCl/CaCl2,KCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3045,333,Carl,KCl/MgCl2,KCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3046,333,Carl,CaCl2/MgCl2,CaCl2/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3047,333,Carl,Na2SO4/K2SO4,Na2SO4/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3048,333,Carl,Na2SO4/MgSO4,Na2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3049,333,Carl,K2SO4/CaSO4,K2SO4/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3050,333,Carl,K2SO4/MgSO4,K2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3051,333,Carl,NaHCO3/KHCO3,NaHCO3/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3052,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3053,333,Carl,CaCl2-K2SO4,CaCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3054,333,Carl,CaCl2-KCl,CaCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3055,333,Carl,CaCl2-KHCO3,CaCl2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3056,333,Carl,CaCl2-NA2SO4,CaCl2-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3057,333,Carl,CaCl2-NaCl,CaCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3058,333,Carl,CaCl2-NaHCO3,CaCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3059,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3060,333,Carl,CaSO4-CaCL2,CaSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3061,333,Carl,CaSO4-K2SO4,CaSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3062,333,Carl,CaSO4-KCl,CaSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3063,333,Carl,CaSO4-KHCO3,CaSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3064,333,Carl,CaSO4-NA2SO4,CaSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3065,333,Carl,CaSO4-NaCl,CaSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3066,333,Carl,CaSO4-NaHCO3,CaSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3067,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3068,333,Carl,K2SO4-KCl,K2SO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3069,333,Carl,K2SO4-NA2SO4,K2SO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3070,333,Carl,K2SO4-NaCl,K2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3071,333,Carl,K2SO4-NaHCO3,K2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3072,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3073,333,Carl,KCl-NA2SO4,KCl-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3074,333,Carl,KCl-NaCl,KCl-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3075,333,Carl,KCl-NaHCO3,KCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3076,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3077,333,Carl,KHCO3-K2SO4,KHCO3-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3078,333,Carl,KHCO3-KCl,KHCO3-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3079,333,Carl,KHCO3-NA2SO4,KHCO3-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3080,333,Carl,KHCO3-NaCl,KHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3081,333,Carl,KHCO3-NaHCO3,KHCO3-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3082,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3083,333,Carl,MgCl2-CaCL2,MgCl2-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3084,333,Carl,MgCl2-CaSO4,MgCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3085,333,Carl,MgCl2-K2SO4,MgCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3086,333,Carl,MgCl2-KCl,MgCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3087,333,Carl,MgCl2-KHCO3,MgCl2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3088,333,Carl,MgCl2-NA2SO4,MgCl2-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3089,333,Carl,MgCl2-NaCl,MgCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3090,333,Carl,MgCl2-NaHCO3,MgCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3091,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3092,333,Carl,MgSO4-CaCL2,MgSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3093,333,Carl,MgSO4-CaSO4,MgSO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3094,333,Carl,MgSO4-K2SO4,MgSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3095,333,Carl,MgSO4-KCl,MgSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3096,333,Carl,MgSO4-KHCO3,MgSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3097,333,Carl,MgSO4-MgCL2,MgSO4-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3098,333,Carl,MgSO4-NA2SO4,MgSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3099,333,Carl,MgSO4-NaCl,MgSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3100,333,Carl,MgSO4-NaHCO3,MgSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3101,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3102,333,Carl,Na2SO4-NaCl,Na2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3103,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3104,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3105,333,Carl,NaHCO3-NA2SO4,NaHCO3-NA2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3106,333,Carl,NaHCO3-NaCl,NaHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3107,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3108,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3109,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3110,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3111,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3112,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3113,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3114,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3115,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3116,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3117,333,Carl,NaCl-Na2SO4,NaCl-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3118,333,Carl,NaCl-NaHCO3,NaCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3119,333,Carl,Na2SO4-NaHCO3,Na2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3120,333,Carl,KCl-K2SO4,KCl-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3121,333,Carl,KCl-KHCO53,KCl-KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3122,333,Carl,K2SO4-KHCO3,K2SO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3123,333,Carl,CaCl2-CaSO4,CaCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3124,333,Carl,MgCl2-MgSO4,MgCl2-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3125,333,Carl,NaCl-KCl,NaCl-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3126,333,Carl,NaCl-CaCl2,NaCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3127,333,Carl,NaCl-MgCl2,NaCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3128,333,Carl,KCl-CaCl2,KCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3129,333,Carl,KCl-MgCl2,KCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3130,333,Carl,CaCl2-MgCl2,CaCl2-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3131,333,Carl,Na2SO4-K2SO4,Na2SO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3132,333,Carl,Na2SO4-MgSO4,Na2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3133,333,Carl,K2SO4-CaSO4,K2SO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3134,333,Carl,K2SO4-MgSO4,K2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3135,333,Carl,CaSO4-MgSO4,CaSO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3136,333,Carl,NaHCO3-KHCO3,NaHCO3-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3137,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3138,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3139,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3140,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3141,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3142,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3143,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3144,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3145,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3146,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3147,333,Carl,NaCl-Na2SO4,NaCl-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3148,333,Carl,NaCl-NaHCO3,NaCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3149,333,Carl,Na2SO4-NaHCO3,Na2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3150,333,Carl,KCl-K2SO4,KCl-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3151,333,Carl,KCl-KHCO53,KCl-KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3152,333,Carl,K2SO4-KHCO3,K2SO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3153,333,Carl,CaCl2-CaSO4,CaCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3154,333,Carl,MgCl2-MgSO4,MgCl2-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3155,333,Carl,NaCl-KCl,NaCl-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3156,333,Carl,NaCl-CaCl2,NaCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3157,333,Carl,NaCl-MgCl2,NaCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3158,333,Carl,KCl-CaCl2,KCl-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3159,333,Carl,KCl-MgCl2,KCl-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3160,333,Carl,CaCl2-MgCl2,CaCl2-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3161,333,Carl,Na2SO4-K2SO4,Na2SO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3162,333,Carl,Na2SO4-MgSO4,Na2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3163,333,Carl,K2SO4-CaSO4,K2SO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3164,333,Carl,K2SO4-MgSO4,K2SO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3165,333,Carl,CaSO4-MgSO4,CaSO4-MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3166,333,Carl,NaHCO3-KHCO3,NaHCO3-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,20,20,NA,NA,NA,NA
+3167,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3168,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3169,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3170,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3171,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3172,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3173,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3174,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3175,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3176,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3177,333,Carl,NaCl/Na2SO4,NaCl/Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3178,333,Carl,NaCl/NaHCO3,NaCl/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3179,333,Carl,Na2SO4/NaHCO3,Na2SO4/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3180,333,Carl,KCl/K2SO4,KCl/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3181,333,Carl,KCl/KHCO53,KCl/KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3182,333,Carl,K2SO4/KHCO3,K2SO4/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3183,333,Carl,CaCl2/CaSO4,CaCl2/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3184,333,Carl,MgCl2/MgSO4,MgCl2/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3185,333,Carl,NaCl/KCl,NaCl/KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3186,333,Carl,NaCl/CaCl2,NaCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3187,333,Carl,NaCl/MgCl2,NaCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3188,333,Carl,KCl/CaCl2,KCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3189,333,Carl,KCl/MgCl2,KCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3190,333,Carl,CaCl2/MgCl2,CaCl2/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3191,333,Carl,Na2SO4/K2SO4,Na2SO4/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3192,333,Carl,Na2SO4/MgSO4,Na2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3193,333,Carl,K2SO4/CaSO4,K2SO4/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3194,333,Carl,K2SO4/MgSO4,K2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3195,333,Carl,NaHCO3/KHCO3,NaHCO3/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3196,333,Carl,CaCL2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3197,333,Carl,CaCL2-K2SO4,CaCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3198,333,Carl,CaCL2-KCl,CaCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3199,333,Carl,CaCL2-KHCO3,CaCL2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3200,333,Carl,CaCL2-Na2SO4,CaCl2-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3201,333,Carl,CaCL2-NaCl,CaCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3202,333,Carl,CaCL2-NaHCO3,CaCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3203,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3204,333,Carl,CaSO4-CaCl2,CaSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3205,333,Carl,CaSO4-K2SO4,CaSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3206,333,Carl,CaSO4-KCl,CaSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3207,333,Carl,CaSO4-KHCO3,CaSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3208,333,Carl,CaSO4-Na2SO4,CaSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3209,333,Carl,CaSO4-NaCl,CaSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3210,333,Carl,CaSO4-NaHCO3,CaSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3211,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3212,333,Carl,K2SO4-KCl,K2SO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3213,333,Carl,K2SO4-Na2SO4,K2SO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3214,333,Carl,K2SO4-NaCl,K2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3215,333,Carl,K2SO4-NaHCO3,K2SO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3216,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3217,333,Carl,KCl-Na2SO4,KCl-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3218,333,Carl,KCl-NaCl,KCl-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3219,333,Carl,KCl-NaHCO3,KCl-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3220,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3221,333,Carl,KHCO3-K2SO4,KHCO3-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3222,333,Carl,KHCO3-KCl,KHCO3-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3223,333,Carl,KHCO3-Na2SO4,KHCO3-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3224,333,Carl,KHCO3-NaCl,KHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3225,333,Carl,KHCO3-NaHCO3,KHCO3-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3226,333,Carl,MgCL2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3227,333,Carl,MgCL2-CaCl2,MgCl2-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3228,333,Carl,MgCL2-CaSO4,MgCl2-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3229,333,Carl,MgCL2-K2SO4,MgCl2-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3230,333,Carl,MgCL2-KCl,MgCl2-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3231,333,Carl,MgCL2-KHCO3,MgCl2-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3232,333,Carl,MgCL2-Na2SO4,MgCl2-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3233,333,Carl,MgCL2-NaCl,MgCl2-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3234,333,Carl,MgCL2-NaHCO3,MgCl2-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3235,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3236,333,Carl,MgSO4-CaCl2,MgSO4-CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3237,333,Carl,MgSO4-CaSO4,MgSO4-CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3238,333,Carl,MgSO4-K2SO4,MgSO4-K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3239,333,Carl,MgSO4-KCl,MgSO4-KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3240,333,Carl,MgSO4-KHCO3,MgSO4-KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3241,333,Carl,MgSO4-MgCl2,MgSO4-MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3242,333,Carl,MgSO4-Na2SO4,MgSO4-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3243,333,Carl,MgSO4-NaCl,MgSO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3244,333,Carl,MgSO4-NaHCO3,MgSO4-NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3245,333,Carl,NA2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3246,333,Carl,NA2SO4-NaCl,NA2SO4-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3247,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3248,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3249,333,Carl,NaHCO3-Na2SO4,NaHCO3-Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3250,333,Carl,NaHCO3-NaCl,NaHCO3-NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3251,333,Carl,NaCl,NaCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3252,333,Carl,Na2SO4,Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3253,333,Carl,NaHCO3,NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3254,333,Carl,KCl,KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3255,333,Carl,K2SO4,K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3256,333,Carl,KHCO3,KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3257,333,Carl,CaCl2,CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3258,333,Carl,CaSO4,CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3259,333,Carl,MgCl2,MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3260,333,Carl,MgSO4,MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3261,333,Carl,NaCl/Na2SO4,NaCl/Na2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3262,333,Carl,NaCl/NaHCO3,NaCl/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3263,333,Carl,Na2SO4/NaHCO3,Na2SO4/NaHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3264,333,Carl,KCl/K2SO4,KCl/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3265,333,Carl,KCl/KHCO53,KCl/KHCO53,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3266,333,Carl,K2SO4/KHCO3,K2SO4/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3267,333,Carl,CaCl2/CaSO4,CaCl2/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3268,333,Carl,MgCl2/MgSO4,MgCl2/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3269,333,Carl,NaCl/KCl,NaCl/KCl,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3270,333,Carl,NaCl/CaCl2,NaCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3271,333,Carl,NaCl/MgCl2,NaCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3272,333,Carl,KCl/CaCl2,KCl/CaCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3273,333,Carl,KCl/MgCl2,KCl/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3274,333,Carl,CaCl2/MgCl2,CaCl2/MgCl2,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3275,333,Carl,Na2SO4/K2SO4,Na2SO4/K2SO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3276,333,Carl,Na2SO4/MgSO4,Na2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3277,333,Carl,K2SO4/CaSO4,K2SO4/CaSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3278,333,Carl,K2SO4/MgSO4,K2SO4/MgSO4,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
+3279,333,Carl,NaHCO3/KHCO3,NaHCO3/KHCO3,mg/L,mg/L,~220 mg/L TDS (EPA moderately hard reconstituted water),"10,000.00",NA,25,25,NA,NA,NA,NA
 3280,334,Rich,sodium chloride,NaCl,ppt,ppt,0,6,NA,22,22,NA,NA,NA,NA
 3281,334,Rich,sodium chloride,NaCl,ppt,ppt,0,6,NA,22,22,NA,NA,NA,NA
 3282,334,Rich,sodium chloride,NaCl,ppt,ppt,0,6,NA,22,22,NA,NA,NA,NA
@@ -3586,10 +3586,10 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 3585,360,Abigail,Specific Conductance,Specific Conductance,mS/m,mS/m,8.9,34.7,NA,NA,NA,NA,NA,NA,NA
 3586,360,Abigail,Specific Conductance,Specific Conductance,mS/m,mS/m,8.9,34.7,NA,NA,NA,NA,NA,NA,NA
 3587,360,Abigail,Specific Conductance,Specific Conductance,mS/m,mS/m,8.9,34.7,NA,NA,NA,NA,NA,NA,NA
-3588,361,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
-3589,361,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
-3590,361,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
-3591,361,Abigail,Specific Conductance,Specific Conductance,mS/cm,mS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
+3588,361,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
+3589,361,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
+3590,361,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
+3591,361,Abigail,Specific Conductance,Specific Conductance,uS/cm,µS/cm,256,1150,NA,NA,NA,NA,NA,NA,NA
 3592,362,Rich,salinity,Salinity,percent SW,%,0,35,3-5 day increase,NA,NA,NA,NA,NA,NA
 3593,362,Rich,salinity,Salinity,percent SW,%,0,35,3-5 day increase,NA,NA,NA,NA,NA,NA
 3594,362,Rich,salinity,Salinity,percent SW,%,0,35,3-5 day increase,NA,NA,NA,NA,NA,NA
@@ -3772,17 +3772,17 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 3771,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0,22.5,sudden,20,20,NA,NA,NA,NA
 3772,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0,22.5,sudden,20,20,NA,NA,NA,NA
 3773,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0,22.5,sudden,20,20,NA,NA,NA,NA
-3774,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3775,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3776,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3777,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3778,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3779,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3780,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3781,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3782,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3783,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
-3784,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,not given,not given,sudden,20,20,NA,NA,NA,NA
+3774,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3775,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3776,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3777,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3778,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3779,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3780,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3781,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3782,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3783,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
+3784,376,Rich,Specific Conductance,Specific Conductance,mS cm−1,mS/cm,0.1,67,sudden,20,20,NA,NA,NA,NA
 3785,377,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,105,205,4 days at each level,NA,NA,NA,NA,NA,NA
 3786,377,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,110,195,4 days at each level,NA,NA,NA,NA,NA,NA
 3787,377,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,108,205,4 days at each level,NA,NA,NA,NA,NA,NA
@@ -4073,14 +4073,14 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4072,398,Joshua,salinity,Salinity,g/L,g/L,0,15,NA,24-27,24,27,NA,NA,NA
 4073,399,Joshua,NaCl,NaCl,mg/L,mg/L,100,25600,NA,22,22,NA,NA,NA,NA
 4074,399,Joshua,NaCl,NaCl,mg/L,mg/L,100,25600,NA,22,22,NA,NA,NA,NA
-4075,400,Joshua,NaCl,NaCl,mg/L,mg/L,< 10,1000,NA,20–22,20–22,NA,NA,NA,NA
-4076,400,Joshua,NaCl,NaCl,mg/L,mg/L,< 10,1000,NA,20–22,20–22,NA,NA,NA,NA
-4077,401,Joshua,salinity,Salinity,ppt,ppt,≤ 0.5,19,NA,24-26,24,26,NA,NA,NA
-4078,401,Joshua,salinity,Salinity,ppt,ppt,≤ 0.5,19,NA,24-26,24,26,NA,NA,NA
+4075,400,Joshua,NaCl,NaCl,mg/L,mg/L,10,1000,NA,20–22,20–22,NA,NA,NA,NA
+4076,400,Joshua,NaCl,NaCl,mg/L,mg/L,10,1000,NA,20–22,20–22,NA,NA,NA,NA
+4077,401,Joshua,salinity,Salinity,ppt,ppt,0.5,19,NA,24-26,24,26,NA,NA,NA
+4078,401,Joshua,salinity,Salinity,ppt,ppt,0.5,19,NA,24-26,24,26,NA,NA,NA
 4079,401,Joshua,salinity,Salinity,ppt,ppt,19,19,NA,19,19,NA,NA,NA,NA
 4080,401,Joshua,salinity,Salinity,ppt,ppt,0.5,18.7,NA,24,24,NA,NA,NA,NA
 4081,401,Joshua,salinity,Salinity,ppt,ppt,10.1,19.1,NA,22,22,NA,NA,NA,NA
-4082,401,Joshua,salinity,Salinity,ppt,ppt,≤ 0.5,19,NA,24-26,24,26,NA,NA,NA
+4082,401,Joshua,salinity,Salinity,ppt,ppt,0.5,19,NA,24-26,24,26,NA,NA,NA
 4083,401,Joshua,salinity,Salinity,ppt,ppt,19,19,NA,19,19,NA,NA,NA,NA
 4084,402,Amber,Specific Conductance,Specific Conductance,mS/cm,mS/cm,7.3,33.7,NA,21-32,21,32,NA,NA,NA
 4085,402,Amber,Specific Conductance,Specific Conductance,mS/cm,mS/cm,7.3,33.7,NA,21-32,21,32,NA,NA,NA
@@ -4114,104 +4114,104 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4113,410,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,81.3,112.4,NA,27.3,27.3,NA,NA,NA,NA
 4114,410,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,81.3,112.4,NA,27.3,27.3,NA,NA,NA,NA
 4115,410,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,81.3,112.4,NA,27.3,27.3,NA,NA,NA,NA
-4116,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
+4116,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
 4117,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4118,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
+4118,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
 4119,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4120,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4121,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4122,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4123,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4124,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4125,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4126,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4127,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4128,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4129,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4130,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4131,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4132,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4133,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4134,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4135,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4136,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4137,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4138,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4139,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4140,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4141,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4142,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4143,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4144,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4145,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4146,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4147,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4148,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4149,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4150,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4151,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4152,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4153,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4154,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4155,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4156,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4157,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4158,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4159,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4160,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4161,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4162,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4163,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
+4120,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4121,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4122,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4123,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4124,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4125,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4126,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4127,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4128,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4129,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4130,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4131,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4132,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4133,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4134,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4135,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4136,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4137,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4138,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4139,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4140,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4141,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4142,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4143,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4144,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4145,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4146,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4147,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4148,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4149,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4150,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4151,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4152,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4153,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4154,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4155,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4156,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4157,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4158,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4159,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4160,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4161,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4162,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4163,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
 4164,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4165,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4166,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4167,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4168,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4169,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4170,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4171,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4172,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4173,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4174,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4175,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4176,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4177,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4178,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4179,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4180,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4181,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4182,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4183,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4184,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4185,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4186,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
+4165,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4166,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4167,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4168,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4169,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4170,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4171,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4172,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4173,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4174,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4175,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4176,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4177,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4178,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4179,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4180,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4181,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4182,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4183,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4184,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4185,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4186,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
 4187,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4188,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4189,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4190,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4191,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4192,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4193,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4194,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4195,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4196,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4197,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4198,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4199,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4200,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4201,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4202,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4203,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4204,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4205,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4206,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4207,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4208,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4209,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4210,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4211,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4212,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4213,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
+4188,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4189,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4190,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4191,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4192,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4193,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4194,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4195,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4196,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4197,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4198,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4199,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4200,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4201,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4202,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4203,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4204,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4205,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4206,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4207,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4208,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4209,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4210,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4211,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4212,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
+4213,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
 4214,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 4215,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 4216,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
@@ -4241,7 +4241,7 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4240,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 4241,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
 4242,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
-4243,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,29-Jul,29,Jul,NA,NA,NA
+4243,411,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,140,3090,NA,7 - 29,7 , 29,NA,NA,NA
 4244,412,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,610,2075,NA,NA,NA,NA,NA,NA,NA
 4245,413,Rich,sodium chloride,NaCl,percent,%,0,1.3,sudden,NA,NA,NA,NA,NA,NA
 4246,413,Rich,sodium chloride,NaCl,percent,%,0,1.6,sudden,NA,NA,NA,NA,NA,NA
@@ -4427,34 +4427,34 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4426,432,Rich,chloride,Cl-,mg/L,mg/L,0,8,sudden,23,23,NA,NA,NA,NA
 4427,433,Sally,sodium chloride,NaCl,ppt,ppt,0,6,sudden,23.5-23.8,23.5,23.8,NA,NA,NA
 4428,433,Sally,sodium chloride,NaCl,ppt,ppt,0,6,sudden,23.5-23.8,23.5,23.8,NA,NA,NA
-4429,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4430,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4431,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4432,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4433,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4434,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4435,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4436,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4437,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4438,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4439,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4440,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4441,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4442,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4443,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4444,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4445,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4446,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4447,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4448,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,25,25,NA,NA,NA,NA
-4449,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,23,23,NA,NA,NA,NA
-4450,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,23,23,NA,NA,NA,NA
-4451,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,23,23,NA,NA,NA,NA
-4452,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,23,23,NA,NA,NA,NA
-4453,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,23,23,NA,NA,NA,NA
-4454,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,23,23,NA,NA,NA,NA
-4455,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,14,14,NA,NA,NA,NA
-4456,434,Rich,sulfate,SO4 2-,mg/L,mg/L,not given,not given,sudden,11,11,NA,NA,NA,NA
+4429,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4430,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4431,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4432,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4433,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4434,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4435,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4436,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4437,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4438,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4439,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4440,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4441,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4442,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4443,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4444,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4445,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4446,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4447,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4448,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,25,25,NA,NA,NA,NA
+4449,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,23,23,NA,NA,NA,NA
+4450,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,23,23,NA,NA,NA,NA
+4451,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,23,23,NA,NA,NA,NA
+4452,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,23,23,NA,NA,NA,NA
+4453,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,23,23,NA,NA,NA,NA
+4454,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,23,23,NA,NA,NA,NA
+4455,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,14,14,NA,NA,NA,NA
+4456,434,Rich,sulfate,SO4 2-,mg/L,mg/L,10,725,sudden,11,11,NA,NA,NA,NA
 4457,435,Rich,Specific Conductance (Focal Salt: seasalt),Specific Conductance,uS/cm,µS/cm,0,19900,sudden,21.4,21.4,NA,NA,seasalt,NA
 4458,435,Rich,Specific Conductance (Focal Salt: seasalt),Specific Conductance,uS/cm,µS/cm,0,19900,sudden,21.4,21.4,NA,NA,seasalt,NA
 4459,435,Rich,Specific Conductance (Focal Salt: seasalt),Specific Conductance,uS/cm,µS/cm,0,19900,sudden,21.4,21.4,NA,NA,seasalt,NA
@@ -4553,29 +4553,29 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4552,452,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,10,100000,NA,NA,NA,NA,NA,NA,NA
 4553,452,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,10,100000,NA,NA,NA,NA,NA,NA,NA
 4554,452,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,10,100000,NA,NA,NA,NA,NA,NA,NA
-4555,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4556,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4557,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4558,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4559,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4560,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4561,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4562,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4563,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4564,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4565,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4566,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4567,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4568,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4569,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4570,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4571,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4572,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4573,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4574,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4575,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4576,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
-4577,453,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,24,6000,NA,NA,NA,NA,NA,NA,NA
+4555,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4556,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4557,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4558,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4559,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4560,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4561,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4562,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4563,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4564,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4565,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4566,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4567,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4568,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4569,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4570,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4571,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4572,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4573,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4574,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4575,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4576,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
+4577,453,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,127,3882,NA,NA,NA,NA,NA,NA,NA
 4578,454,Rich,sodium chloride,NaCl,ppt,ppt,0,9,NA,23.5,23.5,NA,NA,NA,NA
 4579,454,Rich,sodium chloride,NaCl,ppt,ppt,0,9,NA,23.5,23.5,NA,NA,NA,NA
 4580,454,Rich,sodium chloride,NaCl,ppt,ppt,0,11,NA,23.5,23.5,NA,NA,NA,NA
@@ -4719,8 +4719,8 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4718,472,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
 4719,472,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
 4720,472,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,160,298,NA,12.10 - 31.54,12.10 , 31.54,NA,NA,NA
-4721,473,Rich,mixture (carbonate relationship),mixture (carbonate relationship),mg/L,mg/L,0,24,NA,28-Sep,28,Sep,NA,NA,NA
-4722,473,Rich,mixture (carbonate relationship),mixture (carbonate relationship),mg/L,mg/L,0,24,NA,28-Sep,28,Sep,NA,NA,NA
+4721,473,Rich,mixture (carbonate relationship),mixture (carbonate relationship),mg/L,mg/L,0,24,NA,9 - 28,9 , 28,NA,NA,NA
+4722,473,Rich,mixture (carbonate relationship),mixture (carbonate relationship),mg/L,mg/L,0,24,NA,9 - 28,9 , 28,NA,NA,NA
 4723,474,Rich,Specific Conductance,Specific Conductance,mS/cm,mS/cm,1.09,18.6,NA,NA,NA,NA,NA,NA,NA
 4724,474,Rich,Specific Conductance,Specific Conductance,mS/cm,mS/cm,1.09,18.6,NA,NA,NA,NA,NA,NA,NA
 4725,474,Rich,Specific Conductance,Specific Conductance,mS/cm,mS/cm,1.09,18.6,NA,NA,NA,NA,NA,NA,NA
@@ -4732,13 +4732,13 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4731,474,Rich,Specific Conductance,Specific Conductance,mS/cm,mS/cm,1.09,18.6,NA,NA,NA,NA,NA,NA,NA
 4732,475,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,15,722,NA,13.8-27.3,13.8,27.3,NA,NA,NA
 4733,475,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,15,722,NA,13.8-27.3,13.8,27.3,NA,NA,NA
-4734,476,Sally,sodium,Na+,Na/l,Na/l,0.5,50,NA,16.2,16.2,NA,NA,NA,NA
-4735,476,Sally,sodium,Na+,Na/l,Na/l,0.5,50,NA,16.2,16.2,NA,NA,NA,NA
-4736,476,Sally,sodium,Na+,Na/l,Na/l,0,150,NA,16.2,16.2,NA,NA,NA,NA
-4737,476,Sally,sodium,Na+,Na/l,Na/l,0,150,NA,16.2,16.2,NA,NA,NA,NA
-4738,476,Sally,sodium,Na+,Na/l,Na/l,0,150,NA,16.2,16.2,NA,NA,NA,NA
-4739,476,Sally,sodium,Na+,Na/l,Na/l,0,150,NA,16.2,16.2,NA,NA,NA,NA
-4740,476,Sally,sodium,Na+,Na/l,Na/l,0.5,50,NA,16.2,16.2,NA,NA,NA,NA
+4734,476,Sally,sodium,Na+,meq/L,meq/L,0.5,50,NA,16.2,16.2,NA,NA,NA,NA
+4735,476,Sally,sodium,Na+,meq/L,meq/L,0.5,50,NA,16.2,16.2,NA,NA,NA,NA
+4736,476,Sally,sodium,Na+,meq/L,meq/L,0,150,NA,16.2,16.2,NA,NA,NA,NA
+4737,476,Sally,sodium,Na+,meq/L,meq/L,0,150,NA,16.2,16.2,NA,NA,NA,NA
+4738,476,Sally,sodium,Na+,meq/L,meq/L,0,150,NA,16.2,16.2,NA,NA,NA,NA
+4739,476,Sally,sodium,Na+,meq/L,meq/L,0,150,NA,16.2,16.2,NA,NA,NA,NA
+4740,476,Sally,sodium,Na+,meq/L,meq/L,0.5,50,NA,16.2,16.2,NA,NA,NA,NA
 4741,477,Rich,sodium,Na+,mg/L,mg/L,0,249,NA,25,25,NA,NA,NA,NA
 4742,477,Rich,potassium,K+,mg/L,mg/L,0,11,NA,25,25,NA,NA,NA,NA
 4743,477,Rich,sodium,Na+,mg/L,mg/L,0,249,NA,25,25,NA,NA,NA,NA
@@ -4761,36 +4761,36 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4760,478,Lucy,Specific Conductance,Specific Conductance,uS/cm,µS/cm,220,42400,NA,NA,NA,NA,NA,NA,NA
 4761,478,Lucy,Specific Conductance,Specific Conductance,uS/cm,µS/cm,220,42400,NA,NA,NA,NA,NA,NA,NA
 4762,478,Lucy,Specific Conductance,Specific Conductance,uS/cm,µS/cm,220,42400,NA,NA,NA,NA,NA,NA,NA
-4763,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-4764,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4765,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,34,326,NA,28,28,NA,NA,NA,NA
-4766,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4767,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4768,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,34,326,NA,28,28,NA,NA,NA,NA
-4769,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4770,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4771,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,34,326,NA,28,28,NA,NA,NA,NA
-4772,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4773,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-4774,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-4775,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4776,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,34,326,NA,28,28,NA,NA,NA,NA
-4777,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4778,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4779,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4780,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4781,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4782,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4783,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,34,326,NA,28,28,NA,NA,NA,NA
-4784,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4785,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-4786,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-4787,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-4788,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
-4789,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,36,316,NA,28,28,NA,NA,NA,NA
-4790,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,53,320,NA,28,28,NA,NA,NA,NA
-4791,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,34,326,NA,28,28,NA,NA,NA,NA
-4792,479,Jo,calcium carbonate,CaCO3,mg/g,mg/g,9,31,NA,28,28,NA,NA,NA,NA
+4763,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
+4764,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4765,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,34,326,NA,28,28,NA,NA,NA,NA
+4766,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4767,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4768,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,34,326,NA,28,28,NA,NA,NA,NA
+4769,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4770,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4771,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,34,326,NA,28,28,NA,NA,NA,NA
+4772,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4773,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
+4774,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
+4775,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4776,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,34,326,NA,28,28,NA,NA,NA,NA
+4777,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4778,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4779,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4780,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4781,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4782,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4783,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,34,326,NA,28,28,NA,NA,NA,NA
+4784,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4785,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
+4786,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
+4787,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
+4788,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
+4789,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,36,316,NA,28,28,NA,NA,NA,NA
+4790,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,53,320,NA,28,28,NA,NA,NA,NA
+4791,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,34,326,NA,28,28,NA,NA,NA,NA
+4792,479,Jo,calcium carbonate,CaCO3,mg/L,mg/L,9,31,NA,28,28,NA,NA,NA,NA
 4793,480,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
 4794,480,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
 4795,480,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,734,925,NA,14.9 - 16.2,14.9 , 16.2,NA,NA,NA
@@ -4894,27 +4894,27 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4893,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4894,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4895,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4896,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4896,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4897,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4898,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4899,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4900,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
-4901,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4900,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
+4901,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4902,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4903,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4904,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4905,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4905,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4906,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4907,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4908,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4908,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4909,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4910,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4910,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4911,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4912,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4913,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4914,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4915,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
-4916,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4915,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
+4916,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4917,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4918,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4919,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
@@ -4928,14 +4928,14 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 4927,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4928,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4929,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4930,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
-4931,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
-4932,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
-4933,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4930,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
+4931,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
+4932,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
+4933,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4934,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4935,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
-4936,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
-4937,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,13-May,13,May,NA,NA,NA
+4936,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
+4937,493,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,304,666,NA,5-13,5,13,NA,NA,NA
 4938,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4939,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
 4940,493,Rich,Specific Conductance( Focal Salt: NaHCO3),Specific Conductance,uS/cm,µS/cm,400,1400,NA,16-22,16,22,NA,Focal Salt: NaHCO3,NA
@@ -5089,16 +5089,16 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 5088,505,Rich,chloride,Cl-,mg/L,mg/L,1,945,NA,ambient,Ambient,NA,NA,NA,NA
 5089,505,Rich,chloride,Cl-,mg/L,mg/L,1,945,NA,ambient,Ambient,NA,NA,NA,NA
 5090,505,Rich,chloride,Cl-,mg/L,mg/L,1,945,NA,ambient,Ambient,NA,NA,NA,NA
-5091,506,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,0,900,NA,ambient,Ambient,NA,NA,NA,NA
-5092,506,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,0,900,NA,ambient,Ambient,NA,NA,NA,NA
-5093,506,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,0,900,NA,ambient,Ambient,NA,NA,NA,NA
+5091,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,0,900,NA,ambient,Ambient,NA,NA,NA,NA
+5092,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,0,900,NA,ambient,Ambient,NA,NA,NA,NA
+5093,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,0,900,NA,ambient,Ambient,NA,NA,NA,NA
 5094,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,30,430,NA,ambient,Ambient,NA,NA,NA,NA
-5095,506,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,0,900,NA,ambient,Ambient,NA,NA,NA,NA
-5096,506,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,0,900,NA,ambient,Ambient,NA,NA,NA,NA
+5095,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,0,900,NA,ambient,Ambient,NA,NA,NA,NA
+5096,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,0,900,NA,ambient,Ambient,NA,NA,NA,NA
 5097,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,30,430,NA,ambient,Ambient,NA,NA,NA,NA
 5098,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,30,430,NA,ambient,Ambient,NA,NA,NA,NA
 5099,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,30,430,NA,ambient,Ambient,NA,NA,NA,NA
-5100,506,Rich,Specific Conductance,Specific Conductance,mg/L,mg/L,0,900,NA,ambient,Ambient,NA,NA,NA,NA
+5100,506,Rich,Specific Conductance,Specific Conductance,uS/cm,µS/cm,0,900,NA,ambient,Ambient,NA,NA,NA,NA
 5101,507,Joshua,chloride,Cl-,mg/L,mg/L,27,777,NA,NA,NA,NA,NA,NA,NA
 5102,507,Joshua,chloride,Cl-,mg/L,mg/L,27,777,NA,NA,NA,NA,NA,NA,NA
 5103,507,Joshua,chloride,Cl-,mg/L,mg/L,27,777,NA,NA,NA,NA,NA,NA,NA
@@ -5270,11 +5270,11 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 5269,524,Rich,NaCl,NaCl,mg/L,mg/L,130,2909,NA,11,11,NA,NA,NA,NA
 5270,524,Rich,NaCl,NaCl,mg/L,mg/L,130,2909,NA,11,11,NA,NA,NA,NA
 5271,524,Rich,NaCl,NaCl,mg/L,mg/L,335,5962,NA,11,11,NA,NA,NA,NA
-5272,525,Carl,Cl (as NaCl),Cl-,mg Cl/L,mg/L,1032 uS/cm (NaCl concentration not stated),3840 mg Cl/L,pulse additions,12.5,12.5,NA,NA,As NaCl,NA
-5273,525,Carl,Cl (as NaCl),Cl-,mg Cl/L,mg/L,1032 uS/cm (NaCl concentration not stated),3840 mg Cl/L,pulse additions,12.5,12.5,NA,NA,As NaCl,NA
-5274,525,Carl,Cl (as NaCl),Cl-,mg Cl/L,mg/L,1032 uS/cm (NaCl concentration not stated),3840 mg Cl/L,pulse additions,12.5,12.5,NA,NA,As NaCl,NA
-5275,526,Carl,Cl (as NaCl),Cl-,mg Cl/L,mg/L,130,2909,NA,11,11,NA,NA,As NaCl,NA
-5276,526,Carl,Cl (as NaCl),Cl-,mg Cl/L,mg/L,130,5962,NA,11,11,NA,NA,As NaCl,NA
+5272,525,Carl,Cl (as NaCl),Cl-,mg/L,mg/L,120,3840,pulse additions,12.5,12.5,NA,NA,As NaCl,NA
+5273,525,Carl,Cl (as NaCl),Cl-,mg/L,mg/L,120,3840,pulse additions,12.5,12.5,NA,NA,As NaCl,NA
+5274,525,Carl,Cl (as NaCl),Cl-,mg/L,mg/L,120,3840,pulse additions,12.5,12.5,NA,NA,As NaCl,NA
+5275,526,Carl,Cl (as NaCl),Cl-,mg/L,mg/L,130,2909,NA,11,11,NA,NA,As NaCl,NA
+5276,526,Carl,Cl (as NaCl),Cl-,mg/L,mg/L,130,5962,NA,11,11,NA,NA,As NaCl,NA
 5277,527,Carl,Specific Conductance (Focal Salt: NaCl),Specific Conductance,µS/cm,µS/cm,250,4000,steady,24,24,NA,NA,Focal Salt: NaCl,NA
 5278,527,Carl,Specific Conductance (Focal Salt: NaCl),Specific Conductance,µS/cm,µS/cm,250,4000,steady,24,24,NA,NA,Focal Salt: NaCl,NA
 5279,527,Carl,Specific Conductance (Focal Salt: NaCl),Specific Conductance,µS/cm,µS/cm,250,3750,steady,24,24,NA,NA,Focal Salt: NaCl,NA
@@ -5303,12 +5303,12 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 5302,531,Carl,Artificial seawater,Artifical Seawater,ppt,ppt,1.75,3.5,NA,20,20,NA,NA,NA,NA
 5303,531,Carl,Artificial seawater,Artifical Seawater,ppt,ppt,1.75,7,sudden,20,20,NA,NA,NA,NA
 5304,531,Carl,Artificial seawater,Artifical Seawater,ppt,ppt,1.75,7,sudden,20,20,NA,NA,NA,NA
-5305,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,4-Mar,4,Mar,NA,NA,NA
-5306,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,12-Oct,12,Oct,NA,NA,NA
+5305,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,3-4,3,4,NA,NA,NA
+5306,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,10-12,10,12,NA,NA,NA
 5307,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,18-20,18,20,NA,NA,NA
-5308,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,12-Oct,12,Oct,NA,NA,NA
-5309,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,12-Oct,12,Oct,NA,NA,NA
-5310,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,12-Oct,12,Oct,NA,NA,NA
+5308,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,10-12,10,12,NA,NA,NA
+5309,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,10-12,10,12,NA,NA,NA
+5310,532,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),ppt,ppt,0,8,constant,10-12,10,12,NA,NA,NA
 5311,533,Carl,salinity,Salinity,ppt,ppt,0.4,0.8,NA,ambient,Ambient,NA,NA,NA,NA
 5312,534,Carl,salinity,Salinity,ppt,ppt,0.8,10,1 ppt per week,22,22,NA,NA,NA,NA
 5313,534,Carl,salinity,Salinity,ppt,ppt,0.8,8,Sudden,22,22,NA,NA,NA,NA
@@ -5317,8 +5317,8 @@ DataID,RefID,Reviewer,Salt_Iontype_Conductivity,Measurement,Units_salt_concentra
 5316,534,Carl,salinity,Salinity,ppt,ppt,0.8,8,NA,22,22,NA,NA,NA,NA
 5317,534,Carl,salinity,Salinity,ppt,ppt,0.8,8,Sudden,22,22,NA,NA,NA,NA
 5318,534,Carl,salinity,Salinity,ppt,ppt,0.8,8,Sudden,22,22,NA,NA,NA,NA
-5319,535,Carl,salinity,Salinity,ppt,ppt,0 - 3,6-Mar,NA,ambient,Ambient,NA,NA,NA,NA
-5320,535,Carl,salinity,Salinity,ppt,ppt,0 - 3,9-May,NA,ambient,Ambient,NA,NA,NA,NA
+5319,535,Carl,salinity,Salinity,ppt,ppt,0,6,NA,ambient,Ambient,NA,NA,NA,NA
+5320,535,Carl,salinity,Salinity,ppt,ppt,0,6,NA,ambient,Ambient,NA,NA,NA,NA
 5321,536,Carl,Varies (Table 4),Varies (Table 4),mg TDS/L,mg TDS/L,272,12124,NA,ambient,Ambient,NA,NA,NA,NA
 5322,536,Carl,Varies (Table 4),Varies (Table 4),mg TDS/L,mg TDS/L,272,12124,NA,ambient,Ambient,NA,NA,NA,NA
 5323,537,Carl,NaCl dominant (diluted seawater),NaCl dominant (diluted seawater),mOsM,mOsm,3,200,NA,NA,NA,NA,NA,NA,NA
