@@ -1,6 +1,6 @@
 ---
 title: "DataCleaning"
-author: "Amanda Pennino"
+author: "Amanda Pennino, Stephen Plont"
 date: "4/2/2021"
 output: html_document
 ---

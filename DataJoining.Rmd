@@ -1,0 +1,32 @@
+---
+title: "Add data"
+author: "Amanda Pennino"
+date: "6/17/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+
+```
+
+```{r}
+#Most recent download of Raw Salt Data Sheet (as of 05/20/21)
+DATAraw <- read_csv("data/raw_salt_data_061721.csv") 
+
+#Give each line of data a reference id
+DATAraw$DataID <- 1:nrow(DATAraw)
+
+#Bring in converted
+DATAclean <- read_csv("data/ConvertedSalts_Clean.csv") 
+DATAclean <- DATAclean %>% 
+  select(DataID, Measurement, SaltUnits, Min_Conductivity_uScm, Max_Conductivity_uScm, Min_Concentration_ppm, Maximum_concentration_original)
+
+DATA <- left_join(DATAraw, DATAclean, by = "DataID")
+
+```
+
+
+
+
+
