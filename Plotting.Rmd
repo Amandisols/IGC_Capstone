@@ -12,7 +12,35 @@ library(tidyverse)
 ```
 
 ```{r}
-DATA <- read_csv("data/ConvertedSalts_Clean.csv")
+DATA <- read_csv("data/fulldatabase.csv")
+
+
+
+unique(DATA$Taxonomic_classification)
+unique(DATA$study_location)
+unique(DATA$Measurement)
+
+DATA$Taxonomic_classification <- ifelse(DATA$Taxonomic_classification %in% c("mollusca", "Mollusca", "moluska"), "Mollusca", DATA$Taxonomic_classification)
+
+DATA$study_location <- ifelse(DATA$study_location %in% c("Field", "field", "Fied"), "Field", DATA$study_location)
+DATA$study_location <- ifelse(DATA$study_location %in% c("Lab", "lab"), "Lab", DATA$study_location)
+
+cond_ranges<-DATA %>%
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(!is.na(Max_Conductivity_uScm)) %>%
+  filter(!is.na(Min_Conductivity_uScm)) %>%
+  group_by(Taxonomic_classification, study_location) %>%
+  summarise(Min_Conductivity_uScm = min(Min_Conductivity_uScm), Max_Conductivity_uScm = max(Max_Conductivity_uScm))
+  
+ion_ranges<-DATA %>%
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(!is.na(Max_Concentration_ppm)) %>%
+  filter(!is.na(Min_Concentration_ppm)) %>%
+  group_by(Taxonomic_classification, study_location) %>%
+  summarise(Min_Concentration_ppm = min(Min_Concentration_ppm), Max_Concentration_ppm = max(Max_Concentration_ppm))
+  
+  write_csv(cond_ranges, file = "data/condranges.csv")
+  write_csv(ion_ranges, file = "data/ionranges.csv")
 
 
 ```
@@ -148,23 +176,46 @@ DATA %>%
 
 #Without extreme values removed
 DATA %>% 
-  filter(Measurement %in% c("Specific Conductance","Salinity", "Total Dissolved Solids")) %>%
-  ggplot(aes(x = Measurement, y = Max_Conductivity_uScm))+
-  geom_violin(aes(colour = "#1268FF"), alpha = 0.3)+
-  geom_violin(aes(y = Min_Conductivity_uScm, colour = "#3268FF"), alpha = 0.3)+
-  #geom_jitter(height = 0, width = 0.3)+
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  ggplot(aes(x = Taxonomic_classification, y = Max_Conductivity_uScm))+
+  geom_violin(aes(fill = "#1268FF"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Conductivity_uScm, fill = "#3268FF"), alpha = 0.3)+
+  geom_jitter(height = 0, width = 0.3, alpha = 0.1)+
   scale_y_continuous(trans='log10')+
   theme_classic()
+  
 
 
 ```
 
 
-
 ```{r}
 
+unique(DATA$Taxonomic_classification)
+unique(DATA$study_location)
+unique(DATA$Measurement)
 
+DATA$Taxonomic_classification <- ifelse(DATA$Taxonomic_classification %in% c("mollusca", "Mollusca", "moluska"), "Mollusca", DATA$Taxonomic_classification)
 
+DATA$study_location <- ifelse(DATA$study_location %in% c("Field", "field", "Fied"), "Field", DATA$study_location)
+DATA$study_location <- ifelse(DATA$study_location %in% c("Lab", "lab"), "Lab", DATA$study_location)
+
+cond_ranges<-DATA %>%
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(!is.na(Max_Conductivity_uScm)) %>%
+  filter(!is.na(Min_Conductivity_uScm)) %>%
+  group_by(Taxonomic_classification, study_location) %>%
+  summarise(min = min(Min_Conductivity_uScm), max = max(Max_Conductivity_uScm))
+  
+ion_ranges<-DATA %>%
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(!is.na(Max_Concentration_ppm)) %>%
+  filter(!is.na(Min_Concentration_ppm)) %>%
+  group_by(study_location, Taxonomic_classification) %>%
+  summarise(min = min(Min_Concentration_ppm), max = max(Max_Concentration_ppm))
+  
+  write_csv(cond_ranges, file = "cond_ranges.csv")
+  write_csv(ion_ranges, file = "ion_ranges.csv")
 
 ```
 

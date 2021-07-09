@@ -20,9 +20,12 @@ DATAraw$DataID <- 1:nrow(DATAraw)
 #Bring in converted
 DATAclean <- read_csv("data/ConvertedSalts_Clean.csv") 
 DATAclean <- DATAclean %>% 
-  select(DataID, Measurement, SaltUnits, Min_Conductivity_uScm, Max_Conductivity_uScm, Min_Concentration_ppm, Maximum_concentration_original)
+  select(DataID, Measurement, SaltUnits, Min_Conductivity_uScm, Max_Conductivity_uScm, Min_Concentration_ppm, Max_Concentration_ppm)
 
 DATA <- left_join(DATAraw, DATAclean, by = "DataID")
+
+write_csv(DATA, "data/fulldatabase.csv")
+
 
 ```
 
