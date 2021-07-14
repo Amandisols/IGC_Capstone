@@ -1,0 +1,15 @@
+Taxonomic_classification.x,study_location,Min_Conductivity_uScm,Max_Conductivity_uScm,n
+amphibian,Field,0,100000,14
+amphibian,Lab,0,45952.38425441799,12
+Crustacean,Field,0,30634.92283627866,43
+Crustacean,Lab,0,54376.98803439462,24
+Fish,Field,1.2,390600,43
+Fish,Lab,0,107222.22992697531,37
+Insect,Field,0,682000,131
+Insect,Lab,0,505476.2267985979,39
+Mollusca,Field,0,30000,23
+Mollusca,Lab,0,61269.84567255732,20
+"non-insect, non-arthropod",Field,0,42400,22
+"non-insect, non-arthropod",Lab,30.634922836278662,76000,9
+Zooplankton,Field,0,31540,27
+Zooplankton,Lab,0,67000,20

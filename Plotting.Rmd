@@ -26,18 +26,60 @@ DATA$Taxonomic_classification <- ifelse(DATA$Taxonomic_classification %in% c("mo
 DATA$study_location <- ifelse(DATA$study_location %in% c("Field", "field", "Fied"), "Field", DATA$study_location)
 DATA$study_location <- ifelse(DATA$study_location %in% c("Lab", "lab"), "Lab", DATA$study_location)
 
-cond_ranges<-DATA %>%
+
+# This is the dirty way to do this
+cond_refIDs <-DATA %>%
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(!is.na(Max_Conductivity_uScm)) %>%
+  filter(!is.na(Min_Conductivity_uScm)) %>%
+  group_by(Taxonomic_classification, study_location, RefID) %>%
+  summarise(Min_Conductivity_uScm = min(Min_Conductivity_uScm), 
+            Max_Conductivity_uScm = max(Max_Conductivity_uScm))
+
+#Add this to the summarise to figure out which studies have a min of 0. 
+#Number_Studies = n()
+
+cond_tally <- cond_refIDs %>%
+  group_by(Taxonomic_classification, study_location) %>%
+  tally(sort = TRUE) %>%
+  arrange(Taxonomic_classification) %>%
+  rowid_to_column(var='id')
+
+cond_ranges <-DATA %>%
   filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
   filter(!is.na(Max_Conductivity_uScm)) %>%
   filter(!is.na(Min_Conductivity_uScm)) %>%
   group_by(Taxonomic_classification, study_location) %>%
-  summarise(Min_Conductivity_uScm = min(Min_Conductivity_uScm), Max_Conductivity_uScm = max(Max_Conductivity_uScm))
+  summarise(Min_Conductivity_uScm = min(Min_Conductivity_uScm), 
+            Max_Conductivity_uScm = max(Max_Conductivity_uScm)) %>%
+  arrange(Taxonomic_classification) %>%
+  rowid_to_column(var='id')
+
+cond_tally <- cond_tally %>% 
+  dplyr::select(id, n)
+
+cond <- full_join(cond_ranges, cond_tally, by = "id")
+
+cond_ranges <- cond %>% 
+  select(Taxonomic_classification.x, study_location, Min_Conductivity_uScm, Max_Conductivity_uScm, n)
   
+  
+
+###################################
+
+#Chlorides
+#Carbonates
+#sulphates
+
+unique(DATA$Primary_Threat_Identity)
+
+x<-as.data.frame(table(DATA$Primary_Threat_Identity))
+
 ion_ranges<-DATA %>%
   filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
   filter(!is.na(Max_Concentration_ppm)) %>%
   filter(!is.na(Min_Concentration_ppm)) %>%
-  group_by(Taxonomic_classification, study_location) %>%
+  group_by(Taxonomic_classification, study_location, RefID) %>%
   summarise(Min_Concentration_ppm = min(Min_Concentration_ppm), Max_Concentration_ppm = max(Max_Concentration_ppm))
   
   write_csv(cond_ranges, file = "data/condranges.csv")
@@ -45,7 +87,6 @@ ion_ranges<-DATA %>%
 
 
 ```
-
 
 
 
