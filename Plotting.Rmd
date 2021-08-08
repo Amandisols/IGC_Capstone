@@ -9,6 +9,8 @@ output: html_document
 
 library(tidyverse)
 library(scales)
+if(!require("ggpubr")) install.packages("ggpubr")
+
 
 ```
 
@@ -188,7 +190,8 @@ condtaxa<-DATA %>%
         axis.title.x = element_text(size=14,color="black"),
         axis.text.y = element_text(size=10,color="black"),
         axis.title.y = element_text(size=14,color="black"))+theme(legend.position="none")
-  ggsave("condtaxa.tiff",condtaxa,width=6.5,height=3.3,units="in",dpi=600)
+condtaxa
+  #ggsave("condtaxa.tiff",condtaxa,width=6.5,height=3.3,units="in",dpi=600)
 
 
 iontaxa<-DATA %>% 
@@ -207,8 +210,165 @@ iontaxa<-DATA %>%
         axis.title.x = element_text(size=14,color="black"),
         axis.text.y = element_text(size=10,color="black"),
         axis.title.y = element_text(size=14,color="black"))+theme(legend.position="none")
-  ggsave("iontaxa.tiff",iontaxa,width=6.5,height=3.3,units="in",dpi=600)
+iontaxa
+  #ggsave("iontaxa.tiff",iontaxa,width=6.5,height=3.3,units="in",dpi=600)
 
 
 ```
+
+
+```{r}
+
+#Filter and subset single salt respresentations for each major ion
+
+Sodium<-DATA %>% 
+  filter(Measurement %in% c("NaCl","NaF", "Na+", "NaSO4", "Na2SO4")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Measurement %in% c( "NaSO4", "Na2SO4") , Min_Concentration_ppm*2, Min_Concentration_ppm)) %>%
+  mutate(Max_Concentration_ppm = ifelse(Measurement %in% c( "NaSO4", "Na2SO4") , Max_Concentration_ppm*2, Max_Concentration_ppm))
+
+Potassium<-DATA %>% 
+  filter(Measurement %in% c("KCl","K+", "KHCO3", "K2SO4")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Measurement %in% c( "K2SO4") , Min_Concentration_ppm*2, Min_Concentration_ppm)) %>%
+  mutate(Max_Concentration_ppm = ifelse(Measurement %in% c( "K2SO4") , Max_Concentration_ppm*2, Max_Concentration_ppm))
+
+Calcium<-DATA %>% 
+  filter(Measurement %in% c("CaCO3","CaCl2", "Ca2+", "CaSO4", "calcium nitrate"))
+
+Magnesium<-DATA %>% 
+  filter(Measurement %in% c("MgCO3","MgCl2", "Mg3+", "MgSO4", "magnesium acetate"))
+
+Chloride<-DATA %>% 
+  filter(Measurement %in% c("NaCl","CaCl2", "MgCl2", "KCl", "Cl-", "NH4Cl")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Measurement %in% c( "CaCl2", "MgCl2") , Min_Concentration_ppm*2, Min_Concentration_ppm)) %>%
+  mutate(Max_Concentration_ppm = ifelse(Measurement %in% c( "CaCl2", "MgCl2") , Max_Concentration_ppm*2, Max_Concentration_ppm))
+
+Sulfate<-DATA %>% 
+  filter(Measurement %in% c("Na2SO4","MgSO4", "CaSO4", "(NH4)2SO4", "K2SO4", "SO4 2-", "NaSO4"))
+
+
+#Sodium by Taxa Boxplot
+
+Sodium.taxa<-Sodium %>% 
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Min_Concentration_ppm < 1, 1, Min_Concentration_ppm)) %>%
+  ggplot(aes(x = Taxonomic_classification, y = Max_Concentration_ppm))+  theme_classic() +
+  scale_y_log10(limits = c(1,1000000),
+                breaks = trans_breaks("log10", function(x) 10^x),             #Don't change
+                labels = trans_format("log10", math_format(10^.x)))+ 
+  geom_violin(aes(fill= "orange"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Concentration_ppm, fill = "blue"), alpha = 0.3)+
+  labs(x="Taxonomic Classification",y="Ion Concentration (ppm)")+
+  theme(element_blank(),
+        element_blank(),
+        axis.text.y = element_text(size=10,color="black"),
+        axis.title.y = element_text(size=14,color="black"))+theme(legend.position="none")
+Sodium.taxa
+  #ggsave("Sodiumtaxa.tiff",Sodium.taxa,width=6.5,height=3.3,units="in",dpi=600)
+
+
+#Potassium by Taxa Boxplot
+
+Potassium.taxa<-Potassium %>% 
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Min_Concentration_ppm < 1, 1, Min_Concentration_ppm)) %>%
+  ggplot(aes(x = Taxonomic_classification, y = Max_Concentration_ppm))+  theme_classic() +
+  scale_y_log10(limits = c(1,1000000),
+                breaks = trans_breaks("log10", function(x) 10^x),             #Don't change
+                labels = trans_format("log10", math_format(10^.x)))+ 
+  geom_violin(aes(fill= "orange"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Concentration_ppm, fill = "blue"), alpha = 0.3)+
+  labs(x="Taxonomic Classification",y="Ion Concentration (ppm)")+
+  theme(axis.text.x = element_blank(),
+        axis.title.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank())+theme(legend.position="none")
+Potassium.taxa
+  #ggsave("Postassiumtaxa.tiff",Potassium.taxa,width=6.5,height=3.3,units="in",dpi=600)
+
+
+#Calcium by Taxa Boxplot
+
+Calcium.taxa<-Calcium %>% 
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Min_Concentration_ppm < 1, 1, Min_Concentration_ppm)) %>%
+  ggplot(aes(x = Taxonomic_classification, y = Max_Concentration_ppm))+  theme_classic() +
+  scale_y_log10(limits = c(1,1000000),
+                breaks = trans_breaks("log10", function(x) 10^x),             #Don't change
+                labels = trans_format("log10", math_format(10^.x)))+ 
+  geom_violin(aes(fill= "orange"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Concentration_ppm, fill = "blue"), alpha = 0.3)+
+  labs(x="Taxonomic Classification",y="Ion Concentration (ppm)")+
+  theme(element_blank(),
+        element_blank(),
+        axis.text.y = element_text(size=10,color="black"),
+        axis.title.y = element_text(size=14,color="black"))+theme(legend.position="none")
+Calcium.taxa
+  #ggsave("Calciumtaxa.tiff",Calcium.taxa,width=6.5,height=3.3,units="in",dpi=600)
+
+
+#Magnesium by Taxa Boxplot
+
+Magnesium.taxa<-Magnesium %>% 
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Min_Concentration_ppm < 1, 1, Min_Concentration_ppm)) %>%
+  ggplot(aes(x = Taxonomic_classification, y = Max_Concentration_ppm))+  theme_classic() +
+  scale_y_log10(limits = c(1,1000000),
+                breaks = trans_breaks("log10", function(x) 10^x),             #Don't change
+                labels = trans_format("log10", math_format(10^.x)))+ 
+  geom_violin(aes(fill= "orange"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Concentration_ppm, fill = "blue"), alpha = 0.3)+
+  labs(x="Taxonomic Classification",y="Ion Concentration (ppm)")+
+  theme(axis.text.x = element_blank(),
+        axis.title.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank())+theme(legend.position="none")
+Magnesium.taxa
+  #ggsave("Magnesiumtaxa.tiff",Magnesium.taxa,width=6.5,height=3.3,units="in",dpi=600)
+
+
+#Chloride by Taxa Boxplot
+
+Chloride.taxa<-Chloride %>% 
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Min_Concentration_ppm < 1, 1, Min_Concentration_ppm)) %>%
+  ggplot(aes(x = Taxonomic_classification, y = Max_Concentration_ppm))+  theme_classic() +
+  scale_y_log10(limits = c(1,1000000),
+                breaks = trans_breaks("log10", function(x) 10^x),             #Don't change
+                labels = trans_format("log10", math_format(10^.x)))+ 
+  geom_violin(aes(fill= "orange"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Concentration_ppm, fill = "blue"), alpha = 0.3)+
+  labs(x="Taxonomic Classification",y="Ion Concentration (ppm)")+
+  theme(axis.text.x = element_text(size=8,color="black"),
+        axis.title.x = element_text(size=14,color="black"),
+        axis.text.y = element_text(size=10,color="black"),
+        axis.title.y = element_text(size=14,color="black"))+theme(legend.position="none")
+Chloride.taxa
+  #ggsave("Chloridetaxa.tiff",Chloride.taxa,width=6.5,height=3.3,units="in",dpi=600)
+
+
+#Sulfate by Taxa Boxplot
+
+Sulfate.taxa<-Sulfate %>% 
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  mutate(Min_Concentration_ppm = ifelse(Min_Concentration_ppm < 1, 1, Min_Concentration_ppm)) %>%
+  ggplot(aes(x = Taxonomic_classification, y = Max_Concentration_ppm))+  theme_classic() +
+  scale_y_log10(limits = c(1,1000000),
+                breaks = trans_breaks("log10", function(x) 10^x),             #Don't change
+                labels = trans_format("log10", math_format(10^.x)))+ 
+  geom_violin(aes(fill= "orange"), alpha = 0.3)+
+  geom_violin(aes(y = Min_Concentration_ppm, fill = "blue"), alpha = 0.3)+
+  labs(x="Taxonomic Classification",y="Ion Concentration (ppm)")+
+  theme(axis.text.x = element_text(size=8,color="black"),
+        axis.title.x = element_text(size=14,color="black"),
+        axis.text.y = element_text(size=10,color="black"),
+        axis.title.y = element_text(size=14,color="black"))+theme(legend.position="none")
+Sulfate.taxa
+  #ggsave("Sulfatetaxa.tiff",Sulfate.taxa,width=6.5,height=3.3,units="in",dpi=600)
+
+
+
+```
+
+
+
 
