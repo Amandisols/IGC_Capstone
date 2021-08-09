@@ -12,14 +12,9 @@ library(scales)
 
 ```
 
+Data for summary tables
 ```{r}
 DATA <- read_csv("data/fulldatabase.csv")
-
-
-
-unique(DATA$Taxonomic_classification)
-unique(DATA$study_location)
-unique(DATA$Measurement)
 
 DATA$Taxonomic_classification <- ifelse(DATA$Taxonomic_classification %in% c("mollusca", "Mollusca", "moluska"), "Mollusca", DATA$Taxonomic_classification)
 
@@ -36,58 +31,108 @@ cond_refIDs <-DATA %>%
   summarise(Min_Conductivity_uScm = min(Min_Conductivity_uScm), 
             Max_Conductivity_uScm = max(Max_Conductivity_uScm))
 
-#Add this to the summarise to figure out which studies have a min of 0. 
-#Number_Studies = n()
-
 cond_tally <- cond_refIDs %>%
   group_by(Taxonomic_classification, study_location) %>%
   tally(sort = TRUE) %>%
   arrange(Taxonomic_classification) %>%
-  rowid_to_column(var='id')
+  rowid_to_column(var='id') %>%
+  select(id, n)
+
 
 cond_ranges <-DATA %>%
   filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(Min_Conductivity_uScm != 0) %>%
   filter(!is.na(Max_Conductivity_uScm)) %>%
   filter(!is.na(Min_Conductivity_uScm)) %>%
   group_by(Taxonomic_classification, study_location) %>%
-  summarise(Min_Conductivity_uScm = min(Min_Conductivity_uScm), 
-            Max_Conductivity_uScm = max(Max_Conductivity_uScm)) %>%
+  summarise(Min_Min_Conductivity_uScm = min(Min_Conductivity_uScm), 
+            Max_Min_Conductivity_uScm = max(Min_Conductivity_uScm),
+            Min_Max_Conductivity_uScm = min(Max_Conductivity_uScm),
+            Max_Max_Conductivity_uScm = max(Max_Conductivity_uScm)) %>%
   arrange(Taxonomic_classification) %>%
   rowid_to_column(var='id')
 
-cond_tally <- cond_tally %>% 
-  dplyr::select(id, n)
+
 
 cond <- full_join(cond_ranges, cond_tally, by = "id")
 
 cond_ranges <- cond %>% 
-  select(Taxonomic_classification.x, study_location, Min_Conductivity_uScm, Max_Conductivity_uScm, n)
-  
+  select(Taxonomic_classification.x, study_location, Min_Min_Conductivity_uScm, Max_Min_Conductivity_uScm, Min_Max_Conductivity_uScm, Max_Max_Conductivity_uScm, n)
   
 
 ###################################
-
-#Chlorides
-#Carbonates
-#sulphates
-
-unique(DATA$Primary_Threat_Identity)
-
-x<-as.data.frame(table(DATA$Primary_Threat_Identity))
-
-ion_ranges<-DATA %>%
-  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
-  filter(!is.na(Max_Concentration_ppm)) %>%
-  filter(!is.na(Min_Concentration_ppm)) %>%
-  group_by(Taxonomic_classification, study_location, RefID) %>%
-  summarise(Min_Concentration_ppm = min(Min_Concentration_ppm), Max_Concentration_ppm = max(Max_Concentration_ppm))
-  
-  write_csv(cond_ranges, file = "data/condranges.csv")
-  write_csv(ion_ranges, file = "data/ionranges.csv")
-
+write_csv(cond_ranges, file = "data/condranges.csv")
 
 ```
 
+Reclassifing threats 
+```{r}
+
+IONS <- DATA %>%
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(!is.na(Max_Concentration_ppm)) %>%
+  filter(!is.na(Min_Concentration_ppm))
+
+sort(unique(IONS$Primary_Threat_Identity))
+
+
+IONS$Threat_Reclassified <- 1
+
+#Agriculture
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("agriculture", "multiple: Agricluture and energy extraction", "road salt, agriculture", "multiple: Agricluture and industrial"), "Agriculture", IONS$Threat_Reclassified)
+
+#Aquaculture
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("aquaculture", "Aquaculture"), "Aquaculture", IONS$Threat_Reclassified)
+
+#Climate Change and Salt Water Intrusions
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("climate change/salt water intusion", "climate change", "Esturarine intrusion", "saltwater intrusion", "multiple: anthropogenic and climate change"), "Climate/Intrusion", IONS$Threat_Reclassified)
+
+#Energy Extraction 
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("coal mining", "energy extraction", "geothermal", "mining", "multiple: Agricluture and energy extraction"), "Energy Extraction", IONS$Threat_Reclassified)
+
+#Fungus
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("fungus"), "Fungus", IONS$Threat_Reclassified)
+
+#Road Salts
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("road salt",            "road salt, agriculture", "road salts"), "Road Salts", IONS$Threat_Reclassified)
+
+#Anthropogenic (Multiple sources)
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("Mixed anthropogenic", "multiple: Agricluture and energy extraction", "multiple: Agricluture and industrial", "multiple: anthropogenic", "multiple: anthropogenic and climate change", "multiple: anthropogenic and natural", "general salinuization"), "Anthropogenic: Multiple sources", IONS$Threat_Reclassified)
+
+#Tolerance, Physiological
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("tolerance", "Tolerance", "tolerance/osmoregulation", "toxicological", "osmoregulation", "invasiveness/osmoregulation", "invasiveness/tolerance", "mechanistic"), "Tolerance, Mechanistic, Osmoreg", IONS$Threat_Reclassified)
+
+
+#Urbanization and Industrilization
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("urbanization", "industrial", "multiple: urban and industrial", "multiple: Agricluture and industrial"), "Urban/Indust", IONS$Threat_Reclassified)
+
+
+#Invasives
+IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("Invasive species", "Invasive species range expansion", "invasiveness", "invasiveness/osmoregulation", "invasiveness/tolerance", "non-native species invasions"), "Invasive Spp", IONS$Threat_Reclassified)
+
+
+#For counting
+x<-as.data.frame(table(IONS$Primary_Threat_Identity))
+
+```
+
+
+```{r}
+
+
+ion_ranges <- IONS %>%
+  filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
+  filter(!is.na(Max_Concentration_ppm)) %>%
+  filter(!is.na(Min_Concentration_ppm)) %>%
+  group_by(Taxonomic_classification, study_location, RefID, Primary_Threat_Identity, Measurement, Threat_Reclassified) %>%
+  summarise(Min_Concentration_ppm = min(Min_Concentration_ppm), Max_Concentration_ppm = max(Max_Concentration_ppm))
+  
+
+  write_csv(ion_ranges, file = "data/ionranges.csv")
+
+sort(unique(ion_ranges$Primary_Threat_Identity))
+  
+```
 
 
 ```{r}
