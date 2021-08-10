@@ -1,328 +1,208 @@
-Taxonomic_classification,study_location,RefID,Primary_Threat_Identity,Measurement,Min_Concentration_ppm,Max_Concentration_ppm
-amphibian,Field,27,saltwater intrusion,mixture,200,20500
-amphibian,Field,307,road salts,NaCl,4.3,586
-amphibian,Field,461,road salts,mixture,0,8
-amphibian,Field,498,saltwater intrusion,NaCl,500,23400
-amphibian,Field,504,road salts,Cl-,1,945
-amphibian,Field,505,road salts,Cl-,1,945
-amphibian,Lab,5,energy extraction,NaHCO3,175,4500
-amphibian,Lab,27,saltwater intrusion,mixture,0,12000
-amphibian,Lab,307,road salts,NaCl,8,6100
-amphibian,Lab,334,mining,NaCl,0,10000
-amphibian,Lab,434,multiple: urban and industrial,SO4 2-,10,725
-amphibian,Lab,436,agriculture,NaCl,140,5600
-amphibian,Lab,439,multiple: anthropogenic,NaCl,2000,350000
-amphibian,Lab,443,agriculture,NaCl,140,5250
-amphibian,Lab,454,road salts,NaCl,0,13000
-amphibian,Lab,455,road salts,NaCl,0.39,9750
-amphibian,Lab,466,road salts,NaCl,0,5.6
-amphibian,Lab,507,"road salt, agriculture",Cl-,27,777
-amphibian,Lab,509,fungus,NaCl,0,5000
-amphibian,Lab,519,road salt,mixture,20,780
-amphibian,Lab,523,road salt,Cl-,114,867
-amphibian,Lab,554,road salts,CaCl2,0,12000
-amphibian,Lab,554,road salts,calcium magnesium acetate,0,12000
-amphibian,Lab,554,road salts,MgCl2,0,12000
-amphibian,Lab,554,road salts,NaCl,0,12000
-amphibian,Lab,554,road salts,potassium acetate,0,12000
-amphibian,Lab,558,road salts,MgCl2,700,2000
-amphibian,Lab,558,road salts,NaCl,700,2000
-amphibian,Lab,559,road salts,MgCl2,700,2000
-amphibian,Lab,559,road salts,NaCl,700,2000
-amphibian,Lab,560,road salts,MgCl2,700,2000
-amphibian,Lab,560,road salts,NaCl,700,2000
-amphibian,Lab,568,road salts,calcium acetate,0,120
-amphibian,Lab,568,road salts,magnesium acetate,0,160
-amphibian,Lab,568,road salts,MgCl2,0,214.9
-amphibian,Lab,568,road salts,NaCl,0,263.7
-amphibian,Lab,568,road salts,sodium ferrocynide,0,169.6
-amphibian,Lab,568,road salts,sodium formate,0,152
-Crustacean,Field,422,mechanistic,Cl-,1.7725000000000002,8.8625
-Crustacean,Field,422,mechanistic,Na+,1.1495,5.7475
-Crustacean,Field,510,road salt,road salt,0,10000
-Crustacean,Field,552,road salts,ClearLane (NaCl dominant),25,200
-Crustacean,Field,552,road salts,Magic salt (MgCl dominant),25,200
-Crustacean,Field,552,road salts,MgCl2,25,200
-Crustacean,Field,552,road salts,NaCl,25,200
-Crustacean,Field,552,road salts,NaCl + Geomelt,25,200
-Crustacean,Lab,3,aquaculture,Ca2+,0,80
-Crustacean,Lab,5,energy extraction,NaHCO3,175,2000
-Crustacean,Lab,58,aquaculture,CaCl2,35,100
-Crustacean,Lab,58,aquaculture,CaSO4,35,100
-Crustacean,Lab,58,aquaculture,NaCl,35,100
-Crustacean,Lab,66,natural gradient,Na+,0.9196,45.98
-Crustacean,Lab,70,osmoregulation,K+,0,1954.5000000000002
-Crustacean,Lab,70,osmoregulation,Mg3+,0,486.2
-Crustacean,Lab,95,tolerance/osmoregulation,NaCl,0,21915
-Crustacean,Lab,142,multiple: Agricluture and energy extraction,NaCl,2,140
-Crustacean,Lab,165,invasiveness,Cl-,17.725,354.5
-Crustacean,Lab,223,tolerance,Na+,45.98,229.89999999999998
-Crustacean,Lab,315,road salts,Cl-,10,6000
-Crustacean,Lab,374,road salts,CaCl2,250,3559
-Crustacean,Lab,374,road salts,MgCl2,250,2188
-Crustacean,Lab,374,road salts,NaCl,250,4367
-Crustacean,Lab,375,mining,CaSO4,0,32000
-Crustacean,Lab,375,mining,MgSO4,0,32000
-Crustacean,Lab,375,mining,NaSO4,0,32000
-Crustacean,Lab,399,tolerance,NaCl,100,25600
-Crustacean,Lab,400,tolerance,NaCl,10,1000
-Crustacean,Lab,405,tolerance,NaCl,0,30000
-Crustacean,Lab,432,multiple: anthropogenic,Cl-,0,16
-Crustacean,Lab,433,aquaculture,NaCl,0,6000
-Crustacean,Lab,434,multiple: urban and industrial,SO4 2-,10,725
-Crustacean,Lab,479,tolerance,CaCO3,9,326
-Crustacean,Lab,489,aquaculture,NaCl,0,100
-Crustacean,Lab,489,Aquaculture,NaCl,0,100
-Crustacean,Lab,495,mechanistic,Ca2+,40.08,200.39999999999998
-Crustacean,Lab,495,mechanistic,K+,39.09,156.36
-Crustacean,Lab,495,mechanistic,Mg3+,24.31,72.92999999999999
-Crustacean,Lab,495,mechanistic,NH4+,3.608,18.04
-Crustacean,Lab,507,"road salt, agriculture",Cl-,27,777
-Crustacean,Lab,510,road salt,road salt,0,10000
-Crustacean,Lab,511,road salt,NaCl,0,10000
-Crustacean,Lab,512,road salt,NaCl,15,1000
-Crustacean,Lab,544,coal mining,NaHCO3,40,3000
-Crustacean,Lab,545,coal mining,NaHCO3,0,60000
-Crustacean,Lab,545,coal mining,Synthetic marine salts,0,60000
-Fish,Field,37,natural gradient,NaCl,1000,8000
-Fish,Field,82,agriculture,Cl-,34,3140
-Fish,Field,139,natural gradient,Ca2+,0.72,11.3
-Fish,Field,158,natural gradient,Ca2+,22,92
-Fish,Field,160,agriculture,NaCl,0,3000
-Fish,Field,183,multiple: Agricluture and industrial,NO3-,0.55,1.26
-Fish,Field,515,road salt,Cl-,0,7500
-Fish,Lab,5,energy extraction,NaHCO3,175,12000
-Fish,Lab,8,aquaculture,NaCl,3000,9000
-Fish,Lab,11,mechanistic,CaCl2,6936.25,7213.7
-Fish,Lab,32,multiple: anthropogenic,NaF,0,5.4
-Fish,Lab,34,agriculture,Cartap hydrochloride,0,0.1
-Fish,Lab,39,aquaculture,Marine water,0,16000
-Fish,Lab,62,aquaculture,common salt (NaCl?),0,10000
-Fish,Lab,65,mechanistic,K+,0.35,35
-Fish,Lab,84,tolerance,CaCl2,0,0.44392000000000004
-Fish,Lab,84,tolerance,MgCl2,0,0.380844
-Fish,Lab,84,tolerance,NaCl,0,0.11688
-Fish,Lab,92,multiple: anthropogenic and natural,NaCl,0,10000
-Fish,Lab,93,mechanistic,CaCl2,0,1487.132
-Fish,Lab,100,energy extraction,NaHCO3,175,2000
-Fish,Lab,101,tolerance,NaCl,0,25000
-Fish,Lab,105,tolerance,Mg3+,0.07293,4.862
-Fish,Lab,109,mechanistic,Ca2+,4.008,40.08
-Fish,Lab,116,aquaculture,KCl,0,1700.0000000000002
-Fish,Lab,116,aquaculture,Na2SO4,0,1700.0000000000002
-Fish,Lab,116,aquaculture,NaCl,0,1700.0000000000002
-Fish,Lab,120,mechanistic,NA,1000,12000
-Fish,Lab,128,osmoregulation,Ca2+,0,15
-Fish,Lab,138,multiple: anthropogenic,NO3-,5.31,97.51
-Fish,Lab,154,aquaculture,NaCl,0,4000
-Fish,Lab,156,aquaculture,NaCl,0,3000
-Fish,Lab,168,toxicological,NaCl,0,7000
-Fish,Lab,169,aquaculture,NaCl,0,3000
-Fish,Lab,173,mechanistic,Ca2+,4.008,400.79999999999995
-Fish,Lab,184,mechanistic,(NH4)2SO4,2.1142399999999997,5.2856
-Fish,Lab,184,mechanistic,KHCO3,1.60184,4.0046
-Fish,Lab,184,mechanistic,NaHCO3,0.9239999999999999,2.688
-Fish,Lab,198,aquaculture,"NaCl, KCl, CaCl2, MgCl2",10,200000
-Fish,Lab,247,agriculture,CaCO3,6,309
-Fish,Lab,250,mechanistic,Cl-,1.7725000000000002,26.587500000000002
-Fish,Lab,250,mechanistic,Na+,1.1495,13.793999999999999
-Fish,Lab,251,invasiveness/tolerance,NaCl,200,80000
-Fish,Lab,252,invasiveness/tolerance,NaCl,200,20000
-Fish,Lab,253,invasiveness/tolerance,NaCl,200,20000
-Fish,Lab,254,invasiveness/tolerance,NaCl,200,20000
-Fish,Lab,258,invasiveness/tolerance,NaCl,300,200
-Fish,Lab,259,invasiveness/tolerance,NaCl,200,200
-Fish,Lab,296,aquaculture,NaCl,0,4000
-Fish,Lab,296,aquaculture,"NaCl, NaSO3",0,4000
-Fish,Lab,296,aquaculture,"NaCl, NaSO4",0,4000
-Fish,Lab,304,aquaculture,NaCl,233.76,4383
-Fish,Lab,375,mining,CaSO4,0,32000
-Fish,Lab,375,mining,MgSO4,0,32000
-Fish,Lab,375,mining,NaSO4,0,32000
-Fish,Lab,431,mining,SO4 2-,20,12800
-Fish,Lab,432,multiple: anthropogenic,Cl-,0,16
-Fish,Lab,434,multiple: urban and industrial,SO4 2-,10,725
-Fish,Lab,487,aquaculture,CaCO3,20,60
-Fish,Lab,512,road salt,NaCl,15,1000
-Fish,Lab,516,road salt,CaCl2,25,3000
-Fish,Lab,516,road salt,MgCl2,25,3000
-Fish,Lab,516,road salt,NaCl,25,3000
-Fish,Lab,517,road salt,NaCl,25,4000
-Fish,Lab,564,road salts,NaCl,0,4560
-Fish,Lab,572,mining,Mg3+,2.6,4110
-Fish,Lab,572,mining,MgSO4,2.6,4110
-Insect,Field,44,natural gradient,Ca2+,19,28
-Insect,Field,44,natural gradient,Cl-,9,11
-Insect,Field,201,multiple: Agricluture and industrial,Cl-,37,81
-Insect,Field,228,road salts,NaCl,0.05,2165
-Insect,Field,246,industrial,Cl-,0.034,0.232
-Insect,Field,295,mining,Cl-,31,1286
-Insect,Field,322,geothermal,mixture (sodium),5.06,74.72
-Insect,Field,336,agriculture,NH4+,0.005,0.23
-Insect,Field,336,agriculture,NO3-,1.79,7.93
-Insect,Field,370,urbanization,CaCO3,20,135
-Insect,Field,386,natural gradient,Cl-,5.63,8.02
-Insect,Field,387,natural gradient,Cl-,2.43,11.06
-Insect,Field,397,climate change,NH4+,0,15
-Insect,Field,415,agriculture,Ca2+,1.15,14.09
-Insect,Field,488,agriculture,NO3-,0.52,1.75
-Insect,Field,499,urbanization,Cl-,1,3880
-Insect,Field,510,road salt,road salt,0,10000
-Insect,Field,511,road salt,Cl-,11.86,12.66
-Insect,Field,567,road salts,Cl-,8.1,1148.6
-Insect,Lab,5,energy extraction,NaHCO3,175,16000
-Insect,Lab,15,road salts,NaCl,412,13188
-Insect,Lab,142,multiple: Agricluture and energy extraction,NaCl,2,7
-Insect,Lab,186,urbanization,calcium nitrate,0,5000
-Insect,Lab,186,urbanization,NaCl,31,4000
-Insect,Lab,186,urbanization,NaCl & Ca(N03)2,0,7000
-Insect,Lab,218,tolerance,CaCl2,0.15,0.45
-Insect,Lab,218,tolerance,KCl,0.15,0.45
-Insect,Lab,218,tolerance,MgCl2,0.15,0.45
-Insect,Lab,218,tolerance,NaCl,0,0.45
-Insect,Lab,218,tolerance,"nacl, kcl, mgcl, cacl2",0.15,0.45
-Insect,Lab,315,road salts,Cl-,10,6000
-Insect,Lab,339,multiple: anthropogenic,K2SO4,10,212
-Insect,Lab,339,multiple: anthropogenic,KCl,10,93
-Insect,Lab,339,multiple: anthropogenic,MgSO4,10,212
-Insect,Lab,339,multiple: anthropogenic,Na2SO4,10,210
-Insect,Lab,339,multiple: anthropogenic,NaCl,10,205
-Insect,Lab,368,mechanistic,Na+,0,9655.8
-Insect,Lab,368,mechanistic,NaCl,0,27759
-Insect,Lab,375,mining,CaSO4,0,32000
-Insect,Lab,375,mining,MgSO4,0,32000
-Insect,Lab,375,mining,NaSO4,0,32000
-Insect,Lab,385,mechanistic,NaCl,7012.799999999999,19285.2
-Insect,Lab,431,mining,SO4 2-,20,12800
-Insect,Lab,432,multiple: anthropogenic,Cl-,0,16
-Insect,Lab,508,road salt,NaCl,0,20000
-Insect,Lab,510,road salt,road salt,0,18825
-Insect,Lab,511,road salt,NaCl,0,10000
-Insect,Lab,513,Mixed anthropogenic,MgSO4,5.7,760
-Insect,Lab,513,Mixed anthropogenic,NaCl,2.6,1433.3
-Insect,Lab,513,Mixed anthropogenic,NaHCO3,33.3,843
-Insect,Lab,545,coal mining,NaHCO3,0,60000
-Insect,Lab,545,coal mining,Synthetic marine salts,0,60000
-Mollusca,Field,207,natural gradient,CaCO3,3.65,11.4
-Mollusca,Field,215,mining,Ca2+,10,100
-Mollusca,Field,215,mining,Mg3+,20,100
-Mollusca,Field,242,mining,Ca2+,49.19,140.01
-Mollusca,Field,242,mining,Mg:Ca ratio,27,68.67
-Mollusca,Field,266,multiple: anthropogenic,NO3-,0.018,0.831
-Mollusca,Field,342,multiple: anthropogenic,Ca2+,39.2,56.1
-Mollusca,Field,473,agriculture,mixture (carbonate relationship),0,24
-Mollusca,Field,510,road salt,road salt,0,10000
-Mollusca,Field,539,Esturarine intrusion,NaCl dominant (diluted seawater),500,25500
-Mollusca,Lab,2,multiple: anthropogenic,CaCO3,2,120
-Mollusca,Lab,5,energy extraction,NaHCO3,175,2500
-Mollusca,Lab,100,energy extraction,NaHCO3,175,1500
-Mollusca,Lab,102,Tolerance,KCl,0,3727.5
-Mollusca,Lab,102,Tolerance,NaCl,0,2922
-Mollusca,Lab,111,mechanistic,NaCl,0.5844,58.44
-Mollusca,Lab,113,invasiveness/osmoregulation,NaCl,233.76,5960.88
-Mollusca,Lab,125,Tolerance,Ca2+,0.12024,12.4248
-Mollusca,Lab,125,Tolerance,HCO3-,0.45765000000000006,41.49360000000001
-Mollusca,Lab,180,road salts,NaCl,1.8,10
-Mollusca,Lab,187,invasiveness/osmoregulation,Ca2+,0,180
-Mollusca,Lab,188,mining,Ca2+,0.5,25
-Mollusca,Lab,192,multiple: anthropogenic,Artifical Seawater,0,24000
-Mollusca,Lab,199,invasiveness/osmoregulation,Ca2+,12.024,256.512
-Mollusca,Lab,199,invasiveness/osmoregulation,K+,0.05863500000000001,85.99800000000002
-Mollusca,Lab,199,invasiveness/osmoregulation,Mg3+,0.24309999999999998,65.637
-Mollusca,Lab,199,invasiveness/osmoregulation,Na+,1.6093,498.8829999999999
-Mollusca,Lab,204,mechanistic,NaCl,1000,7000
-Mollusca,Lab,243,osmoregulation,Cl-,4.6085,389.95000000000005
-Mollusca,Lab,243,osmoregulation,Na+,2.9886999999999997,275.88
-Mollusca,Lab,249,mechanistic,Ca2+,2.16432,108.6168
-Mollusca,Lab,315,road salts,Cl-,10,6000
-Mollusca,Lab,319,multiple: anthropogenic and climate change,NaCl,100,6000
-Mollusca,Lab,320,agriculture,NaCl,250,8000
-Mollusca,Lab,321,road salts,NaCl,100,8000
-Mollusca,Lab,332,toxicological,KCl,1.1,103
-Mollusca,Lab,332,toxicological,NaCl,11,676
-Mollusca,Lab,374,road salts,CaCl2,250,3559
-Mollusca,Lab,374,road salts,MgCl2,250,2188
-Mollusca,Lab,374,road salts,NaCl,250,4367
-Mollusca,Lab,375,mining,CaSO4,0,32000
-Mollusca,Lab,375,mining,MgSO4,0,32000
-Mollusca,Lab,375,mining,NaSO4,0,32000
-Mollusca,Lab,431,mining,SO4 2-,20,6400
-Mollusca,Lab,507,"road salt, agriculture",Cl-,27,777
-Mollusca,Lab,510,road salt,road salt,0,18825
-Mollusca,Lab,512,road salt,NaCl,15,1000
-Mollusca,Lab,514,road salt,NaCl,15,1000
-Mollusca,Lab,524,road salt,NaCl,130,5962
-Mollusca,Lab,525,road salt,Cl-,120,3840
-Mollusca,Lab,526,road salt,Cl-,130,5962
-Mollusca,Lab,530,general salinuization,NaCl,340,10000
-Mollusca,Lab,531,non-native species invasions,Artifical Seawater,1750,7000
-Mollusca,Lab,532,Invasive species range expansion,NaCl dominant (diluted seawater),0,8000
-Mollusca,Lab,538,Invasive species,NaCl dominant (diluted seawater),0,20000
-Mollusca,Lab,545,coal mining,NaHCO3,0,60000
-Mollusca,Lab,545,coal mining,Synthetic marine salts,0,60000
-Mollusca,Lab,572,mining,Mg3+,0.6,513
-Mollusca,Lab,572,mining,MgCl2,0.6,108
-Mollusca,Lab,572,mining,MgSO4,3.2,513
-Mollusca,Lab,572,mining,Na2SO4,0.6,108
-Mollusca,Lab,572,mining,SO4 2-,0.6,108
-"non-insect, non-arthropod",Field,246,industrial,Cl-,0.034,0.232
-"non-insect, non-arthropod",Field,328,natural gradient,Ca2+,55,191
-"non-insect, non-arthropod",Lab,5,energy extraction,NaHCO3,175,5000
-"non-insect, non-arthropod",Lab,346,mechanistic,NaCl,2000,15000
-"non-insect, non-arthropod",Lab,413,tolerance,NaCl,0,16000
-"non-insect, non-arthropod",Lab,432,multiple: anthropogenic,Cl-,0,16
-"non-insect, non-arthropod",Lab,572,mining,Mg3+,0.6,2390
-"non-insect, non-arthropod",Lab,572,mining,MgCl2,0.6,108
-"non-insect, non-arthropod",Lab,572,mining,MgSO4,0.6,2390
-"non-insect, non-arthropod",Lab,572,mining,Na2SO4,0.6,108
-"non-insect, non-arthropod",Lab,572,mining,SO4 2-,0.6,108
-Zooplankton,Field,78,urbanization,Cl-,22.5,32.4
-Zooplankton,Field,224,urbanization,Cl-,8.12,8.85
-Zooplankton,Field,330,energy extraction,total ions,35,451
-Zooplankton,Field,392,urbanization,NO3-,0,16.4
-Zooplankton,Field,414,urbanization,NO3-,2,52
-Zooplankton,Field,469,urbanization,K+,1.3,3.05
-Zooplankton,Field,469,urbanization,NO3-,7,15
-Zooplankton,Field,469,urbanization,sulfite,110,200
-Zooplankton,Field,501,road salt,NaCl,6.5,250
-Zooplankton,Field,515,road salt,Cl-,0,7500
-Zooplankton,Field,518,road salt,Cl-,2.4,11.4
-Zooplankton,Field,552,road salts,ClearLane (NaCl dominant),25,200
-Zooplankton,Field,552,road salts,Magic salt (MgCl dominant),25,200
-Zooplankton,Field,552,road salts,MgCl2,25,200
-Zooplankton,Field,552,road salts,NaCl,25,200
-Zooplankton,Field,552,road salts,NaCl + Geomelt,25,200
-Zooplankton,Lab,5,energy extraction,NaHCO3,175,3000
-Zooplankton,Lab,9,multiple: anthropogenic,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",0.1,10
-Zooplankton,Lab,13,climate change,NaCl,500,9000
-Zooplankton,Lab,100,energy extraction,NaHCO3,175,1500
-Zooplankton,Lab,272,multiple: anthropogenic,NaCl,0,4500
-Zooplankton,Lab,344,climate change/salt water intusion,Cl-,20,3000
-Zooplankton,Lab,352,tolerance,NaCl,0,12000
-Zooplankton,Lab,374,road salts,CaCl2,250,3559
-Zooplankton,Lab,374,road salts,MgCl2,250,2188
-Zooplankton,Lab,374,road salts,NaCl,250,4367
-Zooplankton,Lab,393,multiple: urban and industrial,Artifical Seawater,0,2540
-Zooplankton,Lab,393,multiple: urban and industrial,NaCl,0,2660
-Zooplankton,Lab,393,multiple: urban and industrial,salt water intrusion,0,4420
-Zooplankton,Lab,408,urbanization,NaCl,0,6000
-Zooplankton,Lab,430,saltwater intrusion,Cl-,100,1500
-Zooplankton,Lab,431,mining,SO4 2-,20,3200
-Zooplankton,Lab,432,multiple: anthropogenic,Cl-,0,16
-Zooplankton,Lab,434,multiple: urban and industrial,SO4 2-,10,725
-Zooplankton,Lab,477,multiple: anthropogenic,K+,0,11
-Zooplankton,Lab,477,multiple: anthropogenic,Na+,0,249
-Zooplankton,Lab,481,road salts,NaCl,30,1900
-Zooplankton,Lab,507,"road salt, agriculture",Cl-,27,777
-Zooplankton,Lab,512,road salt,NaCl,15,1000
-Zooplankton,Lab,514,road salt,NaCl,15,1000
-Zooplankton,Lab,517,road salt,NaCl,30,1300
-Zooplankton,Lab,519,road salt,mixture,20,780
-Zooplankton,Lab,519,road salt,NaCl,20,780
-Zooplankton,Lab,544,coal mining,NaCl,84,3000
-Zooplankton,Lab,544,coal mining,NaHCO3,84,3000
-Zooplankton,Lab,545,coal mining,NaHCO3,0,60000
-Zooplankton,Lab,545,coal mining,Synthetic marine salts,0,60000
-Zooplankton,Lab,553,road salts,Cl-,0.4,145
-Zooplankton,Lab,572,mining,Mg3+,2.9,322
-Zooplankton,Lab,572,mining,MgSO4,2.9,322
+Taxonomic_classification,Threat_Reclassified,Measurement,Min_Min_Concentration_ppm,Max_Min_Concentration_ppm,Min_Max_Concentration_ppm,Max_Max_Concentration_ppm
+amphibian,Agriculture,NaCl,140,140,5250,5600
+amphibian,Anthropogenic: Multiple sources,NaCl,2000,2000,350000,350000
+amphibian,Climate/Intrusion,mixture,0,200,8000,20500
+amphibian,Climate/Intrusion,NaCl,500,4000,12000,23400
+amphibian,Energy Extraction,NaCl,0,0,6000,10000
+amphibian,Energy Extraction,NaHCO3,175,175,4500,4500
+amphibian,Fungus,NaCl,0,0,5000,5000
+amphibian,Road Salts,CaCl2,0,0,12000,12000
+amphibian,Road Salts,calcium acetate,0,0,120,120
+amphibian,Road Salts,calcium magnesium acetate,0,0,12000,12000
+amphibian,Road Salts,Cl-,1,114,777,945
+amphibian,Road Salts,magnesium acetate,0,0,160,160
+amphibian,Road Salts,MgCl2,0,700,214.9,12000
+amphibian,Road Salts,mixture,0,20,8,780
+amphibian,Road Salts,NaCl,0,700,5.6,13000
+amphibian,Road Salts,potassium acetate,0,0,12000,12000
+amphibian,Road Salts,sodium ferrocynide,0,0,169.6,169.6
+amphibian,Road Salts,sodium formate,0,0,152,152
+amphibian,Urban/Indust,SO4 2-,10,10,725,725
+Crustacean,1,Na+,0.9196,2.299,45.98,45.98
+Crustacean,Anthropogenic: Multiple sources,Cl-,0,0,8,16
+Crustacean,Anthropogenic: Multiple sources,NaCl,2,2,140,140
+Crustacean,Aquaculture,Ca2+,0,0,80,80
+Crustacean,Aquaculture,CaCl2,35,35,100,100
+Crustacean,Aquaculture,CaSO4,35,35,100,100
+Crustacean,Aquaculture,NaCl,0,35,100,6000
+Crustacean,Energy Extraction,CaSO4,0,0,32000,32000
+Crustacean,Energy Extraction,MgSO4,0,0,32000,32000
+Crustacean,Energy Extraction,NaHCO3,0,194,2000,60000
+Crustacean,Energy Extraction,NaSO4,0,0,32000,32000
+Crustacean,Energy Extraction,Synthetic marine salts,0,0,60000,60000
+Crustacean,Invasive Spp,Cl-,17.725,17.725,354.5,354.5
+Crustacean,Road Salts,CaCl2,250,250,3559,3559
+Crustacean,Road Salts,Cl-,10,27,777,6000
+Crustacean,Road Salts,ClearLane (NaCl dominant),25,25,200,200
+Crustacean,Road Salts,Magic salt (MgCl dominant),25,25,200,200
+Crustacean,Road Salts,MgCl2,25,250,200,2188
+Crustacean,Road Salts,NaCl,0,250,200,10000
+Crustacean,Road Salts,NaCl + Geomelt,25,25,200,200
+Crustacean,Road Salts,road salt,0,0,10000,10000
+Crustacean,"Tolerance, Mechanistic, Osmoreg",Ca2+,40.08,40.08,200.39999999999998,200.39999999999998
+Crustacean,"Tolerance, Mechanistic, Osmoreg",CaCO3,9,53,31,326
+Crustacean,"Tolerance, Mechanistic, Osmoreg",Cl-,1.7725000000000002,1.7725000000000002,8.8625,8.8625
+Crustacean,"Tolerance, Mechanistic, Osmoreg",K+,0,39.09,156.36,1954.5000000000002
+Crustacean,"Tolerance, Mechanistic, Osmoreg",Mg3+,0,24.31,72.92999999999999,486.2
+Crustacean,"Tolerance, Mechanistic, Osmoreg",Na+,1.1495,45.98,5.7475,229.89999999999998
+Crustacean,"Tolerance, Mechanistic, Osmoreg",NaCl,0,100,1000,30000
+Crustacean,"Tolerance, Mechanistic, Osmoreg",NH4+,3.608,3.608,18.04,18.04
+Crustacean,Urban/Indust,SO4 2-,10,10,725,725
+Fish,1,Ca2+,0.72,22,11.3,92
+Fish,1,NaCl,1000,1000,8000,8000
+Fish,Agriculture,CaCO3,6,6,309,309
+Fish,Agriculture,Cartap hydrochloride,0,0.01,0.03851,0.1
+Fish,Agriculture,Cl-,34,34,3140,3140
+Fish,Agriculture,NaCl,0,0,3000,3000
+Fish,Anthropogenic: Multiple sources,Cl-,0,0,8,16
+Fish,Anthropogenic: Multiple sources,NaCl,0,0,10000,10000
+Fish,Anthropogenic: Multiple sources,NaF,0,0,5.4,5.4
+Fish,Anthropogenic: Multiple sources,NO3-,5.31,5.31,97.51,97.51
+Fish,Aquaculture,CaCO3,20,20,60,60
+Fish,Aquaculture,common salt (NaCl?),0,0,10000,10000
+Fish,Aquaculture,KCl,0,0,1700.0000000000002,1700.0000000000002
+Fish,Aquaculture,Marine water,0,0,12000,16000
+Fish,Aquaculture,Na2SO4,0,0,1700.0000000000002,1700.0000000000002
+Fish,Aquaculture,NaCl,0,3000,1700.0000000000002,9000
+Fish,Aquaculture,"NaCl, KCl, CaCl2, MgCl2",10,10,200000,200000
+Fish,Aquaculture,"NaCl, NaSO3",0,0,4000,4000
+Fish,Aquaculture,"NaCl, NaSO4",0,0,4000,4000
+Fish,Energy Extraction,CaSO4,0,0,32000,32000
+Fish,Energy Extraction,Mg3+,2.6,109,205,4110
+Fish,Energy Extraction,MgSO4,0,109,205,32000
+Fish,Energy Extraction,NaHCO3,175,323,500,12000
+Fish,Energy Extraction,NaSO4,0,0,32000,32000
+Fish,Energy Extraction,SO4 2-,20,20,12800,12800
+Fish,Invasive Spp,NaCl,200,400,200,80000
+Fish,Road Salts,CaCl2,25,25,3000,3000
+Fish,Road Salts,Cl-,0,0,4900,7500
+Fish,Road Salts,MgCl2,25,25,3000,3000
+Fish,Road Salts,NaCl,0,25,1000,4560
+Fish,"Tolerance, Mechanistic, Osmoreg",(NH4)2SO4,2.1142399999999997,2.1142399999999997,5.2856,5.2856
+Fish,"Tolerance, Mechanistic, Osmoreg",Ca2+,0,4.008,15,400.79999999999995
+Fish,"Tolerance, Mechanistic, Osmoreg",CaCl2,0,6936.25,0.44392000000000004,7213.7
+Fish,"Tolerance, Mechanistic, Osmoreg",Cl-,1.7725000000000002,1.7725000000000002,26.587500000000002,26.587500000000002
+Fish,"Tolerance, Mechanistic, Osmoreg",K+,0.35,0.35,35,35
+Fish,"Tolerance, Mechanistic, Osmoreg",KHCO3,1.60184,1.60184,4.0046,4.0046
+Fish,"Tolerance, Mechanistic, Osmoreg",Mg3+,0.07293,0.07293,4.862,4.862
+Fish,"Tolerance, Mechanistic, Osmoreg",MgCl2,0,0,0.380844,0.380844
+Fish,"Tolerance, Mechanistic, Osmoreg",Na+,1.1495,1.1495,13.793999999999999,13.793999999999999
+Fish,"Tolerance, Mechanistic, Osmoreg",NaCl,0,0,0.11688,25000
+Fish,"Tolerance, Mechanistic, Osmoreg",NaHCO3,0.9239999999999999,0.9239999999999999,2.688,2.688
+Fish,"Tolerance, Mechanistic, Osmoreg",NA,1000,1000,12000,12000
+Fish,Urban/Indust,NO3-,0.55,0.55,1.26,1.26
+Fish,Urban/Indust,SO4 2-,10,10,725,725
+Insect,1,Ca2+,19,19,28,28
+Insect,1,Cl-,2.43,9,8.02,11.06
+Insect,Agriculture,Ca2+,1.15,1.15,14.09,14.09
+Insect,Agriculture,NH4+,0.005,0.005,0.23,0.23
+Insect,Agriculture,NO3-,0.52,1.79,1.75,7.93
+Insect,Anthropogenic: Multiple sources,Cl-,0,0,8,16
+Insect,Anthropogenic: Multiple sources,K2SO4,10,10,30,212
+Insect,Anthropogenic: Multiple sources,KCl,10,10,92,93
+Insect,Anthropogenic: Multiple sources,MgSO4,5.7,10,28,760
+Insect,Anthropogenic: Multiple sources,Na2SO4,10,10,31,210
+Insect,Anthropogenic: Multiple sources,NaCl,2,10,7,1433.3
+Insect,Anthropogenic: Multiple sources,NaHCO3,33.3,33.3,843,843
+Insect,Climate/Intrusion,NH4+,0,0,15,15
+Insect,Energy Extraction,CaSO4,0,0,32000,32000
+Insect,Energy Extraction,Cl-,31,31,1286,1286
+Insect,Energy Extraction,MgSO4,0,0,32000,32000
+Insect,Energy Extraction,mixture (sodium),5.06,5.06,74.72,74.72
+Insect,Energy Extraction,NaHCO3,0,194,16000,60000
+Insect,Energy Extraction,NaSO4,0,0,32000,32000
+Insect,Energy Extraction,SO4 2-,20,20,12800,12800
+Insect,Energy Extraction,Synthetic marine salts,0,0,60000,60000
+Insect,Road Salts,Cl-,8.1,11.86,12.66,6000
+Insect,Road Salts,NaCl,0,824,2165,20000
+Insect,Road Salts,road salt,0,0,10000,18825
+Insect,"Tolerance, Mechanistic, Osmoreg",CaCl2,0.15,0.15,0.45,0.45
+Insect,"Tolerance, Mechanistic, Osmoreg",KCl,0.15,0.15,0.45,0.45
+Insect,"Tolerance, Mechanistic, Osmoreg",MgCl2,0.15,0.15,0.45,0.45
+Insect,"Tolerance, Mechanistic, Osmoreg",Na+,0,0,9655.8,9655.8
+Insect,"Tolerance, Mechanistic, Osmoreg",NaCl,0,7012.799999999999,0.12,27759
+Insect,"Tolerance, Mechanistic, Osmoreg","nacl, kcl, mgcl, cacl2",0.15,0.15,0.45,0.45
+Insect,Urban/Indust,CaCO3,20,20,135,135
+Insect,Urban/Indust,calcium nitrate,0,0,5000,5000
+Insect,Urban/Indust,Cl-,0.034,37,0.232,3880
+Insect,Urban/Indust,NaCl,31,31,4000,4000
+Insect,Urban/Indust,NaCl & Ca(N03)2,0,0,7000,7000
+Mollusca,1,CaCO3,3.65,3.65,11.4,11.4
+Mollusca,Agriculture,mixture (carbonate relationship),0,0,24,24
+Mollusca,Agriculture,NaCl,250,500,8000,8000
+Mollusca,Anthropogenic: Multiple sources,Artifical Seawater,0,0,24000,24000
+Mollusca,Anthropogenic: Multiple sources,Ca2+,39.2,39.2,56.1,56.1
+Mollusca,Anthropogenic: Multiple sources,CaCO3,2,2,120,120
+Mollusca,Anthropogenic: Multiple sources,NaCl,100,340,2000,10000
+Mollusca,Anthropogenic: Multiple sources,NO3-,0.018,0.018,0.831,0.831
+Mollusca,Climate/Intrusion,NaCl dominant (diluted seawater),500,500,25500,25500
+Mollusca,Energy Extraction,Ca2+,0.5,49.19,5,140.01
+Mollusca,Energy Extraction,CaSO4,0,0,32000,32000
+Mollusca,Energy Extraction,Mg:Ca ratio,27,27,68.67,68.67
+Mollusca,Energy Extraction,Mg3+,0.6,20,99,513
+Mollusca,Energy Extraction,MgCl2,0.6,3.2,99,108
+Mollusca,Energy Extraction,MgSO4,0,4.5,99,32000
+Mollusca,Energy Extraction,Na2SO4,0.6,3.2,99,108
+Mollusca,Energy Extraction,NaHCO3,0,175,1500,60000
+Mollusca,Energy Extraction,NaSO4,0,0,32000,32000
+Mollusca,Energy Extraction,SO4 2-,0.6,20,108,6400
+Mollusca,Energy Extraction,Synthetic marine salts,0,0,60000,60000
+Mollusca,Invasive Spp,Artifical Seawater,1750,1750,3500,7000
+Mollusca,Invasive Spp,Ca2+,0,12.024,180,256.512
+Mollusca,Invasive Spp,K+,0.05863500000000001,5.0817000000000005,34.3992,85.99800000000002
+Mollusca,Invasive Spp,Mg3+,0.24309999999999998,0.24309999999999998,65.637,65.637
+Mollusca,Invasive Spp,Na+,1.6093,1.6093,498.8829999999999,498.8829999999999
+Mollusca,Invasive Spp,NaCl,233.76,233.76,5960.88,5960.88
+Mollusca,Invasive Spp,NaCl dominant (diluted seawater),0,5000,8000,20000
+Mollusca,Road Salts,CaCl2,250,250,3559,3559
+Mollusca,Road Salts,Cl-,10,130,777,6000
+Mollusca,Road Salts,MgCl2,250,250,2188,2188
+Mollusca,Road Salts,NaCl,1.8,335,10,8000
+Mollusca,Road Salts,road salt,0,0,10000,18825
+Mollusca,"Tolerance, Mechanistic, Osmoreg",Ca2+,0.12024,2.6052,12.4248,108.6168
+Mollusca,"Tolerance, Mechanistic, Osmoreg",Cl-,4.6085,4.6085,389.95000000000005,389.95000000000005
+Mollusca,"Tolerance, Mechanistic, Osmoreg",HCO3-,0.45765000000000006,0.45765000000000006,41.49360000000001,41.49360000000001
+Mollusca,"Tolerance, Mechanistic, Osmoreg",KCl,0,745.5,103,3727.5
+Mollusca,"Tolerance, Mechanistic, Osmoreg",Na+,2.9886999999999997,2.9886999999999997,114.94999999999999,275.88
+Mollusca,"Tolerance, Mechanistic, Osmoreg",NaCl,0,1000,58.44,7000
+"non-insect, non-arthropod",1,Ca2+,55,55,191,191
+"non-insect, non-arthropod",Anthropogenic: Multiple sources,Cl-,0,0,8,16
+"non-insect, non-arthropod",Energy Extraction,Mg3+,0.6,10,99,2390
+"non-insect, non-arthropod",Energy Extraction,MgCl2,0.6,0.6,108,108
+"non-insect, non-arthropod",Energy Extraction,MgSO4,0.6,10,99,2390
+"non-insect, non-arthropod",Energy Extraction,Na2SO4,0.6,0.6,108,108
+"non-insect, non-arthropod",Energy Extraction,NaHCO3,175,194,5000,5000
+"non-insect, non-arthropod",Energy Extraction,SO4 2-,0.6,0.6,108,108
+"non-insect, non-arthropod","Tolerance, Mechanistic, Osmoreg",NaCl,0,2000,13000,16000
+"non-insect, non-arthropod",Urban/Indust,Cl-,0.034,0.034,0.232,0.232
+Zooplankton,Anthropogenic: Multiple sources,Cl-,0,0,3,16
+Zooplankton,Anthropogenic: Multiple sources,K+,0,0,11,11
+Zooplankton,Anthropogenic: Multiple sources,"KCl, MgSO4, CaCl, K2HPO4, KH2PO4, NaNO3, NaSiO3, FeCl3,",0.1,0.1,10,10
+Zooplankton,Anthropogenic: Multiple sources,Na+,0,0,249,249
+Zooplankton,Anthropogenic: Multiple sources,NaCl,0,0,3000,4500
+Zooplankton,Climate/Intrusion,Cl-,20,100,600,3000
+Zooplankton,Climate/Intrusion,NaCl,500,750,3000,9000
+Zooplankton,Energy Extraction,Mg3+,2.9,6.7,205,322
+Zooplankton,Energy Extraction,MgSO4,2.9,6.7,205,322
+Zooplankton,Energy Extraction,NaCl,84,84,3000,3000
+Zooplankton,Energy Extraction,NaHCO3,0,194,1500,60000
+Zooplankton,Energy Extraction,SO4 2-,20,20,3200,3200
+Zooplankton,Energy Extraction,Synthetic marine salts,0,0,60000,60000
+Zooplankton,Energy Extraction,total ions,35,35,451,451
+Zooplankton,Road Salts,CaCl2,250,250,3559,3559
+Zooplankton,Road Salts,Cl-,0,27,3.8,7500
+Zooplankton,Road Salts,ClearLane (NaCl dominant),25,25,200,200
+Zooplankton,Road Salts,Magic salt (MgCl dominant),25,25,200,200
+Zooplankton,Road Salts,MgCl2,25,250,200,2188
+Zooplankton,Road Salts,mixture,20,20,780,780
+Zooplankton,Road Salts,NaCl,6.5,250,200,4367
+Zooplankton,Road Salts,NaCl + Geomelt,25,25,200,200
+Zooplankton,"Tolerance, Mechanistic, Osmoreg",NaCl,0,0,12000,12000
+Zooplankton,Urban/Indust,Artifical Seawater,0,0,2540,2540
+Zooplankton,Urban/Indust,Cl-,8.12,22.5,8.85,32.4
+Zooplankton,Urban/Indust,K+,1.3,1.3,3.05,3.05
+Zooplankton,Urban/Indust,NaCl,0,0,440,6000
+Zooplankton,Urban/Indust,NO3-,0,7,15,52
+Zooplankton,Urban/Indust,salt water intrusion,0,0,4420,4420
+Zooplankton,Urban/Indust,SO4 2-,10,10,725,725
+Zooplankton,Urban/Indust,sulfite,110,110,200,200

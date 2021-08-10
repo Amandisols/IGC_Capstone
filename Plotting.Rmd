@@ -116,25 +116,32 @@ IONS$Threat_Reclassified <- ifelse(IONS$Primary_Threat_Identity %in% c("Invasive
 #For counting
 x<-as.data.frame(table(IONS$Primary_Threat_Identity))
 
-```
 
 
-```{r}
+
+#Write out for the pivot tables
+
+IONS <- IONS %>%
+  select(Taxonomic_classification, Threat_Reclassified, RefID, Min_Concentration_ppm, Max_Concentration_ppm, Measurement)
+
+write_csv(IONS, file = "data/Ion-data.csv")
 
 
-ion_ranges <- IONS %>%
+
+SUMMARY <- IONS %>%
   filter(Taxonomic_classification %in% c("amphibian","Crustacean", "Fish", "Insect", "Mollusca", "non-insect, non-arthropod", "Zooplankton")) %>%
   filter(!is.na(Max_Concentration_ppm)) %>%
   filter(!is.na(Min_Concentration_ppm)) %>%
-  group_by(Taxonomic_classification, study_location, RefID, Primary_Threat_Identity, Measurement, Threat_Reclassified) %>%
-  summarise(Min_Concentration_ppm = min(Min_Concentration_ppm), Max_Concentration_ppm = max(Max_Concentration_ppm))
+  group_by(Taxonomic_classification, Threat_Reclassified, Measurement) %>%
+  summarise(Min_Min_Concentration_ppm = min(Min_Concentration_ppm), 
+            Max_Min_Concentration_ppm = max(Min_Concentration_ppm),
+            Min_Max_Concentration_ppm = min(Max_Concentration_ppm),
+            Max_Max_Concentration_ppm = max(Max_Concentration_ppm))
   
 
-  write_csv(ion_ranges, file = "data/ionranges.csv")
-
-sort(unique(ion_ranges$Primary_Threat_Identity))
-  
+write_csv(SUMMARY, file = "data/ionranges.csv")
 ```
+
 
 
 ```{r}
